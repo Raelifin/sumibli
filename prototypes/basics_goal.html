@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>Sumibli</title>
+<meta name="description" content="an artificial language, created to be correct from first principles, for transhumanists" />
+<meta name="author" content="Max Harms" />
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<!-- <link rel="manifest" href="site.webmanifest"> -->
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="stylesheet" href="style.css"/>
+<script src="code.js"></script>
+</head>
+<body>
+<main>
+<header>
+<h1>The Basics</h1>
+<h2 class="pre">  how to speak, read,
+    and think about
+      the language of Sumibli</h2>
+</header>
+<nav>
+  <a href="">📖 Full Specification</a>
+  <a href="">🌳 Dictionary Tree</a>
+  <a href="">🎮 Interactive Practice</a>
+  <a href="">📚 Other Resources</a>
+</nav>
+<section id="translation">
+<hr/>
+<label for="translate">Translate: </label><input id="translate" type="text" oninput="trans(this.value)"/>
+</section>
+<section class="content">
+<hr/>
+<p>This page is fairly long, so here's a table of contents.
+You can click on the 🔝 symbol at the end of each section (on the right) to return here.
+In many sections there will also be a game controller icon 🎮 that you can click to do an excercise related to that section.</p>
+<p>...</p>
+
+<h2>The Sumibli Alphabet</h2>
+<p>Sumibli is written using 20 letters that each have a "conceptual atmosphere".
+The letter "g", for instance, is associated with the concepts of action, motion, fire, and the number 5 (among other things).
+When letters are combined into a word, the meaning and usage of that word can be guessed by the letters that compose it.
+In this way, the alphabet for Sumibli forms a kind of loose taxonomy of concepts, and it's very helpful to
+start with the basics of this taxonomy.</p>
+<p>By the way, "g" isn't really a letter in the Sumibli alphabet. Rather,
+<span class="sumibli"><u>5-</u><del><span></span><span>g</span><span></span></del></span>
+is a letter, and since it sounds like the first sound in "go" we represent it in the latin alphabet as "g".
+To help remember the latin alphabet versions of the Sumibli letters, we provide an English word that is associated
+with the letter's conceptual atmosphere and that features the same sound as the letter.</p>
+<table>
+  <thead>
+    <tr><th>Sumibli Letter</th><th>Latin Equivalent</th><th>Mnemonic</th><th>Conceptual Atmosphere</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="sumibli"><u>p-</u><del><span></span><span>p</span><span></span></del></td><td>p</td><td><strong>p</strong>erception</td><td class="conceptual-atmosphere">cognition, mind, perception, lesser, goal, personhood</td><td>0</td></tr>
+    <tr><td class="sumibli"><u>b-</u><del><span></span><span>b</span><span></span></del></td><td>b</td><td><strong>b</strong>eing</td><td class="conceptual-atmosphere">structure, body, shape, simplicity, flavors, dimensionality, order</td><td>1</td></tr>
+    <tr><td class="sumibli"><u>t-</u><del><span></span><span>t</span><span></span></del></td><td>t</td><td>a<strong>t</strong></td><td class="conceptual-atmosphere">arrangement, air/void, time, dynamism, focusing, repetition, causality</td><td>2</td></tr>
+    <tr><td class="sumibli"><u>d-</u><del><span></span><span>d</span><span></span></del></td><td>d</td><td><strong>d</strong>irt</td><td class="conceptual-atmosphere">matter, earth/rock, stability, neutrality, beliefs, massiveness</td><td>3</td></tr>
+    <tr><td class="sumibli"><u>k-</u><del><span></span><span>k</span><span></span></del></td><td>k</td><td><strong>c</strong>osmos</td><td class="conceptual-atmosphere">nature, water, life, complexity, needs, roundness, chaos</td><td>4</td></tr>
+    <tr><td class="sumibli"><u>g-</u><del><span></span><span>g</span><span></span></del></td><td>g</td><td><strong>g</strong>oing</td><td class="conceptual-atmosphere">motion, fire/metal, action, greater, agency, stiff/hardness</td><td>5</td></tr>
+    <tr><td class="sumibli"><u>n-</u><del><span></span><span>n</span><span></span></del></td><td>n</td><td><strong>n</strong>egative</td><td class="conceptual-atmosphere">resistance, destruction, opposition, weakness, aversion, separation, violence</td><td class="fade">6</td></tr>
+    <tr><td class="sumibli"><u>m-</u><del><span></span><span>m</span><span></span></del></td><td>m</td><td><strong>m</strong>aking</td><td class="conceptual-atmosphere">creation, creation, expression, artificiality, dreams, arbitrariness</td><td class="fade">7</td></tr>
+    <tr><td class="sumibli"><u>r-</u><del><span></span><span>r</span><span></span></del></td><td>r</td><td><strong>r</strong>esources</td><td class="conceptual-atmosphere">collaboration, exchange, ownership, resources, containment, economy</td><td class="fade">8</td></tr>
+    <tr><td class="sumibli"><u>l-</u><del><span></span><span>l</span><span></span></del></td><td>l</td><td><strong>l</strong>ove</td><td class="conceptual-atmosphere">civilization, harmony, unity, perfection, goodness, atoms, community</td><td class="fade">9</td></tr>
+    <tr><td class="sumibli"><u>s-</u><del><span></span><span>s</span><span></span></del></td><td>s</td><td><strong>s</strong>equence</td><td class="conceptual-atmosphere">math, succession, part, quantity, angularity, number</td><td class="fade">10</td></tr>
+    <tr><td class="sumibli"><u>z-</u><del><span></span><span>z</span><span></span></del></td><td>z</td><td><strong>z</strong>en</td><td class="conceptual-atmosphere">theory, abstraction, pattern, insight, symmetry</td><td class="fade">11</td></tr>
+    <tr><td class="sumibli"><u>F-</u><del><span></span><span>f</span><span></span></del></td><td>f</td><td><strong>f</strong>lavor</td><td class="conceptual-atmosphere">* modification *</td><td class="fade"><span class="fade">12</span></td></tr>
+    <tr><td class="sumibli"><u>V-</u><del><span></span><span>v</span><span></span></del></td><td>v</td><td><strong>v</strong>ia</td><td class="conceptual-atmosphere">* parts of speech *</td><td class="fade"><span class="fade">13</span></td></tr>
+    <tr><td class="sumibli"><u>J-</u><del><span></span><span>sh</span><span></span></del></td><td>sh<br/>(or j)</td><td><strong>sh</strong>ould</td><td class="conceptual-atmosphere">* sentences *</td><td class="fade"><span class="fade">14</span></td></tr>
+    <tr><td class="sumibli"><u>Þ-</u><del><span></span><span>th</span><span></span></del></td><td>th<br/>(or x)</td><td><strong>th</strong>e</td><td class="conceptual-atmosphere">* names, foreign words *</td><td class="fade"><span class="fade">15</span></td></tr>
+    <tr><td class="sumibli"><u>@-</u><del><span></span><span>h</span><span></span></del></td><td>h</td><td><strong>h</strong>aha</td><td class="conceptual-atmosphere">* emotion *</td><td class="fade"><span class="fade">16</span></td></tr>
+    <tr><td class="sumibli"><u>i-</u><del><span></span><span>i</span><span></span></del></td><td>i</td><td>t<strong>ee</strong>n<strong>y</strong></td><td class="conceptual-atmosphere">close, pointed, active</td><td class="fade"><span class="fade">17</span></td></tr>
+    <tr><td class="sumibli"><u>a-</u><del><span></span><span>a</span><span></span></del></td><td>a</td><td>p<strong>a</strong>r</td><td class="conceptual-atmosphere">moderate, medium, standard</td><td class="fade"><span class="fade">18</span></td></tr>
+    <tr><td class="sumibli"><u>u-</u><del><span></span><span>u</span><span></span></del></td><td>u</td><td><strong>u</strong>ber</td><td class="conceptual-atmosphere">distant, broad, deep</td><td class="fade"><span class="fade">19</span></td></tr>
+  </tbody>
+</table>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Alphabet Patterns</h2>
+<p>Twenty letters is a lot to take in, especially when each comes attached to a meaning.
+It helps if we break up the alphabet into groups of letters based on some simple patterns.</p>
+<p>The first six letters form a group of <em>plosives</em> that all have a similar sound.
+Try sounding out "pa ba ta da ka ga" to yourself.
+Each plosive involves briefly stopping the air coming out of your lungs.
+They occur in order, starting from the lips and moving towards the back of the mouth,
+with every other sound (b, d, g) being "voiced" by action in the throat.
+(This pattern of voiced consonants occuring right after their unvoiced counterparts ("tada") is a general pattern across the alphabet.)</p>
+<p>The number six is important in Sumibli, and there are six plosives.
+These are the letters most commonly associated with a number,
+and their symbols in the Sumibli script are drawn with a number of strokes equal to their order in the alphabet.</p>
+<p>Now let's consider the next six consonants: n, m, r, l, s, and z. Together with the plosives, these form the
+<em>standard consonants</em>, which are all drawn with characters that are about three times as wide as they are tall.
+The standard consonants appear in order of increasing abstraction, and we can tell a story with them of a person who grows up,
+exploring more complex and distant subjects as they age:</p>
+<ul>
+  <li><strong class="monospace">p</strong> - the new <strong>p</strong>erson can <strong>p</strong>ercieve and <strong>p</strong>onder</li>
+  <li><strong class="monospace">b</strong> - and soon they know the <strong>b</strong>ounds of their <strong>b</strong>ody and <strong>b</strong>eing</li>
+  <li><strong class="monospace">t</strong> - where <strong>t</strong>his and <strong>t</strong>ha<strong>t</strong> are a<strong>t</strong> in space and <strong>t</strong>ime</li>
+  <li><strong class="monospace">d</strong> - and how <strong>d</strong>evices and <strong>d</strong>irt are <strong>d</strong>istinct</li>
+  <li><strong class="monospace">k</strong> - in the world they meet <strong>c</strong>reatures like <strong>k</strong>angaroos and <strong>k</strong>oalas</li>
+  <li><strong class="monospace">g</strong> - they play <strong>g</strong>ames of <strong>g</strong>oing places and <strong>g</strong>etting <strong>g</strong>oals</li>
+  <li><strong class="monospace">n</strong> - but e<strong>n</strong>counter <strong>n</strong>egative people who do <strong>n</strong>ot like the games</li>
+  <li><strong class="monospace">m</strong> - and so <strong>m</strong>yths are <strong>m</strong>anufactured to <strong>m</strong>ake</li>
+  <li><strong class="monospace">r</strong> - <strong>r</strong>elational ha<strong>r</strong>mony eme<strong>r</strong>ge through t<strong>r</strong>ading <strong>r</strong>esources</li>
+  <li><strong class="monospace">l</strong> - and a<strong>ll</strong>owing fee<strong>l</strong>ings of <strong>l</strong>asting <strong>l</strong>ove and be<strong>l</strong>onging</li>
+  <li><strong class="monospace">s</strong> - to give <strong>s</strong>pace for <strong>s</strong>tudying the <strong>s</strong>ecrets of <strong>s</strong>ymbols</li>
+  <li><strong class="monospace">z</strong> - like <strong>z</strong>ero and <strong>z</strong>ed and the abstract <strong>z</strong>en of endings</li>
+</ul>
+<p>The final five consonants in the alphabet (f, v, sh, th, and h) are called <em>structural constants</em>
+because their meanings are mostly grammatical. They provide the words that give sentences their structure
+and make things comprehensible, without providing content in themselves. Each will be introduced later on.
+These letters can be larger than the standard consonants and behave differently in Sumibli script.</p>
+<p>Lastly, we have the three <em>vowels</em>: i, a, and u. Sumibli doesn't put a lot of emphasis on vowel sounds,
+and they don't have much meaning. But the general story is that they're lined up from the tightest ("i") to the
+loosest ("u") and can similarly be seen as going from near to far, with "a" being in the middle.</p>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Pronunciation Tips for Consonants</h2>
+<p>Sumibli consonants mostly sound as you'd expect from seeing the latin equivalent.
+But we should briefly mention some things about the last three consonants: sh, th, and h.</p>
+<p>The letter "sh" (aka "j") is usually pronounced like the first sound in "<strong>sh</strong>oe"
+but can also be pronounced like the first sound in "<strong>g</strong>enre" or the last sound in "mira<strong>ge</strong>".
+In other words, Sumibli doesn't distinguish the voiced and unvoiced sounds.</p>
+<p>The letter "th" (aka "x") also can be either voiced or unvoiced, sounding either like "<strong>th</strong>is" or like "wi<strong>th</strong>".
+The voiced version is correct at the start of words, while the unvoiced is correct at the end of words,
+exactly like in the example of "<strong>th</strong>is" vs "wi<strong>th</strong>".</p>
+<p>The letter "h" can be silent as long as it's clear which words are which,
+like in the word "<span class="fade">h</span>our"
+or when a person with a French accent says the word "<span class="fade">h</span>appy".</p>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>Diphthongs</h2>
+<p>When two different Sumibli vowels appear next to each other, they combine into a diphthong.
+You can <a href="">read the full specification</a> if you want all the details, but here's the basic version:</p>
+<table>
+  <thead class="smaller">
+    <tr><th>Sumibli Diphthong</th><th>Latin Equivalent</th><th>Pronunciation Guide</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="sumibli"><u>IA-</u><del><span></span><span>ia</span><span></span></del></td><td>ia</td><td><strong>yaw</strong></td></tr>
+    <tr><td class="sumibli"><u>IU-</u><del><span></span><span>iu</span><span></span></del></td><td>iu</td><td><strong>you</strong></td></tr>
+    <tr><td class="sumibli"><u>AI-</u><del><span></span><span>ai</span><span></span></del></td><td>ai</td><td><strong>eye</strong></td></tr>
+    <tr><td class="sumibli"><u>AU-</u><del><span></span><span>au</span><span></span></del></td><td>au</td><td><strong>ou</strong>ch</td></tr>
+    <tr><td class="sumibli"><u>UI-</u><del><span></span><span>ui</span><span></span></del></td><td>ui</td><td><strong>we</strong></td></tr>
+    <tr><td class="sumibli"><u>UA-</u><del><span></span><span>ua</span><span></span></del></td><td>ua</td><td><strong>wa</strong>nt</td></tr>
+  </tbody>
+</table>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>Sumibli Atoms</h2>
+<p>Sumibli words are very small - so small, in fact, that we call them "atoms".
+This is to suggest a contrast with compound-words that are formed from combining atoms together.
+A Sumibli atom always starts with a consonant and has exactly one vowel or one diphthong.
+When we write an atom in Sumibli script, we stack the letters on top of one another to form a glyph.
+(For the structural consonants other than "h" we sandwich the vowel inside the consonant.)</p>
+<table>
+  <tbody>
+    <tr><td class="sumibli"><u>PA-</u><del><span>p</span><span>a</span><span></span></del></td><td>pa<br/>("pah")</td><td>to think</td></tr>
+    <tr><td class="sumibli"><u>KIk-</u><del><span>k</span><span>i</span><span>k</span></del></td><td>kik<br/>("keek")</td><td>a fish</td></tr>
+    <tr><td class="sumibli"><u>P8a-</u><del><span>p</span><span>r</span><span>a</span></del></td><td>pra<br/>("prah")</td><td>a person</td></tr>
+    <tr><td class="sumibli"><u>NUAg-</u><del><span>n</span><span>ua</span><span>g</span></del></td><td>nuag<br/>("nwag")</td><td>to sleep</td></tr>
+    <tr><td class="sumibli"><u>VI-</u><del><span>v</span><span>i</span><span></span></del></td><td>vi<br/>("vi")</td><td>{verb}</td></tr>
+  </tbody>
+</table>
+<p>Atoms that start with a structural consonant (f, v, sh, th, or h) are <em>structural atoms</em>.
+Those that start with a standard consonant (p, b, t, d, k, g, n, m, r, l, s, or z) are <em>standard atoms</em>.</p>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Simple Sentences</h2>
+<p>All standard atoms can be sentences by themselves.
+For instance, the sentence "kik" means "there is a fish" or "there are fish".
+Sumibli doesn't force the speaker to give a quantity, so it's vague by default.
+Tense is also not required, so "kik" can also mean "there were fish" or "there will be fish".</p>
+<p>When a noun-like word like "kik" is used like this we think of it being a statement about existence ("a fish exists").
+Verb-like words like "nuag" (sleep) can also be thought of as being about existence sometimes.
+The sentence "nuag" can be translated "someone is sleeping", "there is sleeping", or "a sleeper exists".</p>
+<p>But what if we want to say "a fish was sleeping"?
+For this we use the stucture atom "vi" to mark the verb of the sentence.</p>
+<table>
+  <tr><td class="sumibli"><u>KIk-VI-NUAg-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik vi nuag</td><td>a fish was sleeping</td></tr>
+</table>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Sentence Order</h2>
+<p>Sumibli sentences are very flexible.
+By default the subject comes first, followed by "vi" and then the verb.
+(When there's no verb, the sentence is about existence/being.)
+But we can also have the verb come first, followed by "via" and then the subject.</p>
+<table>
+  <tr><td class="sumibli"><u>P8a-VI-PA-</u>
+    <del><span>p</span><span>r</span><span>a</span><span>v</span><span>i</span><span></span><span>p</span><span>a</span><span></span></del></td>
+    <td>pra vi pa</td><td>the person is thinking</td></tr>
+  <tr><td class="sumibli"><u>PA-VIA-P8a-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>pa via pra</td><td>the person is thinking</td></tr>
+</table>
+<p>We can rearrange the parts of the sentence to emphasize different things, or simply to be poetic.
+A part of a sentence preceded by an atom that starts with "v" is a <em>phrase</em> (noun phrase, verb phrase, etc).
+We can even explicitly mark the first phrase in the sentence, even though we usually don't.</p>
+<table>
+  <tr><td class="sumibli"><u>VIA-P8a-VI-PA-</u>
+    <del><span>v</span><span>ia</span><span></span><span>p</span><span>r</span><span>a</span><span>v</span><span>i</span><span></span><span>p</span><span>a</span><span></span></del></td>
+    <td>via pra vi pa</td><td>the person is thinking</td></tr>
+</table>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Adjectives and Adverbs</h2>
+<p>Here are a few more words to work with:</p>
+<table>
+  <tr><td class="sumibli"><u>BUd-</u><del><span>b</span><span>u</span><span>d</span></del></td><td>bud<br/>("bood")</td><td>heavy</td></tr>
+  <tr><td class="sumibli"><u>TAm-</u><del><span>t</span><span>a</span><span>m</span></del></td><td>tam</td><td>northern</td></tr>
+  <tr><td class="sumibli"><u>LAl-</u><del><span>l</span><span>a</span><span>l</span></del></td><td>lal</td><td>good</td></tr>
+</table>
+<p>Just like with any standard atom, these can be used as verbs.</p>
+<table>
+  <tr><td class="sumibli"><u>KIk-VI-BUd-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik vi bud</td><td>the fish is heavy</td></tr>
+</table>
+<p>And likewise, any standard atom can be used as a noun, including these.</p>
+<table>
+  <tr><td class="sumibli"><u>TAm-</u><del><span>t</span><span>a</span><span>m</span></del></td><td>tam</td><td>there is a northerner</td></tr>
+  <tr><td class="sumibli"><u>TAm-VI-NUAg-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>tam vi nuag</td><td>the northerner is asleep</td></tr>
+  <tr><td class="sumibli"><u>TAm-VI-P8a-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>tam vi pra</td><td>the northern one is a person</td></tr>
+</table>
+<p>To use words as adjectives - to modifying some noun without needing a full sentence to modify it - we use a new structure atom: "fu".
+We put fu in a phrase between the noun and the adjective.
+And in fact, any standard atom can be used as an adjective, not just the ones that are adjective-like!</p>
+<table>
+  <tr><td class="sumibli"><u>KIk-FU-BUd-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik fu bud</td><td>there was a heavy fish</td></tr>
+  <tr><td class="sumibli"><u>KIk-FU-LAl-VI-TAm-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik fu lal vi tam</td><td>the good fish<br/>are to the north</td></tr>
+  <tr><td class="sumibli"><u>P8a-FU-PA-VI-LAl-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>pra fu pa vi lal</td><td>a thinking person<br/>is a good one</td></tr>
+</table>
+<p>The word "fu" can also be used to modify actions (as adverb) just as easily as it can modify things (as an adjective).</p>
+<table>
+  <tr><td class="sumibli"><u>P8a-VI-NUAg-FU-LAl-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>pra vi nuag fu lal</td><td>the person<br/>sleeps correctly</td></tr>
+</table>
+<p>We usually think of "fu" as making one of the words an adjective/adverb,
+but we can also think of it as talking about the intersection of two concepts.
+A heavy fish is the insersection of fish and heavy things.
+To sleep correctly is the intersection of being asleep and being correct.</p>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Compounds</h2>
+<p>So far we've been considering phrases with a single atom, or ones broken up by "fu" into <em>sub-phrases</em> with one atom each.
+But now let's consider what happens when two standard atoms come in contact with each other.
+This structure is called a "compound" and is similar to compound words in English like "snow-man" or "air-plane".</p>
+<p>A snowman is not really a man made of snow, and it's certainly not a snowy man.
+Instead, compounds are new concepts that can have a distinct meaning in the dictionary.
+For example, we use "kik fu bud" to say "dense fish", but this is a very different thing from "kik bud",
+which we often just write as "kikbud" when using Latin text.
+A kikbud is a benthic organism - a creature that lives in the water but mostly sinks rather than swims, like a lobster or a starfish.
+Kikbud are fish in the sense that they are creatures that live in water (see <a href="">the philosophy of animals</a> for more),
+and they're dense in the sense that they sink rather than float, but they're a more specific thing than just dense fish.</p>
+<table>
+  <tr><td class="sumibli"><u>KIb-</u><del><span></span><span></span><span></span></del></td>
+    <td>kib</td><td>organ</td></tr>
+  <tr><td class="sumibli"><u>NIk-</u><del><span></span><span></span><span></span></del></td>
+    <td>nik</td><td>to consume/eat/drink</td></tr>
+  <tr><td class="sumibli"><u>KIb-NIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kibnik</td><td>mouth</td></tr>
+  <tr><td class="sumibli"><u>KIb-FU-NIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kib fu nik</td><td>consuming organ<br/>(mouth, stomach, gut, etc)</td></tr>
+</table>
+<p>Order matters when forming compounds. A snow-man is not the same as man-snow, and it's the same in Sumibli.
+We treat the word on the left as the <em>root</em> and the word on the right as the <em>augment</em>.
+The compound is always a variation on the root, hinted at (sometimes metaphorically) by the augment.</p>
+<table>
+  <tr><td class="sumibli"><u>NIk-KIb-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>nikkib</td><td>to consume/eat/drink<br/>using a body part</td></tr>
+</table>
+<p>Despite the danger of misusing a compound, Sumibli speakers are encouraged to default to using compounds instead of modifying with "fu".
+What is a "kikpra"? It's not in the dictionary, but we can guess it means something like "sentient fish".
+If I want to talk about fish people, "kikpra" serves my goal at least as well as "kik fu pra".</p>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Large Compounds</h2>
+<p>When we see a compound made with three standard atoms back-to-back,
+we group atoms on the left, so that the new compound is modified by the atom on the right.</p>
+<table>
+  <tr><td class="sumibli"><u>SU-</u><del><span></span><span></span><span></span></del></td>
+    <td>su</td><td>system</td></tr>
+  <tr><td class="sumibli"><u>MI-</u><del><span></span><span></span><span></span></del></td>
+    <td>mi</td><td>to say</td></tr>
+  <tr><td class="sumibli"><u>B9i-</u><del><span></span><span></span><span></span></del></td>
+    <td>bli</td><td>divided</td></tr>
+  <tr><td class="sumibli"><u>SU-MI-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>su mi</td><td>language<br>(expression system)</td></tr>
+  <tr><td class="sumibli"><u>SU-MI-B9i-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>sumi bli</td><td>taxonomy<br/>(divided language)</td></tr>
+</table>
+<p>If we want to make a compound by grouping on the right, we can put in the word "fi" to note where the modifying compound starts.
+Using fi is kinda like using "(" and ")" in math, specifying what compounds to make first.</p>
+<table>
+  <tr><td class="sumibli"><u>MI-B9i-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>mibli</td><td>to enunciate<br>(to speak dividedly)</td></tr>
+  <tr><td class="sumibli"><u>SU-FI-MI-B9i-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>su fi mibli</td><td>enunciation system</td></tr>
+</table>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Direct Objects</h2>
+<p>A couple sections back we introduced the word "nik" which means roughly "to eat", so we can say "kik vi nik" for "the fish eats".
+But sentences don't just need subjects to do the action, they also sometimes need objects to be acted on.
+We use the word "va" to mark the direct object in a sentence, just like we use "via" to mark the subject or "vi" for the verb.</p>
+<table>
+  <tr><td class="sumibli"><u>KIk-VI-NIk-VA-P8a</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik vi nik va pra</td><td>a fish ate the person</td></tr>
+  <tr><td class="sumibli"><u>P8a-VI-NIk-VA-KIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>pra vi nik va kik</td><td>people eat fish</td></tr>
+</table>
+<p>If "va" is used in a sentence without an explicitly marked verb, we interpret the first part of the sentence as a verb.</p>
+<table>
+  <tr><td class="sumibli"><u>NIk-VA-KIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>nik va kik</td><td>fish are eaten</td></tr>
+</table>
+<p>All Sumibli verbs (and thus all standard atoms and compounds) have room for a direct object.
+In the case of "nik" it's pretty clear that the direct object is what's being eaten,
+but can you guess what the direct object of "pra" (person) is?</p>
+<table>
+  <tr><td class="sumibli"><u>P8a-VI-P8a-VA-KIk</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>pra vi pra va kik</td><td>the person<br/>has the personality<br/>of a fish</td></tr>
+</table>
+<p>There are patterns that help us guess what the relationship is between the subject and the object,
+but in many cases you'll just need to look up the word in the dictionary to be sure.</p>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<hr/>
+<p>You may want to take a break, if you haven't already.
+You're about half-way done, but things will get harder and build on previous material.
+Sumibli is a very simple language, but it still takes time to internalize new things.</p>
+<p>Don't forget that you can click the game controller icon (🎮) at the bottom-right of most sections to test your knowledge.
+If you do, there will be a convenient link to take you back to the relevant section of this page when you're done.</p>
+<hr/>
+
+<h2>Actions as Nouns</h2>
+<p>It's often useful to talk about relations between actions.
+For example, "the eater is good" is different from "eating is good".
+To do this we can use a new structure atom: "vai".
+The atom "vai" only appears at the start of a sentence or immediately after either "via" or "va".
+When it appears at the start of the sentence we pretend that there's a "via" before it.
+In other words, we see "vai" as a modifier to the subject or object of a sentence.
+Instead of a normal noun phrase, something modified by "vai" becomes a subclause that works much like a full sentence in itself.
+These subclauses can even be nested!</p>
+<table>
+  <tr><td class="sumibli"><u>LAl-VIA-NIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>lal via nik</td><td>the eater is good</td></tr>
+  <tr><td class="sumibli"><u>LAl-VIA-VAI-NIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>lal viavai nik</td><td>it's good for<br/>there to be an eater</td></tr>
+  <tr><td class="sumibli"><u>LAl-VIA-VAI-P8a-VI-NIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>lal viavai pra vi nik</td><td>it's good for<br/>a person to eat</td></tr>
+  <tr><td class="sumibli"><u>MI-VA-VAI-P8a-VI-NIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>mi vavai pra vi nik</td><td>there's talk about<br/>a person eating</td></tr>
+  <tr><td class="sumibli"><u>MI-VA-VAI-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del><br/>
+    <u>LAl-VIA-VAI-P8a-VI-NIk-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>mi vavai<br/>lal viavai pra vi nik</td><td>there's talk about<br/>it being good for<br/>a person to eat</td></tr>
+</table>
+<p>All these examples of sub-clauses are given at the end of the parent clause because we can't say anything more
+about the parent once we're inside the subclause. If we want to get around this restriction and escape back to the outer-scope,
+we can use the atom "viu".</p>
+<table>
+  <tr><td class="sumibli"><u>VIA-VAI-P8a-VI-NIk-VIU-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del><br/>
+    <u>VI-LAl-</u><del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>viavai pra vi nik viu<br/>vi lal</td><td>a person eating<br/>is a good thing</td></tr>
+  <tr><td class="sumibli"><u>VAI-P8a-VI-NIk-VIU-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del><br/>
+    <u>VI-LAl-</u><del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>vai pra vi nik viu<br/>vi lal</td><td>a person eating<br/>is a good thing</td></tr>
+</table>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Prepositions</h2>
+<p>When we want to give additional context to a sentence, we can use subclauses as introduced in the previous section.
+For instance if we want to say "a fish thinks inside" we can say "(a fish thinks) is inside".
+But sometimes, especially when quickly composing a sentence during conversation, it's useful to be able to say
+"a fish thinks... inside", where we see the first part of the sentence as the primary content,
+and the note about being inside as less-important, additional info.</p>
+<p>The atom "vu" is the fastest and most common way of additing context info.
+It can be seen as a preposition marker, or just a shorthand for the structures of the previous section that doesn't require forethought.
+The basic rule is that "X vu Y Z" = "viavai X viu vi Y va Z",
+where X is the whole sentence before the "vu", Y is <em>a single atom</em>, and Z is a phrase.
+This reduces the number of atoms needed to express a preposition by 80%!
+Additionally, "vu" can't be nested; if you see another "vu" after the first it's assumed to be more additional info about the same action.</p>
+<p>Let's look at some examples:</p>
+<table>
+  <tr><td class="sumibli"><u>T8i-</u><del><span></span><span></span><span></span></del></td><td>tri</td><td>inside</td></tr>
+  <tr><td class="sumibli"><u>KIk-VI-T8i-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik vi tri</td><td>a fish is inside</td></tr>
+  <tr><td class="sumibli"><u>KIk-VI-PA-VU-T8i-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik vi pa vutri</td><td>a fish thinks inside</td></tr>
+  <tr><td class="sumibli"><u>KIk-VI-PA-VU-T8i-NIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik vi pa vutri nik<tri nik</td><td>a fish thinks<br/>inside the eater</td></tr>
+</table>
+<p>Because of the special role of the first atom after the "vu", when writing in latin script we customarily leave out the space.</p>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Indirect Objects</h2>
+<p>Sometimes we want to not just talk about the direct object of an action,
+but also indirect objects that are related to some action.
+For instance, in English we can say "he gave her a toy" and we understand "a toy" as the thing that was given.</p>
+<p>Sumibli has no indirect objects, instead relying entirely on prepositions/subclauses.
+Just as we can say "he gave a toy <strong>to</strong> her" to communicate the same idea in English,
+we can use prepositions whenever additional context is needed in Sumibli.</p>
+<table>
+  <tr><td class="sumibli"><u>RAd-</u><del><span></span><span></span><span></span></del></td><td>rad</td><td>to give to</td></tr>
+  <tr><td class="sumibli"><u>RUr-</u><del><span></span><span></span><span></span></del></td><td>rur</td><td>to trade</td></tr>
+  <tr><td class="sumibli"><u>TAm-VI-RAd-VA-MI-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>tam vi rad va mi</td><td>the northerner<br/>gave something<br/>to the speaker</td></tr>
+  <tr><td class="sumibli"><u>TAm-VI-RAd-VA-MI-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del><br/>
+    <u>VU-RUr-KIk</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>tam vi rad va mi</br>vurur kik</td><td>the northerner<br/>gave fish<br/>to the speaker</td></tr>
+</table>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Possession</h2>
+<p>We've already talked about using words as adjectives using the atom "fu".
+The way "fu" works is essentially to find the overlap of two sets of things.
+For example, "kik fu bud" is talking about the intersection of the set of fishes and the set of heavy things.</p>
+<p>But sometimes we want to talk about something that is associated with something else.
+We don't want "the thing that is a mouth and is also a person", but rather "the person's mouth".
+To do this, we use the word "fa".</p>
+<table>
+  <tr><td class="sumibli"><u>BUd-FA-KIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>bud fa kik</td><td>the fish's weight</td></tr>
+  <tr><td class="sumibli"><u>KIk-FA-BUd-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik fa bud</td><td>the weight's fish</td></tr>
+  <tr><td class="sumibli"><u>KIb-NIk-FA-P8a-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kibnik fa pra</td><td>the person's mouth</td></tr>
+</table>
+<p>Note that this association is vague. It's not necessarily innate, social, legal, or exclusive.</p>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>Statements, Requests, and Questions</h2>
+<p>We communicate multiple sentences much like we communicate parts of speech.
+Atoms that start with "sh" mark the boundaries of sentences.
+When you want to start a new sentence, use "shi".</p>
+<table>
+  <tr><td class="sumibli"><u>KIk-JI-PA-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik shi pa</td><td>There is a fish.<br/>There is a mind.</td></tr>
+  <tr><td class="sumibli"><u>TAm-VI-LAl-<br/>JI-P8a-LAl-VI-TAm</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>tam vi lal<br/>shi pralal vi tam</td><td>The north is good.<br/>Heroes exist in the north.</td></tr>
+</table>
+<p>To make a request, simply start your sentence off with "sha" instead of "shi".</p>
+<table>
+  <tr><td class="sumibli"><u>KIk-JA-PA-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik sha pa</td><td>There is a fish.<br/>Please think.</td></tr>
+  <tr><td class="sumibli"><u>TAm-VI-LAl-<br/>JA-P8a-LAl-VI-TAm</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>tam vi lal<br/>sha pralal vi tam</td><td>The north is good.<br/>Be a hero in the north.</td></tr>
+</table>
+<p>To ask a question use "shai".</p>
+<table>
+  <tr><td class="sumibli"><u>JAI-KIk-JA-PA-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>shai kik<br/>sha pa</td><td>Is there a fish?<br/>Please think.</td></tr>
+  <tr><td class="sumibli"><u>JAI-TAm-VI-LAl-<br/>JAI-P8a-LAl-VI-TAm</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>shai tam vi lal<br/>shai pralal vi tam</td><td>Is the north good?<br/>Are there heroes in the north?</td></tr>
+</table>
+<p>If you want to say that you are done talking, or have nothing to say, you can end with "shu".
+This is also done to express that you heard someone (without stating that you necessarily understand or agree).</p>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Answering Questions</h2>
+<p>Standard questions are yes/no by default.
+To answer such a question you can say "za", which means "true", or "zan", which means "false".
+You can also always just make a statement which directly answers the asker's confusion.
+The word "na" also works as a response that means "the opposite is true".</p>
+<table>
+  <tr><td class="sumibli"><u>JAI-KIk-VI-NIk-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>shai kik vi nik</td><td>Do fish eat?</td></tr>
+  <tr><td class="sumibli"><u>KIk-</u>
+    <del><span></span><span></span><span></span></del></td>
+    <td>kik</td><td>They eat.</td></tr>
+  <tr><td class="sumibli"><u>JAI-TAm-VI-LAl-<br/>JAI-P8a-LAl-VI-TAm</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>shai tam vi lal<br/>shai pralal vi tam</td><td>Is the north good?<br/>Are there heroes in the north?</td></tr>
+  <tr><td class="sumibli"><u>ZAn-JI-NA-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>zan shi na</td><td>No.<br/>There are villains there.</td></tr>
+</table>
+<p>Question askers can also specify specific things they're curious about, using the atom "hau".
+For more details on this, see the last section on "Attitudinals".
+When answering such questions, it's conventional to offer responses to in the form of positive statements.</p>
+<table>
+  <tr><td class="sumibli"><u>JAI-HAU-VI-TAm</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>shai hau vi tam</td><td>What's to the north?</td></tr>
+  <tr><td class="sumibli"><u>P8a-LAl-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>pralal</td><td>Heroes.</td></tr>
+</table>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Foreign Words</h2>
+<p>Not every concept will easily fit into Sumibli. Some words will need to be borrowed from other languages and cultures.
+This can be done easily with the letter "th".
+Whenever we want to say a foreign word, we add "th" as a suffix to whatever we were just saying.
+For example, we can use a loanword as the verb in a sentence by attaching "th" after "vi".</p>
+<p>It's up to the writer whether foreign words are written in their native script, or translated into Sumibli script.
+Regardless, the word should be pronounced according to how the natives say it, even if those sounds aren't supported by the Sumibli alphabet.</p>
+<table>
+  <tr><td class="sumibli"><u>KIk-VI-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del>þ<span class="smaller"><span> swim</span></span></td>
+    <td>kik vith <em>swim</em></td><td>fish <em>swim</em></td></tr>
+  <tr><td class="sumibli"><u>KIk-VI-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del>þ <u>SUIm-</u><del><span></span><span></span><span></span></del></td>
+    <td>kik vith <em>swim</em></td><td>fish <em>swim</em></td></tr>
+</table>
+<p>If you want to use foreign text for the subject of a sentence,
+the "th" suffix can be attached either to an explicit "via" or to an explicit marker for the start of the sentence like "shi".</p>
+<p>Because foreign text can have arbitrary sounds, there is no explicit marker for the end of foreign speech;
+it's up to the speaker to make it clear that they're speaking Sumibli again.
+When writing, it's customary to include spaces around foreign words to distinguish them.</p>
+<table>
+  <tr><td class="sumibli"><u>VIA-</u><del><span></span><span></span><span></span></del>þ<span class="smaller"><span> sushi</span> </span><u>VI-LAl-</u><del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>viath <em>sushi</em> vi lal</td><td><em>sushi</em> is correct</td></tr>
+  <tr><td class="sumibli"><u>JI-</u><del><span></span><span></span><span></span></del>þ<span class="smaller"><span> sushi</span> </span><u>VI-KIk-</u><del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>shith <em>sushi</em> vi kik</td><td><em>sushi</em> is fish</td></tr>
+</table>
+<p>Remember that "th" when used in this way is always pronounced <em>un</em>voiced, like in "wi<strong>th</strong>".
+When a "th" suffix is added to the end of a word with a trailing consonant,
+it's permitted to inject a short "uh" sound before the "th" to aid in pronunciation.
+This added sound is not a letter, and doesn't show up in written Sumibli.</p>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>Names</h2>
+<p>Foreign names work exactly the same way that other foreign words do.</p>
+<table>
+  <tr><td class="sumibli"><u>JAI-</u><del><span></span><span></span><span></span></del>þ<span class="smaller"><span> Max</span> </span><u>VI-P8a-LAl-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>shaith <em>Max</em> vi pralal</td><td>Is <em>Max</em> a hero?</td></tr>
+</table>
+<p>Things can also be given Sumibli names.
+A Sumibli name is just an atom or compound that's preceded by the atom "thi".
+Remember to pronounce it with a voiced "th" like the English word "<strong>th</strong>e".
+When talking about something with a Sumibli name in another language, the "thi" is dropped.</p>
+<table>
+  <tr><td class="sumibli"><u>ÞI-SU-MI-B9i-VI-LAl-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thi sumibli vi lal</td><td>Sumibli is good</td></tr>
+</table>
+<p>Nicknames are common in Sumibli.
+In other words, it's fine to use "thi" liberally whenever things are clear.
+In many cases, this means it is right to use "thi" as the definite article, like "the" in English.</p>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>Me and You</h2>
+<p>Most languages have pronouns for the speaker and the listener, like "me" and "you".
+Sumibli instead opts to use the same words that one would use for any speaker/lisener and rely on context to keep things clear.</p>
+<table>
+  <tr><td class="sumibli"><u>MI-</u>
+    <del><span></span><span></span><span></span></del></td>
+    <td>mi</td><td>to say</td></tr>
+  <tr><td class="sumibli"><u>MIU-</u>
+    <del><span></span><span></span><span></span></del></td>
+    <td>miu</td><td>to discuss</td></tr>
+  <tr><td class="sumibli"><u>MIt-</u>
+    <del><span></span><span></span><span></span></del></td>
+    <td>mit</td><td>to talk to</td></tr>
+  <tr><td class="sumibli"><u>PIr-</u>
+    <del><span></span><span></span><span></span></del></td>
+    <td>pir</td><td>to listen/read</td></tr>
+  <tr><td class="sumibli"><u>MI-VI-MIt-VA-PIr-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>mi vi mit va pir</td><td>I'm talking to you</td></tr>
+  <tr><td class="sumibli"><u>MIU-VI-LAl-VA-MI-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>miu vi lal va mi</td><td>we're righteous<br/>according to me</td></tr>
+  <tr><td class="sumibli"><u>MIU-VI-MIU-VA-MIU-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>miu vi miu va miu</td><td>we're talking about us</td></tr>
+</table>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>Other Pronouns</h2>
+<p>Pronouns in Sumibli are based on compressing a name (or long compound) down to one syllable.
+The atom "tha" marks a pronoun, and the atom following it is the compressed version of the person/thing's name.
+For instance, if we're talking about "Mitch Halley", instead of giving his full name each time, we could reference him as "tha mil".
+We start by representing "Mitch Halley" as phonetically written Sumibli: "mitsh hali".
+(See <a href="">the full spec</a> for details on transcribing foreign sounds.)
+We take the first standard consonant and follow it by the first vowel/diphthong.
+If the first consonant is standard and there's more than one consonant in the name, we also take the final <em>standard</em> consonant.</p>
+<p>Note that "Mitch Halley" gets shortened to "mil" but "Mitch" gets shortened to "mit" (because "sh" is structural).
+Sumibli's pronoun system doesn't specify whether to compress a person's full name just their first/last name.</p>
+<table>
+  <tr><td class="sumibli"><u>ÞA-MIl-VI-MIt-VA-ÞA-JAI-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>tha mil vi mit<br/>va tha shai</td><td>"Mil" will talk<br/>to "Shai"</td></tr>
+</table>
+<p>Note that Sumibli pronouns always put the first consonant in front of the first vowel, even when people's names start with a vowel.
+This including glides/semivowels like "Y" and "W".</p>
+<p><strong>A</strong><u>l</u>i<em>c</em>e is referenced with "tha <u>l</u><strong>a</strong><em>s</em>".</p>
+<p><strong>We</strong><u>n</u>dy Pet<em>r</em>ov is referenced with "tha <u>n</u><strong>ua</strong><em>r</em>" (because "v" is not a structural).</p>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<h2>Letter Names</h2>
+<p>While we're talking about letters, it might be a good moment to introduce the way we talk about letters in Sumibli.
+The letters "thu" may be (and must be) suffixed by any consonant, even a non-standard one.
+This forms the word for that consonant.
+In written Sumibli we put the consonant in a glyph by itself following "thu", vertically centered.</p>
+<table>
+  <tr><td class="sumibli"><u>ÞU-0-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thup</td><td>"p"</td></tr>
+  <tr><td class="sumibli"><u>ÞU-1-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thub</td><td>"b"</td></tr>
+  <tr><td class="sumibli"><u>ÞU-2-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thut</td><td>"t"</td></tr>
+  <tr><td></td><td>...</td><td></td></tr>
+  <tr><td class="sumibli"><u>ÞU-J-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thush</td><td>"sh"</td></tr>
+  <tr><td class="sumibli"><u>ÞU-Þ-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thuth</td><td>"th"</td></tr>
+  <tr><td class="sumibli"><u>ÞU-H-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thuh</td><td>"h"</td></tr>
+</table>
+<p>To talk about vowels, we use the atom "thui" and follow it with either "hi", "ha", or "hu".</p>
+<table>
+  <tr><td class="sumibli"><u>ÞUI-HI-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thuihi</td><td>"i"</td></tr>
+  <tr><td class="sumibli"><u>ÞUI-HA-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thuiha</td><td>"a"</td></tr>
+  <tr><td class="sumibli"><u>ÞUI-HU-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>thuihu</td><td>"u"</td></tr>
+</table>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>Attitudinals</h2>
+<p>Sumibli lets us talk about the emotions of people (including the speaker) by using verbs/adjectives/etc.
+But there's also a shorthand that gives speakers the power to annotate their speech with emotional interjections.
+These interjections are a bit like emoji/emoticons, and are called "<em>attitudinals</em>".
+Attitudinals all start with the letter "h" and are attached to the last thing that was mentioned.
+Unlike standard words, attitudinals aren't making claims about the world, but are purely an expression of emotion, like "yay!" or "boo!".</p>
+<table>
+  <tr><td class="sumibli"><u>HI-</u>
+    <del><span></span><span></span><span></span></del></td>
+    <td>hi<br/>("hee")</td><td>yay!</td></tr>
+  <tr><td class="sumibli"><u>HA-</u>
+    <del><span></span><span></span><span></span></del></td>
+    <td>ha</td><td>meh...</td></tr>
+  <tr><td class="sumibli"><u>HU-</u>
+    <del><span></span><span></span><span></span></del></td>
+    <td>hu</td><td>boo!</td></tr>
+  <tr><td class="sumibli"><u>KIk-HA-VI-HI-LAl</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik ha vi hi lal</td><td>fish😐<br/>are good😀</td></tr>
+  <tr><td class="sumibli">
+    <u>MI-VA-HI-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del><br/>
+    <u>ÞI-SU-MI-HA-B9i-</u><del><span></span><span></span><span></span><span></span><span></span><span></span></u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>mi va hi<br/>thi su mi ha bli</td><td>there's talk<br/>about Sumibli</br>(😀 about Sumibli;<br/>😐 about languages)</td></tr>
+</table>
+<p>Put an attitudinal immediately after the sentence marker (or as the first thing you say)
+to express the emotion about the entire sentence.</p>
+<p>Use "hau" to express confusion/curiosity.
+This implies the sentence is a question, unless otherwise marked as a belief/command.</p>
+<table>
+  <tr><td class="sumibli"><u>KIk-VI-HAU-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>kik vi hau</td><td>fish do what?</td></tr>
+  <tr><td class="sumibli"><u>JI-KIk-VI-HAU-</u>
+    <del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>shi kik vi hau</td><td>Fish exist🤔.</td></tr>
+</table>
+<div class="return-to-top"><a href="">🎮</a> <a href="">🔝</a></div>
+
+<hr/>
+<p>That's it for basics! Congratulations!</p>
+<p>There's more to learn, of course.
+The <a href="" class="no-underline">📖<u> full specification</u></a> has all the gory details of the grammar.
+There's vocabulary to internalize that can be easily browsed in the <a href="" class="no-underline">🌳<u> dictionary tree explorer</u></a>
+or by reading <a href="" class="no-underline">💬<u> previously translated works</u></a> and looking up words as you go.
+If you want to practice by yourself, there are more <a href="" class="no-underline">🎮<u> online exercises</u></a> to try.
+And if you're interested in more theory there's a bunch of juicy <a href="" class="no-underline">🧠<u> philosophy</u></a> waiting to be wrestled with.
+But you should consider yourself to know enough about Sumibli to start trying to <a href="" class="no-underline">🗣️<u> converse with others in the community</u></a>.</p>
+<p>Welcome!</p>
+<table>
+  <tr><td class="sumibli"><u>PIr-VI-PAd-HI-VA-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del><br/>
+    <u>ZUb-FI-SU-MI-B9i-</u><del><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></del></td>
+    <td>pir vi pad hi va<br/>zub fi sumibli</td><td>You know(!) the<br/>basics of Sumibli!</td></tr>
+</table>
+<div class="return-to-top"><a href="">🔝</a></div>
+<hr/>
+</section>
+</main>
+<footer>
+Sumibli language, site design, and code by <a href="http://raelifin.com">Max Harms</a>.<br/>
+Released into the public domain in 2022.
+</footer>
+</body>
+</html>

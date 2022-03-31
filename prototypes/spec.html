@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>Sumibli</title>
+<meta name="description" content="an artificial language, created to be correct from first principles, for transhumanists" />
+<meta name="author" content="Max Harms" />
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<!-- <link rel="manifest" href="site.webmanifest"> -->
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="stylesheet" href="style.css"/>
+<script src="code.js"></script>
+</head>
+<body>
+<main>
+<header>
+<h1 class="smaller"><span>Specification<br/>
+  of Grammar</span></h1>
+<h2 class="pre">  the full details of how
+    to interpret sound/writing
+      as meaningful expression</h2>
+</header>
+<nav>
+  <a href="">🎓 Learn the Basics</a>
+  <a href="">🧠 Philosophy</a>
+  <a href="">🌳 Dictionary Tree</a>
+  <a href="">📚 Other Resources</a>
+</nav>
+<section id="translation">
+<hr/>
+<label for="translate">Translate: </label><input id="translate" type="text" oninput="trans(this.value)"/>
+</section>
+<section class="content">
+<hr/>
+
+<p>We can think of language as an exercise in turning concepts into symbols,
+encoded either as sound or as images,
+and then interpreting these symbols back into concepts.
+To make this more precise, we're going to define a mathematical object: the Sumibli expression or "<code>ri</code>".
+We provide notes on tbe semantics of <code>ri</code>
+(though we can't do this formally since the world isn't a formal language!).
+Additionally, we specify the grammar of <code>ri</code> - how to encode and decode it as sound/images.</p>
+
+<p>This page will be pretty technical.
+It's recommended that you at least read the basics before diving in, but it's not strictly necessary.
+If formal systems are not your cup of tea, don't worry about reading this page.
+Sumibli is meant to be easy to learn and speak without having to dig into the math behind it.
+It's simply good if <em>somebody</em> knows the answer to technicals question about the language,
+and this document serves as a resource for that.</p>
+
+<p>TABLE OF CONTENTS</p>
+
+<h2>Notation</h2>
+<p>The definitions in this document will be noted in a custom pseudo-language.
+This notation scheme is roughly in line with type theory and/or functional programming languages like Haskell.
+Here are some symbols that will be helpful to know:</p>
+<table>
+  <tr><td><code>x : A</code></td><td>x is <a href="">of type</a> A</td></tr>
+  <tr><td><code>n ≔ x</code></td><td>n <a href="">is defined to be</a> x</td></tr>
+  <tr><td><code>A & B</code></td><td><a href="">the Cartesian product</a> of A and B<br/>(ie Both A and B)</td></tr>
+  <tr><td><code>A | B</code></td><td><a href="">the coproduct</a> of A and B<br/>(ie Either A or B)</td></tr>
+  <tr><td><code>A → B</code></td><td><a href="">the exponentials</a> from A to B<br/>(ie the type of functions from A to B)</td></tr>
+  <tr><td><code>𝟘</code></td><td><a href="">the empty type</a></td></tr>
+  <tr><td><code>𝟙</code></td><td><a href="">the unit type</a></td></tr>
+  <tr><td><code>𝟚</code></td><td><a href="">the boolean type</a></td></tr>
+  <tr><td><code>𝟛</code></td><td>the type with three elements</td></tr>
+  <tr><td><code>ℕ</code></td><td><a href="">the natural numbers</a></td></tr>
+  <tr><td></td><td>...</td></tr>
+  <tr><td><code>A?</code></td><td><a href="">Maybe</a> A<br/>(A | 𝟙)</td></tr>
+  <tr><td><code>[A]</code></td><td><a href="">the type of Lists</a> of A<br/>(Note: Not a list with one element)</td></tr>
+  <tr><td><code>{A}</code></td><td><a href="">the type of Sets</a> of A<br/>(Note: Not a set with one element)</td></tr>
+  <tr><td><code>{A}₁</code></td><td>the type of non-empty Sets of A</td></tr>
+</table>
+<p>Order of operations means</p><pre><code>n ≔ x : A & B | C → D?</code></pre><p>is equivalent to</p><pre><code>n ≔ (x : (((A & B) | C) → (D?)))</code></pre>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>"<code>rialpu</code>" - Attitudinals</h2>
+<p>Before getting into the foundational structures of Sumibli, let's define a last bit of custom syntax.</p>
+<table>
+  <tr><td><code>A<sup>†</sup></code></td><td>A & {rialpu}</td></tr>
+</table>
+<p>Rialpu are "Attitudinals" - corresponding to <a href="">any word in the dictionary that starts with the letter "h"</a> (<span class="sumibli"><u>ÞU-@-</u><del><span>th</span><span>u</span><span></span><span></span><span>h</span><span></span></del></span>).
+Being a set, the rialpu are unordered and do not compose.</p>
+<p>Note that postfix operators group to the left, so "<code>A?<sup>†</sup></code>" is a set of rialpu attached to a Maybe A, while "<code>A<sup>†</sup>?</code>" is a <code>Maybe (A & {rialpu})</code>.</p>
+<div class="return-to-top"><a href="">🔝</a></div>
+
+<h2>"<code>ri</code>" - Expressions</h2>
+<p>We think of <code>ri</code> as the core conceptual unit of Sumibli.
+Communication involves forming <code>ri</code> in the mind, and encoding/decoding them from sound and text.</p>
+<pre><code>ri ≔ 𝟛?<sup>†</sup> & riul & [𝟛<sup>†</sup> & riul] & 𝟙?
+  | {rialpu}₁ & 𝟙?
+  | 𝟙</code></pre>
+<p>A <code>ri</code> is approximately a list.</p>
+<p>There are two empty cases.
+The last case is the "<a href="">shu</a>" case, which we interpret as "I acknowledge the conversation but have nothing to say".
+The middle case is a non-empty set of rialpu and then optionally a shu.
+These rialpu are meant to be a general expression of emotion, attached only to the context, rather than any particular topic.</p>
+<p>In the non-empty case we have pairs of trits (ie elements of 𝟛) and <code>riul</code>, with the first trit being optional.
+Like with the rialpu case, we can optionally specify a "shu" at the end (the "<code>𝟙?</code>") of our non-empty list.</p>
+<p>We intrepret each trit in the list as a flag of whether the following <code>riul</code> is a statement, a request, or a question.
+If the first trit is elided, the initial <code>riul</code> is implied to be a statement, unless it contains a confusion attitudinal,
+in which case it is intrepreted as a question.
+Rialpu attached to a (possibly elided) trit are intrpreted as about the corresponding <code>riul</code> as a whole.</p>
+
+<h2>"<code>riul</code>" - Sentences</h2>
+<p>The <code>riul</code> corresponds to the English sentence.
+<code>Riul</code> are composed of <code>riuldis</code> (literally: "riul-part") which roughly correspond to phrases.</p>
+<pre><code>riul ≔ (saz | riul | riuldis) & [riuldis]</code></pre>
+<p>A <code>riul</code> is a non-empty list of <code>riuldis</code> where the first <code>riuldis</code> may be a simple <code>saz</code> or another <code>riul</code>.
+Whenever we see a <code>riul</code> inside a <code>riul</code>, we think of the inner one as being "abstracted".
+In the case of a simple <code>saz</code>/<code>riul</code> head, we interpret that head as
+a <code>riuldis</code>, based on the rest of the sentence.</p>
+<pre><code>riuldis ≔ 𝟛<sup>†</sup> & saz
+  | sazdil<sup>†</sup> & saz?
+  | saz & [riuldislaz]
+  | 𝟚<sup>†</sup> & riul
+riuldislaz ≔ 𝟛<sup>†</sup> & saz | 𝟚<sup>†</sup> & riul
+</code></pre>
+
+<p>A <code>riuldis</code> is either the simple case of <code>saz</code> annotated by one of three possible tags,
+the "vu" case of a <code>sazdil</code> and optional saz,
+the "vua" case of a saz and a list of <code>riuldislaz</code>,
+or the abstraction case with a full riul annotated by one of two possible tags.
+In either the standard case or the abstraction case we intrepret rialpu attached to the tag as being about the whole riuldis.</p>
+<p>A <code>riuldislaz</code> is exactly like a <code>riuldis</code>, but without the "vu" and "vua" cases.</p>
+<p>We think of <code>riul</code> as an arranged and specified version of another, simpler structure: the <code>riulzub</code>.
+The riul correspond more to the actual composition of Sumibli sentences, where riulzub correspond more to the semantics.</p>
+<pre><code>riulzub ≔ {saz | riulzub}<sup>†</sup> & {saz<sup>†</sup> & {saz | riulzub}<sup>†</sup>} & {saz | riulzub}<sup>†</sup></code></pre>
+<p>A riulzub is basically an idealized sentence, with a set of subjects, a set of verb-phrases, and a set of unattached objects.
+The sets of subjects and objects are interpreted as joined by a conjunction; if a sentence has two subjects it's about both of them.
+Each verb phrase consists of a single saz, which is the verb, and then a set of objects attached to that verb.
+The subjects and objects are allowed to include (abstract) riulzub.</p>
+<p>We interpret a riulzub as a set of Subject-Verb-Object statements about the world.
+There's a statement for each verb-phrase.
+If there are unattached objects and/or no other verbs, there's also an extra statement which is the "existence statement", where the verb is "to be" and the objects are the unattached objects.
+When subjects are specified, they're shared across each statement.
+<p>The strategy for simplification (<a href="">Haskell source code</a>), is basically to treat each riuldis as providing some information
+about the riulzub we're building, and to glue all those pieces of information together.
+The primary exception to this strategy are the "viu" and "vau" cases, which we'll talk about in a moment.
+
+
+<hr/>
+</section>
+</main>
+<footer>
+Sumibli language, site design, and code by <a href="http://raelifin.com">Max Harms</a>.<br/>
+Released into the public domain in 2022.
+</footer>
+</body>
+</html>

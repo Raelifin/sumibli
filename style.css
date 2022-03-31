@@ -1,0 +1,416 @@
+@font-face {
+  font-family: sumibligli;
+  src: url(sumibligli.woff2);
+}
+.sumibli, .sumibli u {
+  font-family: sumibligli;
+}
+.sumibli u {
+  text-decoration: none;
+  z-index: -1;
+  position: absolute;
+}
+.sumibli del {
+  color: rgba(0,0,0,0);
+  position: relative;
+  top: -0.3em;
+}
+.sumibli del span {
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+  font-family: monospace;
+  font-size: 55.55%;
+  line-height: 2em;
+}
+
+* {
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.info {
+  cursor: help;
+}
+
+.bigger {
+  line-height: 125%;
+}
+.bigger > * {
+  font-size: 125%;
+}
+
+.smaller {
+  line-height: 80%;
+}
+.smaller > *, thead {
+  font-size: 80%;
+}
+
+.smaller, .muchsmaller {
+  line-height: 60%;
+}
+.muchsmaller > * {
+  font-size: 60%;
+}
+
+.fade {
+  opacity: 50%;
+}
+
+.whiteshadow {
+  text-shadow: 0.3px 1px 0px white;
+}
+
+.pre {
+  white-space: pre;
+}
+
+.error {
+  font-family: Consolas, "Courier New", monospace;
+  color: #CC0000;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  font-weight: normal;
+  margin: 0;
+}
+
+hr {
+  width: 75%;
+  max-width: 560px;
+  height: 2px;
+  opacity: 0.5;
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #FF0000, #FFFF00, #00FF00, #00FFFF, #0000FF, #FF00FF);
+  background-size: 5% 0.8px, 100% 0.8px;
+  border: none;
+  clear: both;
+}
+@media (prefers-color-scheme: dark) {
+  hr {
+    background-image: linear-gradient(90deg, transparent, transparent 50%, #000 50%, #000 100%), linear-gradient(90deg, #FF0000, #FFFF00, #00FF00, #00FFFF, #0000FF, #FF00FF);
+  }
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  font-size: 2.6vw;
+  background-color: #fff;
+  color: #111;
+}
+@media (min-width: 800px) {
+  body {
+    font-size: 20.8px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #eee;
+  }
+
+  a {
+    color: cyan;
+  }
+  a:visited {
+    color: magenta;
+  }
+}
+
+main {
+  padding-bottom: 5vw;    /* Footer height */
+}
+@media (min-width: 800px) {
+  main {
+    padding-bottom: 40px;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  font-size: 1.5vw;
+}
+@media (min-width: 800px) {
+  footer {
+    font-size: 12px;
+  }
+}
+
+header {
+  float: left;
+  margin: 10px 0 20px 10%;
+}
+header h1, header .h1 {
+  font-size: 9vw;
+}
+header h2 {
+  font-size: 2.8vw;
+  margin-top: 15px;
+}
+@media (min-width: 800px) {
+  header {
+    margin-left: calc(50% - 320px);
+  }
+  header h1, header .h1 {
+    font-size: 72px;
+  }
+  header h2 {
+    font-size: 22.4px;
+  }
+}
+
+nav.top-padded {
+  padding-top: 10px;
+}
+nav {
+  float: right;
+  padding-top: 1.6em;
+  width: 38vw;
+  margin-right: 2.5vw;
+  padding-left: 2vw;
+}
+@media (min-width: 800px) {
+  nav {
+    width: 304px;
+    margin-right: calc(50vw - 380px);
+    padding-left: 16px;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+}
+
+#translation {
+  float: right;
+  width: 38vw;
+  margin-right: 2.5vw;
+  padding: 0px 0px 15px 2vw;
+}
+@media (min-width: 800px) {
+  #translation {
+    width: 304px;
+    margin-right: calc(50vw - 380px);
+    padding-left: 16px;
+  }
+}
+
+#translation > input {
+  width: 60%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: min(2%, 6.08px);
+  border: thin solid gray;
+  border-radius: 3px;
+  font-size: 2.6vw;
+}
+@media (min-width: 800px) {
+  #translation > input {
+    font-size: 20.8px;
+  }
+}
+
+#translation.active {
+  float: none;
+  width: 100%;
+  padding: 0;
+}
+
+#translation.active > label {
+  margin-left: 12.5vw;
+}
+@media (min-width: 800px) {
+  #translation.active > label {
+    margin-left: calc((100vw - 600px)/2);
+  }
+  #translation.active > input {
+    width: 480px;
+  }
+}
+
+#translation > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+#translation > div {
+  border-style: solid double;
+  border-width: thin medium;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72vw;
+  overflow: auto;
+}
+@media (min-width: 800px) {
+  #translation > div {
+    width: 576px;
+  }
+}
+
+#translation .notes {
+  float: right;
+  text-decoration: none;
+  margin: 5px;
+}
+
+input.advanced-selector {
+  clear: right;
+}
+.advanced-selector {
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+input.advanced-selector {
+  margin-top: 1.25vw;
+}
+@media (min-width: 800px) {
+  input.advanced-selector {
+    margin-top: 10px;
+  }
+}
+
+#TableOfContents a {
+  text-decoration: none;
+}
+
+.definition {
+  display: flex;
+}
+
+.definition > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.definition .mai {
+  margin: 12px 0.5em;
+  flex-grow: 10;
+}
+.definition .mai .sumibli {
+  font-size: 150%;
+}
+.definition .defn {
+  flex-grow: 10;
+}
+.definition .notes a {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.content p {
+  line-height: 140%;
+}
+
+.content > * {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vw;
+  text-indent: 5vw;
+}
+.content > pre {
+  text-indent: 0;
+}
+@media (min-width: 800px) {
+  .content > * {
+    width: 600px;
+    text-indent: 40px;
+  }
+}
+
+.content > * * {
+  text-indent: 0;
+}
+
+.content .return-to-top {
+  display: block;
+  text-align: right;
+  padding-bottom: 1em;
+}
+.content .return-to-top a {
+  text-decoration: none;
+}
+
+.content > h2 {
+  font-weight: bold;
+  text-indent: 0;
+  font-size: 120%;
+  text-align: center;
+}
+
+.content td:first-child {
+  margin-left: 0;
+}
+.content td {
+  margin-left: 10px;
+  text-align: center;
+}
+.content td.sumibli {
+  font-size: 180%;
+}
+.content td.conceptual-atmosphere {
+  font-size: 90%;
+}
+.content tbody tr td, .content tbody tr th {
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+
+.usazla {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.usazla::-webkit-scrollbar { display: none; } /* Chrome and other webkit browsers */
+
+.usazla table {
+  width: 100%;
+}
+
+.usazla > div {
+  scroll-snap-align: center;
+  min-width: 75vw;
+  padding: 20px 0 0px 0;
+}
+@media (min-width: 800px) {
+  .usazla > div {
+    min-width: 600px;
+  }
+}
+
+.usazla h2 {
+  text-align: center;
+  position: relative;
+}

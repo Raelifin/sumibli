@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>Sumibli</title>
+<meta name="description" content="an artificial language, created to be correct from first principles, for transhumanists" />
+<meta name="author" content="Max Harms" />
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<style>
+@font-face {
+  font-family: sumiblifai;
+  src: url(sumiblifai.woff2);
+}
+.sumibli, .sumibli u {
+  font-family: sumiblifai;
+}
+.sumibli u {
+  text-decoration: none;
+  z-index: -1;
+  position: absolute;
+}
+.sumibli del {
+  color: rgba(0,0,0,0);
+  position: relative;
+  top: -0.3em;
+}
+.sumibli del div {
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+  font-family: monospace;
+  font-size: 55.55%;
+  line-height: 2em;
+}
+
+* {
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.info {
+  cursor: help;
+}
+
+.fade {
+  opacity: 50%;
+}
+
+.pre {
+  white-space: pre;
+}
+
+.error {
+  font-family: monospace;
+  color: #CC0000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  font-weight: normal;
+  margin: 0;
+}
+
+hr {
+  width: 75%;
+  max-width: 560px;
+  height: 2px;
+  opacity: 0.5;
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #FF0000, #FFFF00, #00FF00, #00FFFF, #0000FF, #FF00FF);
+  background-size: 5% 0.8px, 100% 0.8px;
+  border: none;
+  clear: both;
+}
+@media (prefers-color-scheme: dark) {
+  hr {
+    background-image: linear-gradient(90deg, transparent, transparent 50%, #000 50%, #000 100%), linear-gradient(90deg, #FF0000, #FFFF00, #00FF00, #00FFFF, #0000FF, #FF00FF);
+  }
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  font-size: 2.6vw;
+  background-color: #fff;
+  color: #111;
+}
+@media (min-width: 800px) {
+  body {
+    font-size: 20.8px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #eee;
+  }
+}
+
+main {
+  padding-bottom: 5vw;    /* Footer height */
+}
+@media (min-width: 800px) {
+  main {
+    padding-bottom: 40px;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  font-size: 1.5vw;
+}
+@media (min-width: 800px) {
+  footer {
+    font-size: 12px;
+  }
+}
+
+header {
+  float: left;
+  margin: 10px 0 20px 10%;
+}
+header h1, header .h1 {
+  font-size: 10vw;
+}
+header h2 {
+  font-size: 2.8vw;
+}
+@media (min-width: 800px) {
+  header {
+    margin-left: calc(50% - 320px);
+  }
+  header h1, header .h1 {
+    font-size: 80px;
+  }
+  header h2 {
+    font-size: 22.4px;
+  }
+}
+
+nav {
+  float: right;
+  padding-top: 10px;
+  width: 38vw;
+  margin-right: 2.5vw;
+  padding-left: 2vw;
+}
+@media (min-width: 800px) {
+  nav {
+    width: 304px;
+    margin-right: calc(50vw - 380px);
+    padding-left: 16px;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+}
+
+#translation {
+  float: right;
+  width: 38vw;
+  margin-right: 2.5vw;
+  padding: 0px 0px 15px 2vw;
+}
+@media (min-width: 800px) {
+  #translation {
+    width: 304px;
+    margin-right: calc(50vw - 380px);
+    padding-left: 16px;
+  }
+}
+
+#translation > input {
+  width: 60%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: min(2%, 6.08px);
+  border: thin solid gray;
+  border-radius: 3px;
+  font-size: 2.6vw;
+}
+@media (min-width: 800px) {
+  #translation > input {
+    font-size: 20.8px;
+  }
+}
+
+#translation.active {
+  float: none;
+  width: 100%;
+  padding: 0;
+}
+
+#translation.active > label {
+  margin-left: 12.5vw;
+}
+@media (min-width: 800px) {
+  #translation.active > label {
+    margin-left: calc((100vw - 600px)/2);
+  }
+  #translation.active > input {
+    width: 480px;
+  }
+}
+
+#translation > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+#translation > div {
+  border-style: solid double;
+  border-width: thin medium;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72vw;
+  overflow: auto;
+}
+@media (min-width: 800px) {
+  #translation > div {
+    width: 576px;
+  }
+}
+
+.def-menu {
+  float: right;
+  padding: 2px;
+  display: inline-block;
+}
+input.def-menu {
+  clear: right;
+}
+a.def-menu {
+  padding-right: 5px;
+  text-decoration: none;
+  clear: right;
+}
+
+.definition {
+  display: none;
+  align-items: center;
+  padding: 4px 0.5vw;
+}
+@media (min-width: 800px) {
+  #translation .definition {
+    padding: 4px;
+  }
+}
+.simple:checked ~ .simple.definition {
+  display: flex;
+}
+.advanced:checked ~ .advanced.definition {
+  display: flex;
+}
+
+.simple.definition .rial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 3em;
+}
+.simple.definition .rial .latn {
+  line-height: 250%;
+}
+
+.advanced.definition {
+  padding-left: 0.5em;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.advanced.definition .def-body {
+  padding-left: 1.7em;
+  text-indent: -0.9em;
+}
+
+.content > * {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vw;
+  text-indent: 5vw;
+}
+@media (min-width: 800px) {
+  .content > * {
+    width: 600px;
+    text-indent: 40px;
+  }
+}
+</style>
+<script>
+
+function parseDict(raw) {
+  let result = [];
+  // .split('\n')
+  // TODO
+  // HACK
+  // 🔺 💚 🔵
+  result[0] = {'rial':'PI','simple':'to sense','subjNote':'possibly inanimate','advanced':['🔺 senses 💚 from 🔵','🔺 recieves information about 💚 from 🔵']};
+  result[1] = {'rial':'PIp','simple':"to introspect",'advanced':['🔺 introspects on 💚 from 🔵']};
+  result[2] = {'rial':'PIAp','simple':"to remember",'advanced':['🔺 remembers 💚 from 🔵']};
+  result[3] = {'rial':'PIUp','simple':"to feel (emotion)",'advanced':['🔺 notices 💚 about 🔵']};
+  return result;
+}
+
+function parseTrie(raw) {
+  let result = {};
+  // .split('\n')
+  // TODO
+  // HACK
+  result = {
+    'p': {
+      hits: [0,1,2]
+    },
+  };
+  return result;
+}
+
+const vers = "0.0.0";
+var dictVers = localStorage.getItem('dictVers');
+if (dictVers != vers) { window.location.replace("dictionary.html?go="+window.location.href); }
+var dict = parseDict(localStorage.getItem('dict') || "");
+var trie = parseTrie(localStorage.getItem('trie') || "");
+
+function searchTrie(str) {
+  str = str.toLowerCase();
+  let node = trie;
+  for (let i = 0; i < str.length; i++) {
+    let next = node[str.charAt(i)];
+    if (next === undefined) {
+      if (node.hits && str.length - i < 4) {
+        let hits = [...node.hits];
+        hits.unshift({message: `Showing results for "<span class="monospace">${str.substring(0,i)}</span>"...`});
+        return hits;
+      } else { return []; }
+    } else {
+      node = next;
+    }
+  }
+  return (node.hits || []);
+}
+
+function latnify(c, i, rial) {
+  s = rial.charAt(i+1);
+  switch (c) {
+    case '0': return 'p';
+    case '1': return 'b';
+    case '2': return 't';
+    case '3': return 'd';
+    case '4': return 'k';
+    case '5': return 'g';
+    case '6': return 'n';
+    case '7': return 'm';
+    case '8': return 'r';
+    case '9': return 'l';
+    case ';': return 's';
+    case ':': return 'z';
+    case 'þ': return 'th';
+    case 'i': return i == 1 ? (s == 'a' ? 'ia' : (s == 'u' ? 'iu' : 'i')) : false;
+    case 'a': return i == 1 ? (s == 'i' ? 'ai' : (s == 'u' ? 'au' : 'a')) : false;
+    case 'u': return i == 1 ? (s == 'i' ? 'ui' : (s == 'a' ? 'ua' : 'u')) : false;
+    default: return c;
+  }
+}
+
+function removeAllAfter(el) {
+  el = el.nextSibling;
+  while (el) {
+    let next = el.nextSibling;
+    el.remove();
+    el = next;
+  }
+}
+
+function deletify(latn) {
+  let deleted = '<div>';
+  for (let i = 0; i < latn.length; i++) {
+    deleted += latn[i];
+    if (i+1 == latn.length) {
+      deleted += '</div>';
+    } else {
+      deleted += '</div><div>';
+    }
+  }
+  if (latn.length < 3) {
+      deleted += '<div></div>';
+  }
+  return deleted;
+}
+const viDel = deletify(['v','i']);
+const viaDel = deletify(['v','i','a']);
+const viuDel = deletify(['v','i','u']);
+
+function buildTransResult(x) {
+  if (typeof x === 'object' && x.message) {
+    let result = document.createElement("p");
+    result.innerHTML = x.message;
+    return result;
+  } else if (typeof x === 'number') {
+    let entry = dict[Math.round(x)];
+    if (entry === undefined) {
+      let result = document.createElement("p");
+      result.classList.add("error");
+      result.innerHTML = `Error: Couldn't find dictionary entry for <span class="monospace">${x.i}<span>`;
+      return result;
+    } else {
+      result = document.createElement("div");
+      if (x == Math.round(x)) {
+        let rial = entry.rial.toLowerCase();
+        let latn = [];
+        for (let i = 0; i < rial.length; i++) {
+          let c = latnify(rial.charAt(i), i, rial);
+          if (c !== false) {
+            latn.push(c);
+          }
+        }
+        let deleted = deletify(latn);
+        latn = latn.join('');
+        let simpleDef = entry.simple; // TODO
+        let subjNote = entry.subjNote ? '<span class="note">('+entry.subjNote+') </span>' : '';
+        let objNote = entry.objNote ? '<span class="note">('+entry.objNote+') </span>' : '';
+        let ctxNote = entry.ctxNote ? '<span class="note">('+entry.ctxNote+') </span>' : '';
+        let advancedDef = '<select><option>';
+        for (let i = 0; i < entry.advanced.length; i++) {
+          if (i > 0) {
+            advancedDef += '</option><option>';
+          }
+          advancedDef += entry.advanced[i];
+        }
+        advancedDef += '</option></select>';
+        result.innerHTML = `
+        <input class="def-menu simple" type="radio" id="def-${latn}-simple" name="def-${latn}" checked="checked"/>
+        <label class="def-menu"for="def-${latn}-simple">Simple</label>
+        <input class="def-menu advanced" type="radio" id="def-${latn}-advanced" name="def-${latn}"/>
+        <label class="def-menu" for="def-${latn}-advanced">Advanced</label>
+        <a class="def-menu" href="">Notes →</a>
+        <div class="simple definition">
+          <div class="rial">
+            <div class="latn">${latn}</div>
+            <div class="sumibli"><u>${entry.rial}-</u><del>${deleted}</del></div>
+          </div>
+          <div class="def-body">~ ${simpleDef}</div>
+        </div>
+        <div class="advanced definition">
+          <div class="sumibli"><u>${entry.rial}- VI-🔺${subjNote}VIA-💚${objNote}VIU-🔵${ctxNote}</u><del>${deleted} ${viDel}🔺${subjNote}${viaDel}💚${objNote}${viuDel}🔵${ctxNote}</del></div>
+          <div class="def-body">≔ ${advancedDef}</div>
+        </div>
+        `;
+      } else {
+        result.innerHTML = `TODO`; // TODO
+      }
+      return result;
+    }
+  } else {
+    let result = document.createElement("p");
+    result.classList.add("error");
+    result.innerHTML = `Error: Malformed result <span class="monospace">${x}<span>`;
+    return result;
+  }
+}
+
+function trans(val) {
+  removeAllAfter(document.getElementById("translate"));
+  let tBox = document.getElementById("translation");
+  if (val) {
+    tBox.classList.add("active");
+    let hits = searchTrie(val);
+    if (hits.length < 1) {
+      let msg = document.createElement("p");
+      msg.innerHTML = `No results found for "<span class="monospace">${val}</span>".`;
+      tBox.appendChild(msg);
+    } else {
+      for (const i in hits) {
+        tBox.appendChild(buildTransResult(hits[i]));
+      }
+    }
+  } else {
+    tBox.classList.remove("active");
+  }
+}
+
+</script>
+</head>
+<body>
+<main>
+<header>
+<div class="h1 sumibli">
+<u>SU-MI-B9i-</u>
+<del><div>s</div><div>u</div><div></div><div>m</div><div>i</div><div></div><div>b</div><div>l</div><div>i</div></del>
+</div>
+<h1>Sumibli</h1>
+<h2 class="pre">  an artificial language
+    created to be correct
+      from first principles
+        for transhumanists</h2>
+</header>
+<nav>
+  <a href="">🚀 Motivation & Desiderata</a>
+  <a href="">🎓 Learn the Basics</a>
+  <a href="">📖 Full Specification</a>
+  <a href="">🧠 Philosophy</a>
+  <a href="">🌳 Dictionary Tree</a>
+  <a href="">💬 Translated Works</a>
+  <a href="">🗣️ Community</a>
+  <a href="">🎮 Interactive Practice</a>
+</nav>
+<section id="translation">
+<hr/>
+<label for="translate">Translate: </label><input id="translate" type="text" oninput="trans(this.value)" autofocus="autofocus"/>
+</section>
+<section class="content">
+<hr/>
+<p>Language is one of the most powerful technologies in the world. It's because of language that we
+can easily learn from others, and pass on what we've learned through the generations. It's such a
+core technology to our species that most probably have never thought about it as such!</p>
+<p>And yet, existing languages are flawed. They're good for some kinds of expressions, such as poetry,
+but are terrible for clear, efficient, and formal communication. As we move into the future we ought to have
+a language that was designed for the world of tomorrow, instead of being shackled to a yesterday that was
+thousands of years ago.</p>
+<p><strong>Sumibli is an attempt at a utopian language.</strong> It is a single, but important piece of
+an effort to build a future that is perfect in every possible way.</p>
+<p>Want to learn more?</p>
+<ul>
+  <li>Read about <a href="" class="no-underline">🚀<u>what Sumibli does right...</u></a></li>
+  <li>Or perhaps <a href="" class="no-underline">🎓<u>start learning the basics...</u></a></li>
+</ul>
+<hr/>
+</section>
+</main>
+<footer>
+Sumibli language, site design, and code by <a href="http://raelifin.com">Max Harms</a>.<br/>
+Released into the public domain in 2022.
+</footer>
+</body>
+</html>

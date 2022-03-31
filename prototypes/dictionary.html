@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Loading Sumibli Dictionary...</title>
+</head>
+<body>
+<!-- TODO: Spinner -->
+<noscript>
+<p>Reading the Sumibli dictionary requires javascript.</p>
+</noscript>
+<script>
+const dict = `
+foo := bar
+pa := person
+`;
+
+
+
+const vers = "0.0.0";
+localStorage.clear();
+localStorage.setItem('dict', dict);
+localStorage.setItem('dictVers', vers);
+const urlParams = new URLSearchParams(window.location.search);
+const prevPage = urlParams.get('go');
+if (prevPage == null) {
+  window.location.replace("index.html");
+} else {
+  window.location.replace(prevPage);
+}
+</script>
+</body>
+</html>
