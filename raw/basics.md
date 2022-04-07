@@ -92,7 +92,7 @@ with a personality
 |🎏blu|blu|there were simple things
 with a particular structure
 
-The English translation of these sentences adds quite a lot of detail. Sumibli, by default, is 🔈vague💬, and doesn't specify things like quantity, specificity, or tense. Later we'll see how to specify these things, but for now we should keep in mind that the English translations are always going to be approximate.
+The English translation of these sentences adds quite a lot of detail. Sumibli, by default, is 🔈vague💬, and doesn't specify things like quantity, definiteness ("the" vs "a"), or tense. Later we'll see how to specify these things, but for now we should keep in mind that the English translations are always going to be approximate.
 
 Here are some alternative translations of the sentence "blu":
 
@@ -242,20 +242,22 @@ communicates with motion
 
 📛Resetting the Orientation
 
-The left/right orientation of words in a sentence can be difficult for novice speakers to track. As a way of assisting communication, it is permitted to follow the letter "r" with either "i" or "u" to explicitly set the orientation of the words after it, rather than simply flipping the previous orientation. It is grammatically legal, but considered very bad style to explicitly set the orientation in a place where no flip occurs. Thus, in most texts, one can drop vowels after "r" without any consequences other than making it less redundant/easy to understand.
+The left/right orientation of words in a sentence can be difficult for novice speakers to track. As a way of assisting communication, it is permitted to follow the letter "r" with either "i" or "u" to explicitly set the orientation of the words after it, rather than simply flipping the previous orientation. For example, if the orientation is left-mode, because of starting a sentence with "i-", one can set it to right mode with "-ru" instead of just "-r".
+
+It is grammatically legal, but considered very bad style to explicitly set the orientation in a place where no flip occurs (eg by setting things to left-mode when one is already in left-mode). Thus, in most texts, one can drop vowels after "r" without any change to the meaning.
 
 |🎏ipa la ma
 shuru gi|ipa la ma
 shuru gi|the person
 communicates with motion
 
-🔝
+🔝🎮ResettingOrientation
 
 📛Compounds
 
 So far we've been restricting ourselves to standard words that are only a single syllable. But now let's consider what happens when two seed words come in contact with each other. This structure is called a "compound" and is similar to compound words in English like "snow-man" or "air-plane".
 
-A snowman is not really a man made of snow, and it's certainly not a snowy man. Instead, compounds are new concepts that can have a distinct meaning in the dictionary. For example, we use "kai shu gi" to say "fast animal", but this is a very different thing from "kai gi", which we normally write as "kaigi" when using Latin text. A kaigi is a rabbit, squirrel, deer, gazelle, or other animal that relies mainly on being a very fast sprinter for survival. Kaigi are fast animals, but they're a more specific class than just animals that are fast (see 🔗philo_organisms the philosophy of animals💬 for more).
+A snowman is not really a man made of snow, and it's certainly not a snowy man. Instead, compounds are new concepts that can have a distinct meaning in the dictionary. For example, we use "ikai shu gi" to say "fast animal", but this is a very different thing from "ikai gi", which we normally write as "ikaigi" when using Latin text. An ikaigi is a rabbit, squirrel, deer, gazelle, or other animal that relies mainly on being a very fast sprinter for survival. Ikaigi are fast animals, but they're a more specific class than just animals that are fast (see 🔗philo_organisms the philosophy of animals💬 for more).
 
 |🎏gli|gli|visible|light
 
@@ -268,7 +270,7 @@ or maybe a signal flare)
 
 Unlike with "shu", order matters when forming compounds through juxtaposition. A snow-man is not the same as man-snow, and it's the same way in Sumibli. We treat the first word as the 🔈root💬 and the second word as the 🔈augment💬. The meaning of a compound will usually more closely resemble the root, with the augment as something like a (sometimes metaphorical) hint.
 
-|🎏glima|glima|highlighted|highlight
+|🎏glima|glima|highlighted|highlighter
 
 Despite the danger of misusing a compound, Sumibli speakers are encouraged to try to use lots of compounds (instead of falling back on "shu"), and even make them up on the spot. What is a "ikaipa"? It's not in the dictionary, but we can guess it means something like "sentient animal". If I want to talk about animal-people, "ikaipa" serves my goal at least as well as "ikai shu pa".
 
@@ -596,11 +598,10 @@ To use a pronoun as a stand-in for a Sumibli name, we usually take the first vow
 |Pavu|thav
 |Pai|thaip
 
-To help associate pronouns with their subjects, sometimes a writer or speaker will add a pronoun after a name or compound to indicate that it's the shortened form.
+To help associate pronouns with their subjects, sometimes a writer or speaker will add a pronoun after a name or compound using "halth [pronoun] tsh" to indicate that it's the shortened form. See 🔗\📖 the full spec💬 for details on "halth".
 
-|🎏ith _Roberto_ thaub
-la pa|ith 🔈Roberto💬 thaub
-la pa|🔈Roberto💬 ("Aub")
+|🎏ith _Roberto_ halth \"thaub tsh\" la pa|ith 🔈Roberto💬 halth
+thaub tsh la pa|🔈Roberto💬 ("Aub")
 is a person
 
 🔝🎮Pronouns

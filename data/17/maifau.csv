@@ -1,0 +1,38 @@
+imaivla,meaning,
+i-,left mode,
+u-,right mode,
+hal-,open paren (with -th suffix),
+-r,flip orientation,
+-ri,set orientation left,
+-ru,set orientation right,
+-sh,large augment,
+-rsh,"large, flipped augment",
+shi,close large augment,
+sha,associate,
+shash,close associate,
+shu,overlap,
+li,subject,(verb)
+la,verb,(subject)
+lua,verb,(object)
+lu,object,(verb)
+lish,abstract subject,(verb)
+lush,abstract object,(verb)
+lash,close abstract noun,
+lai-,preposition,(verb)
+lau,complex preposition,(verb)
+tshai,declaration,
+tshia,perspective,
+tshui,command,
+tshiu,request,
+tshua,object-level question,
+tshau,meta-level question,
+-th,foreign text,
+tha,proper noun,
+th__,pronoun,
+hi,positive,
+hai,aroused,
+ha,calm,
+hu,negative,
+hau,confused,
+himvi,grateful,
+hibva,welcoming,

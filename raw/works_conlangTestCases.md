@@ -80,17 +80,17 @@ sha bava la ti lu kainglanu sha thip
 |Everybody knows about hunting.|🎏usla la pu lu kainai
 |On a sunny morning after the solstice
 we started for the mountains.|🎏ilaibau tati shu klaglitu laitu klaglish zikauni li marsai la gush zaisli lu bash dadu
-|Tom laughed at the monkey's tricks.|🎏ili flavla sha kaifla luth _Tom_ la mavau
+|Tom laughed at the monkey's tricks.|🎏ili flavla sha kaifla la fai luth _Tom_ la mavau
 |An old man with a walking stick
 stood beside the fence.|🎏ipatu li dadaigu la tadai laitaur barfu
 |The squirrel's nest was hidden
 by drooping boughs.|🎏uflukai shar kaigita lua fagpuna li kidaudai shu nudu
-
 |The little seeds waited patiently
-under the snow for the warm spring sun.|🎏
+under the snow for the warm spring sun.|🎏ikidaugau shu nu la gau lau tudu liru tankuni laitu tati shu nau shu klatatga
 
 |Many little girls with wreaths of flowers
 on their heads danced around the bonfire.|🎏
+
 |The cover of the basket fell to the floor.|🎏
 |The first boy in the line
 stopped at the entrance.|🎏

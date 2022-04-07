@@ -11,7 +11,7 @@ and what we want Sumibli to be
 
 The real story for why Sumibli exists is as an exercise in perfectionism. There is a certain kind of aesthetic stance that one can take, where each flaw in something, no matter how minor, is intollerable. One would rather start from scratch than endure one wrong brushstroke on the canvas. One would invent an entire language from scratch rather than have to endure the confusion of "want two" versus "want to".
 
-This kind of thinking is often quite counterproductive. It literally gets in the way of production, demanding that things that are good enough be rejected. But perfectionism is also a virtue. No truly amazing things are created without a healthy dose of perfectionism; it is through the aesthetic lens of the perfect that we become awake to the opportunities to do better.
+This kind of perfectionistic thinking is often quite counterproductive. As in, it often literally gets in the way of production by demanding that things which are good enough be rejected because they're flawed. But perfectionism is also a virtue. No truly amazing things are created without a healthy dose of perfectionism; it is through the aesthetic lens of the perfect that we become awake to the opportunities to do better.
 
 It is impossible to be perfect in all ways. The lens of the perfect says it is better to be perfect in some ways and terrible in others rather than generally mediocre. Thus Sumibli is designed to be perfect according to a core set of principles. If you ever wonder why an aspect of Sumibli is the way it is, the story should ultimately trace back to one of the principles listed here. Another way of framing this list is as a description of what virtues Sumibli aspires to have.
 
@@ -37,7 +37,7 @@ Sumibli should be clear, unambiguous, and precise, particularly in the context o
 
 📛Typability
 
-Sumibli is designed to be composed using a keyboard. Digital interfaces are ideal for linguistic expression, and keyboards are a surprisingly good means of inputting digital data. As such, written sumibli should be easy to read (but not necessarily easy to scribe with a pen). There should be 🔗community_keyboard a keyboard that allows Sumibli to by written at the speed of thought💬.
+Sumibli is designed to be composed using a keyboard. Digital interfaces are ideal for linguistic expression, and keyboards are a surprisingly good means of inputting digital data. As such, written Sumibli should be easy to read (but not necessarily easy to scribe with a pen). There should be 🔗community_keyboard a keyboard that allows Sumibli to be written at the speed of thought💬.
 
 📛Compatibility with English
 
