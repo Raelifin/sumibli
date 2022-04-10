@@ -5,7 +5,7 @@ Gary J. Shannon's (Fiziwig)
 Conlang Syntax Test Cases
 
 🔗\💬 Back to Works List
-🔗\🧠
+🔗\📖
 🔗\🌳
 🔗\🎮
 🔗\🗣️

@@ -23,7 +23,7 @@ By the way, the letter "g" in Sumibli isn't canonically written as such. Sumibli
 
 📖alphabet
 
-🔝🎮Alphabet
+🔝🎮alphabet
 
 📛Alphabet Patterns
 
@@ -51,7 +51,7 @@ The letter "th" (sometimes written "x") also can be either voiced or unvoiced, s
 
 The letter "sh" (sometimes written "j") is usually pronounced like the first sound in "📣sh💬oe" but can also be pronounced like the first sound in "📣g💬enre" or the last sound in "mira📣ge💬". In other words, Sumibli doesn't distinguish the voiced and unvoiced versions of the sound. In certain circumstances the letter "sh" comes after "t". This combo is pronounced like the start of "📣ch💬air".
 
-🔝🎮Pronunciation
+🔝🎮pronunciation
 
 📛Diphthongs
 
@@ -118,7 +118,7 @@ We can also make a Sumibli sentence from a single word by tacking "i" or "u" ont
 
 Again, the English forces us to invent a tense, etc for the sentences. The thing to focus on is that the orientation prefix focuses the sentence onto either the left or right meaning of the word. When used like this, we think of the word as being a noun. When a sentence lacks a verb, it's implied to be about existence of the noun.
 
-🔝🎮OrientedWords
+🔝🎮orientedWords
 
 📛Me, You, and Other Words
 
@@ -151,7 +151,7 @@ Here are a couple other words we'll be using:
 
 Note that the right-meanings of the words "kai" and "gi" might seem like synonyms, but they differ in the connotation. When a rock falls down a hill, the motion is an example of "ugi", but not "ukai". When a lizard basks in the sun it's an instance of "ukai" but not "ugi".
 
-🔝🎮BasicVocab
+🔝🎮basicVocab
 
 📛Simple Sentences
 
@@ -164,7 +164,7 @@ We think of "la" as marking the end of one 🔈phrase💬 (in this case "ikai") 
 |🎏ukai la gi|ukai la gi|the behavior is fast
 |🎏ipa la ma|ipa la ma|a person speaks
 
-🔝🎮SimpleSentences
+🔝🎮simpleSentences
 
 📛Explicit Subject Particles
 
@@ -197,7 +197,7 @@ la gi|ipa la ma
 la gi|the person is speaking
 and they're fast
 
-🔝🎮PhraseParticleTricks
+🔝🎮phraseParticleTricks
 
 📛Adjectives and Adverbs
 
@@ -213,7 +213,7 @@ ma shu gi|the person speaks quickly
 
 We often think of "shu" as making one of the words an adjective/adverb, but we can also think of it as talking about the intersection of two concepts. A fast person is in the intersection of people and fast things. To speak quickly is in the intersection of speaking and being fast. As a result, the order of the words doesn't matter for "shu".
 
-🔝🎮Adjectives
+🔝🎮adjectives
 
 📛Simple Flips
 
@@ -238,7 +238,7 @@ ma shur gi|ipa la
 ma shur gi|the person
 communicates with motion
 
-🔝🎮SimpleFlips
+🔝🎮simpleFlips
 
 📛Resetting the Orientation
 
@@ -251,7 +251,7 @@ shuru gi|ipa la ma
 shuru gi|the person
 communicates with motion
 
-🔝🎮ResettingOrientation
+🔝🎮resettingOrientation
 
 📛Compounds
 
@@ -274,7 +274,7 @@ Unlike with "shu", order matters when forming compounds through juxtaposition. A
 
 Despite the danger of misusing a compound, Sumibli speakers are encouraged to try to use lots of compounds (instead of falling back on "shu"), and even make them up on the spot. What is a "ikaipa"? It's not in the dictionary, but we can guess it means something like "sentient animal". If I want to talk about animal-people, "ikaipa" serves my goal at least as well as "ikai shu pa".
 
-🔝🎮Compounds
+🔝🎮compounds
 
 📛Suffixes
 
@@ -336,7 +336,7 @@ with an affinity
 for talking
 about systems
 
-🔝🎮LargeCompounds
+🔝🎮largeCompounds
 
 📛Direct Objects
 
@@ -362,7 +362,7 @@ lu kai|ibi la pa
 lu kai|you have the personality
 of an animal
 
-🔝🎮Objects
+🔝🎮objects
 
 ➖
 
@@ -400,7 +400,7 @@ lash la vu|ilish pa la ma
 lash la vu|a person speaking
 is a good thing
 
-🔝🎮Clauses
+🔝🎮clauses
 
 📛Prepositions
 
@@ -433,7 +433,7 @@ their insides
 
 It’s vital to remember that the preposition, as a word, stops after a single syllable following the “lai”. Multi-syllable compounds can’t be used as prepositions without using 🔗spec more complex grammatical structures💬.
 
-🔝🎮Prepositions
+🔝🎮prepositions
 
 📛Indirect Objects
 
@@ -459,7 +459,7 @@ lu fla li kai|ubai laifair pa
 lu fla li kai|a person gave
 a toy to the animal
 
-🔝🎮IndirectObjects
+🔝🎮indirectObjects
 
 📛Possession
 
@@ -516,7 +516,7 @@ Are people good?
 
 If you want to indicate that you are done talking, you can end a message with "-tsh". Saying "tsh" by itself can also be done to express that you heard someone (without stating that you necessarily understand the implications or agree).
 
-🔝🎮Sentences
+🔝🎮sentences
 
 📛Answering Questions
 
@@ -537,7 +537,7 @@ Question askers can also specify specific things they're curious about, using th
 animal is that?
 |🎏ikaigi|ikaigi|A rabbit.
 
-🔝🎮Questions
+🔝🎮questions
 
 📛Foreign Words
 
@@ -604,7 +604,7 @@ To help associate pronouns with their subjects, sometimes a writer or speaker wi
 thaub tsh la pa|🔈Roberto💬 ("Aub")
 is a person
 
-🔝🎮Pronouns
+🔝🎮pronouns
 
 📛Letters and Acronyms
 
@@ -672,7 +672,7 @@ Use "hau" to express confusion/curiosity. If used in the opening sentence of an 
 |🎏ikai la hau|ikai la hau|what do animals do?
 |🎏itshia kai la hau|itshia kai la hau|Animals exist🤔.
 
-🔝🎮Attitudinals
+🔝🎮attitudinals
 
 ➖
 

@@ -11,4 +11,6 @@ through interactive games
 🔗\🗣️
 🔗\📚
 
-TODO
+Here you can do exercises to hone your ability to read/write Sumibli.
+
+📚\🎮

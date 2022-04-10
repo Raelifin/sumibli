@@ -1,5 +1,5 @@
 📛Inventing
-New Compounds
+New Words
 
 how to assign meaning
 to words that aren't in

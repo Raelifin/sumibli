@@ -1,5 +1,5 @@
 📛Greetings
-and Thanks
+& Thanks
 
 how to say \"hello,\"
 \"goodbye,\" \"thanks,\"
