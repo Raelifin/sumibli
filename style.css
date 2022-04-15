@@ -387,6 +387,89 @@ input.advanced-selector {
 }
 
 
+#score .crown {
+  opacity: 0.2;
+}
+#score .crown.obtained {
+  opacity: 1;
+}
+#score .progress {
+  color: #eee;
+}
+#score .progress.level0 {
+  color: #722;
+}
+#score .progress.level1 {
+  color: #272;
+}
+#score .progress.level2 {
+  color: #227;
+}
+@media (prefers-color-scheme: dark) {
+  #score .progress {
+    color: #222;
+  }
+  #score .progress.level0 {
+    color: #f55;
+  }
+  #score .progress.level1 {
+    color: #5f5;
+  }
+  #score .progress.level2 {
+    color: #55f;
+  }
+}
+
+.game button .sumibli u {
+  z-index: 0;
+}
+.game button {
+  cursor: pointer;
+  display: block;
+  margin: 10px 5px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #111;
+}
+.game button:disabled {
+  cursor: inherit;
+  background-color: #eee;
+  color: #555;
+}
+.game #nextGame {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+}
+.game #nextGame:disabled {
+  opacity: 0;
+}
+.game .correct:disabled {
+  background-color: #7f7;
+}
+.game .incorrect:disabled {
+  background-color: #f77;
+}
+@media (prefers-color-scheme: dark) {
+  .game button {
+    background-color: #000;
+    color: #eee;
+  }
+  .game button:disabled {
+    background-color: #222;
+    color: #ddd;
+  }
+  .game .correct:disabled {
+    background-color: #050;
+  }
+  .game .incorrect:disabled {
+    background-color: #500;
+  }
+}
+
 .usazla {
   display: flex;
   overflow-x: scroll;

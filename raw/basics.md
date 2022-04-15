@@ -51,7 +51,7 @@ The letter "th" (sometimes written "x") also can be either voiced or unvoiced, s
 
 The letter "sh" (sometimes written "j") is usually pronounced like the first sound in "📣sh💬oe" but can also be pronounced like the first sound in "📣g💬enre" or the last sound in "mira📣ge💬". In other words, Sumibli doesn't distinguish the voiced and unvoiced versions of the sound. In certain circumstances the letter "sh" comes after "t". This combo is pronounced like the start of "📣ch💬air".
 
-🔝🎮pronunciation
+🔝
 
 📛Diphthongs
 
@@ -66,7 +66,7 @@ When two different Sumibli vowels appear directly next to each other, they combi
 |🎏ui|ui|📣we
 |🎏ua|ua|📣wa💬nt
 
-🔝
+🔝🎮pronunciation
 
 📛Seed Words
 
