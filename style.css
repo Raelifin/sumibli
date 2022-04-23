@@ -93,8 +93,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 hr {
-  width: 75%;
-  max-width: 560px;
+  width: 95%;
+  max-width: 760px;
   height: 2px;
   opacity: 0.5;
   background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #FF0000, #FFFF00, #00FF00, #00FFFF, #0000FF, #FF00FF);
@@ -137,20 +137,17 @@ body {
 }
 
 main {
-  padding-bottom: 5vw;    /* Footer height */
+  min-height: 100%;
+  margin: 0 auto -25px;
 }
-@media (min-width: 800px) {
-  main {
-    padding-bottom: 40px;
-  }
+
+footer, #push {
+  height: 30px;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   text-align: center;
-  height: 30px;
   font-size: 1.5vw;
 }
 @media (min-width: 800px) {
@@ -245,7 +242,7 @@ nav a {
 }
 @media (min-width: 800px) {
   #translation.active > label {
-    margin-left: calc((100vw - 600px)/2);
+    margin-left: calc((100vw - 720px)/2);
   }
   #translation.active > input {
     width: 480px;
@@ -335,7 +332,7 @@ input.advanced-selector {
 .content > * {
   margin-left: auto;
   margin-right: auto;
-  width: 75vw;
+  width: 90vw;
   text-indent: 5vw;
 }
 .content > pre {
@@ -343,7 +340,7 @@ input.advanced-selector {
 }
 @media (min-width: 800px) {
   .content > * {
-    width: 600px;
+    width: 720px;
     text-indent: 40px;
   }
 }
@@ -428,9 +425,16 @@ input.advanced-selector {
   display: block;
   margin: 10px 5px;
   padding: 2px 8px;
+  border-style: outset;
   border-radius: 8px;
   background-color: #fff;
   color: #111;
+  font-size: 2.6vw;
+}
+@media (min-width: 800px) {
+  .game button {
+    font-size: 20.8px;
+  }
 }
 .game button:disabled {
   cursor: inherit;
@@ -485,12 +489,12 @@ input.advanced-selector {
 
 .usazla > div {
   scroll-snap-align: center;
-  min-width: 75vw;
+  min-width: 90vw;
   padding: 20px 0 0px 0;
 }
 @media (min-width: 800px) {
   .usazla > div {
-    min-width: 600px;
+    min-width: 720px;
   }
 }
 

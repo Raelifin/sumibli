@@ -41,6 +41,7 @@ Despite the word "uflu" meaning building, specific buildings are usually compoun
 |🎏bafau|bafau|bank|boundary
 |🎏bafla|bafla|park/arcade/stadium|boundary
 |🎏basfla|basfla|school|boundary
+|🎏badau|badau|floor/stage|boundary
 |🎏bapdau|bapdau|prison|cell
 |🎏bavzi|bavzi|church|boundary
 

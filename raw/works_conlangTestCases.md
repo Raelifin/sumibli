@@ -28,7 +28,7 @@ From 🔗https://cofl.github.io/conlang/resources/mirror/conlang-syntax-test-cas
 |Many of the people shouted twice.|🎏iparsh slisga la faglagitsi
 |Happy people often shout.|🎏ipash pauvau la faglagi laiva
 |The kitten jumped up.|🎏ikainglanu la kaigi shu gurta
-|The kitten jumped onto the table.|🎏ikainglanu la kaigi laigur daudu
+|The kitten jumped onto the table.|🎏ikainglanu la kaigi laigu daudu
 |My little kitten walked away.|🎏kainglanu sha ma shu nu la gu lur tau
 |It's raining.|🎏takuni
 |The rain came down.|🎏utakuni la gudu
@@ -87,23 +87,23 @@ stood beside the fence.|🎏ipatu li dadaigu la tadai laitaur barfu
 by drooping boughs.|🎏uflukai shar kaigita lua fagpuna li kidaudai shu nudu
 |The little seeds waited patiently
 under the snow for the warm spring sun.|🎏ikidaugau shu nu la gau lau tudu liru tankuni laitu tati shu nau shu klatatga
-
 |Many little girls with wreaths of flowers
-on their heads danced around the bonfire.|🎏
-
-|The cover of the basket fell to the floor.|🎏
+on their heads danced around the bonfire.|🎏igadu lua bai lish flarga luri panursh slisga shur nu luru kaush kidaukui shash kiblipa sha thaup
+|The cover of the basket fell to the floor.|🎏idadi sha baidai la gudu lu badau
 |The first boy in the line
-stopped at the entrance.|🎏
+stopped at the entrance.|🎏ipanurupsi shar daipa lua ni laigu flu
 |On the top of the hill
 in a little hut
-lived a wise old woman.|🎏
+lived a wise old woman.|🎏ulaibur badtaru laibair bakinu li patu shu puvu
 |During our residence in the country
-we often walked in the pastures.|🎏
-|When will your guests from the city arrive?|
+we often walked in the pastures.|🎏ilaibaush lir baka la bu lur baki lash li marsai la guklu lur bakatair laiva
+|When will your guests from the city arrive?|🎏ilaibau hau li guvi sha bi sha bavadu la gubtau
 |Near the mouth of the river,
-its course turns sharply towards the East.|🎏
+its course turns sharply towards the East.|🎏ilaitau daikuzai la kaugi laiguru tukla
+
 |Between the two lofty mountains
 lay a fertile valley.|🎏
+
 |Among the wheat grew tall red poppies.|🎏
 |The strong roots of the oak trees
 were torn from the ground.|🎏
