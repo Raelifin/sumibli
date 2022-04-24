@@ -66,6 +66,7 @@ These six basic feelings are only the start of a whole world of emotional expres
 |hantu|paunutu|despair
 |huvnu|pauvnu|ashamed
 |huvna|pauvna|guilty
+|hupna|paupna|lonely
 |haitpai|pautpai|desire
 |haigpai|paugpai|passion
 |haigkui|paukui|lust

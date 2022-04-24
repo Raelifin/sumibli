@@ -32,26 +32,6 @@ function isVowel(c) {
   return c == 'i' || c == 'a' || c == 'u';
 }
 
-function toSpans(latn) {
-  let result = '<span>'+latn.charAt(0)+'</span><span>';
-  if (latn.length > 2 && isVowel(latn.charAt(1)) && isVowel(latn.charAt(2))) {
-    result += latn.charAt(1)+latn.charAt(2)+'</span><span>';
-    if (latn.length > 3) {
-      result += latn.charAt(3)+'</span>'
-    } else {
-      result += '</span>'
-    }
-  } else {
-    result += latn.charAt(1)+'</span><span>';
-    if (latn.length > 2) {
-      result += latn.charAt(2)+'</span>'
-    } else {
-      result += '</span>'
-    }
-  }
-  return result;
-}
-
 function buildTransResult(x) {
   if (typeof x === 'string') {
     let result = document.createElement("p");
@@ -60,11 +40,6 @@ function buildTransResult(x) {
   }
   result = document.createElement("div");
   let latn = x[0];
-  let mai = x[0].split(' ');
-  let spans = '';
-  for (let i = 0; i < mai.length; i++) {
-    spans += toSpans(mai[i]);
-  }
   let left = '';
   if (x[2].length > 0) {
     left = `<div class="left defn"><div>${x[2].join('</div><div>')}</div></div>`;
@@ -73,7 +48,7 @@ function buildTransResult(x) {
   <div class="definition">
     ${left}
     <div class="mai">
-      <div class="sumibli"><u>${x[1]}</u><del>${spans}</del></div>
+      <div class="sumibli">${x[1]}</div>
       <div class="latn">${latn}</div>
     </div>
     <div class="right defn"><div>${x[3].join('</div><div>')}</div></div>

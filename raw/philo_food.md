@@ -36,6 +36,8 @@ It is more typical, however, to simply talk about the relevant animal/plant, and
 /community water source
 |🎏kudki|kudki|juice|juicy
 |🎏kugai|kugai|alchohol|alchoholic
+|🎏kubku|kubku|sea water|salty/briny
+|🎏gaukda|gaukda|sugar|sweet
 |🎏kaitvi|kaitvi|poultry|poultry farmer
 |🎏kidgau|kidgau|egg|yolk
 |🎏kidaudgau|kidaudgau|fruit|ripe

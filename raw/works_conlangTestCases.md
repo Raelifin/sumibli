@@ -103,34 +103,35 @@ its course turns sharply towards the East.|🎏ilaitau daikuzai la kaugi laiguru
 |Between the two lofty mountains
 lay a fertile valley.|🎏ubadtanaki lu bash dadushitsi shu ta
 |Among the wheat grew tall red poppies.|🎏ulaiklur kidautgau lith _poppies_ shu ta shu glibga
-
 |The strong roots of the oak trees
-were torn from the ground.|🎏
+were torn from the ground.|🎏idau shath _oak trees_ shu gai lua nairu laitaur dakdu
 |The sun looked down
 through the branches
-upon the children at play.|🎏
+upon the children at play.|🎏tha ga la birgliri laiklu kidaudai lu panu shur fla
 |The west wind blew
 across my face
-like a friendly caress.|🎏
-|The spool of thread rolled across the floor.|🎏
-|A box of growing plants stood in the Window.|🎏
-|I am very happy.|🎏
-|These oranges are juicy.|🎏
-|Sea water is salty.|🎏
-|The streets are full of people.|🎏
-|Sugar tastes sweet.|🎏
-|The fire feels hot.|🎏
-|The little girl seemed lonely.|🎏
+like a friendly caress.|🎏itukla la targi laigu kiblipauri laisau gluvi
+|The spool of thread rolled across the floor.|🎏idaukau sha daklusai la gurkau luri badau
+|A box of growing plants stood in the window.|🎏idabdai shu kidau shu kiduru laidauri flu
+|I am very happy.|🎏hihihi
+|These oranges are juicy.|🎏thid lua kudki
+|Sea water is salty.|🎏ikubu lua kubku
+|The streets are full of people.|🎏ibagu la baidu lu pa
+|Sugar tastes sweet.|🎏igaukda lua gaukda
+|The fire feels hot.|🎏iga la bla lur naugai
+|The little girl seemed lonely.|🎏ipanu la bla lu paupna
 |The little boy's father
-had once been a sailor.|🎏
-|I have lost my blanket.|🎏
-|A robin has built his nest in the apple tree.|🎏
-|At noon we ate our lunch by the roadside.|🎏
-|Mr. Jones made a knife for his little boy.|🎏
-|Their voices sound very happy.|🎏
-|Is today Monday?|
-|Have all the leaves fallen from the tree?|
+had once been a sailor.|🎏ifaki sha panu la pabkutu
+|I have lost my blanket.|🎏iti lu daklunau sha ma
+|A robin has built his nest in the apple tree.|🎏uth _robin_ la fa lu flukai laibairi kidaudugau
+|At noon we ate our lunch by the roadside.|🎏ilaibau klaglizai la bikda laitau bagu
+|Mr. Jones made a knife for his little boy.|🎏ith _Mr. Jones_ la fa lu dabnairu laivir panu sha thud
+|Their voices sound very happy.|🎏iglapa la bla lu pauvugai
+|Is today Monday?|utshua klagabsi
+|Have all the leaves fallen from the tree?|ikidaubli shur sla la gudu laitaur kidaudu
+
 |Will you be ready on time?|
+
 |Will you send this message for me?|
 |Are you waiting for me?|
 |Is this the first kitten of the litter?|

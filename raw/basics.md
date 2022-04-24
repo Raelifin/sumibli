@@ -25,13 +25,37 @@ By the way, the letter "g" in Sumibli isn't canonically written as such. Sumibli
 
 🔝🎮alphabet
 
+📛Example Words
+
+We'll talk about Sumibli words in great detail later, but as a peek at where we're going, here are a few simple words. Notice that the meaning lines up with the conceptual atmosphere for the first consonant!
+
+|🎏ipa|ipa|person
+|🎏iba|iba|place
+|🎏ita|ita|up
+|🎏ida|ida|thing
+|🎏ika|ika|nature
+|🎏iga|iga|energy
+|🎏ina|ina|opposite
+|🎏ima|ima|speaker
+|🎏ifa|ifa|creator
+|🎏iva|iva|common
+|🎏isa|isa|element
+|🎏iza|iza|truth
+
+When a word has two consonants, its meaning will be some combination of the concepts associated with those sounds.
+
+|🎏ibafa|ibafa|workshop
+|🎏izana|izana|falsehood
+
+🔝
+
 📛Alphabet Patterns
 
 Twenty letters is a lot to take in, especially when each comes attached to a meaning. It helps if we break up the alphabet into groups of letters based on some simple patterns.
 
 The first six letters form a group of 🔈plosives💬 that all have a similar sound. Try sounding out "pa ba ta da ka ga" to yourself. Each plosive involves briefly stopping the air coming out of your lungs. They occur in order, starting from the lips and moving towards the back of the mouth, with every other sound (b, d, g) being "voiced" by action in the throat. (This pattern of voiced consonants occurring right after their unvoiced counterparts ("tada") is a general pattern across the alphabet.
 
-The number six is important in Sumibli, and there are six plosives. These are the letters most commonly associated with a number, and their symbols in the Sumibli script are drawn with a number of strokes equal to their order in the alphabet.
+The the plosives are the letters most commonly associated with numbers, and their symbols in the Sumibli script are drawn with a number of strokes equal to their order in the alphabet.
 
 Now let's consider the next six consonants: n, m, f, v, s, and z. Together with the plosives, these form the 🔈standard consonants💬. The standard consonants roughly appear in order of increasing abstraction. The first six are about primal, elemental things, and the second six are about civilizational, abstract things.
 
@@ -163,6 +187,8 @@ We think of "la" as marking the end of one 🔈phrase💬 (in this case "ikai") 
 
 |🎏ukai la gi|ukai la gi|the behavior is fast
 |🎏ipa la ma|ipa la ma|a person speaks
+
+A quick note: normal Sumibli text doesn't require spaces. The sentence "ipa la ma" is the same as "ipalama". Spaces are provided between words to help the reader, but they're ultimately optional.
 
 🔝🎮simpleSentences
 
@@ -316,6 +342,8 @@ When we see a compound made with three syllables, we apply augments from left-to
 (expression system)|expression
 |🎏sumibli|sumi bli|taxonomy
 (divided language)|taxon
+
+(Again, remember: spaces in Sumibli are just to help the reader. "sumi bli" is just another way of writing "sumibli".)
 
 Sometimes we want to use a whole compound as an augment, but this runs into trouble if we try to apply each seed in isolation. To bypass this, we can use the bridge consonant “sh”, which notes that the entire next word should be seen as an augment. Using “sh” as a bridge is kinda like using "(" and ")" in math, specifying what compounds to make first.
 
