@@ -100,11 +100,10 @@ we often walked in the pastures.|🎏ilaibaush lir baka la bu lur baki lash li m
 |When will your guests from the city arrive?|🎏ilaibau hau li guvi sha bi sha bavadu la gubtau
 |Near the mouth of the river,
 its course turns sharply towards the East.|🎏ilaitau daikuzai la kaugi laiguru tukla
-
 |Between the two lofty mountains
-lay a fertile valley.|🎏
+lay a fertile valley.|🎏ubadtanaki lu bash dadushitsi shu ta
+|Among the wheat grew tall red poppies.|🎏ulaiklur kidautgau lith _poppies_ shu ta shu glibga
 
-|Among the wheat grew tall red poppies.|🎏
 |The strong roots of the oak trees
 were torn from the ground.|🎏
 |The sun looked down
