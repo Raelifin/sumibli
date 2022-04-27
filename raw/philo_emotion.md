@@ -29,7 +29,7 @@ The second-most foundational aspect of emotion is 🔈arousal💬 – how activa
 |🎏pauga|pauga|😮 (activated)
 |🎏paudau|paudau|😐 (calm)
 
-Again orthogonal to these two axes of emotion sits the feels of confusion and clarity. Take care: the attitudinal for confusion 🔗\🎓#AnsweringQuestions turns a sentence into a question💬 by default.
+Again orthogonal to these two axes of emotion sits the feels of confusion and clarity. Take care: the attitudinal for confusion 🔗\🎓#AnsweringQuestions turns a sentence into a question💬 by default. The word "hia" is conversely used to draw attention to some informative part of a sentence. For example, in the sentence "it's spicy", one might mark the word "spicy" with "hia" to emphasize the spiciness.
 
 |🎏hau|hau|😕 (confused)
 |🎏hia|hia|👁️ (clear)
@@ -75,5 +75,6 @@ These six basic feelings are only the start of a whole world of emotional expres
 |himvi|pauvi|gratitude
 |hibva|paubva|welcoming
 |hitvu|pautvu|hopeful
+|hadni|paudni|tired
 
 🔝

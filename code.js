@@ -1,4 +1,4 @@
-localStorage.setItem('dictVers', "?");
+// localStorage.setItem('dictVers', "?");
 
 function searchTrans(str) {
   str = str.toLowerCase();

@@ -35,6 +35,7 @@ It is more typical, however, to simply talk about the relevant animal/plant, and
 |🎏kuva|kuva|water|well/pump/tap
 /community water source
 |🎏kudki|kudki|juice|juicy
+|🎏kuga|kuga|tea/coffee|caffeinated
 |🎏kugai|kugai|alchohol|alchoholic
 |🎏kubku|kubku|sea water|salty/briny
 |🎏gaukda|gaukda|sugar|sweet

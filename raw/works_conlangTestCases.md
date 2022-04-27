@@ -127,45 +127,45 @@ had once been a sailor.|🎏ifaki sha panu la pabkutu
 |At noon we ate our lunch by the roadside.|🎏ilaibau klaglizai la bikda laitau bagu
 |Mr. Jones made a knife for his little boy.|🎏ith _Mr. Jones_ la fa lu dabnairu laivir panu sha thud
 |Their voices sound very happy.|🎏iglapa la bla lu pauvugai
-|Is today Monday?|utshua klagabsi
-|Have all the leaves fallen from the tree?|ikidaubli shur sla la gudu laitaur kidaudu
-
-|Will you be ready on time?|
-
-|Will you send this message for me?|
-|Are you waiting for me?|
-|Is this the first kitten of the litter?|
-|Are these shoes too big for you?|
-|How wide is the River?|
-|Listen.|🎏
-|Sit here by me.|🎏
-|Keep this secret until tomorrow.|🎏
-|Come with us.|🎏
-|Bring your friends with you.|🎏
-|Be careful.|🎏
-|Have some tea.|🎏
-|Pip and his dog were great friends.|🎏
-|John and Elizabeth are brother and sister.|🎏
-|You and I will go together.|🎏
-|They opened all the doors and windows.|🎏
-|He is small, but strong.|🎏
-|Is this tree an oak or a maple?|
-|Does the sky look blue or gray?|
-|Come with your father or mother.|🎏
-|I am tired, but very happy.|🎏
-|He played a tune on his wonderful flute.|🎏
+|Is today Monday?|🎏utshua klagabsi
+|Have all the leaves fallen from the tree?|🎏ikidaubli shur sla la gudu laitaur kidaudu
+|Will you be ready on time?|🎏itshua bi la gaupi laibau
+|Will you send this message for me?|🎏itshiu bi la figu lu mir laivir ma
+|Are you waiting for me?|🎏itshua bi la gau lu ma
+|Is this the first kitten of the litter?|🎏itshua kainglanurupsi sha sash panunu
+|Are these shoes too big for you?|🎏utshua kiblidaudi la zi shar bi lur du
+|How wide is the River?|🎏idaiku la du lu hau
+|Listen.|🎏tshiu bi
+|Sit here by me.|🎏itshiu ni laitau ma
+|Keep this secret until tomorrow.|🎏itshui laibaur klagartu la dau lu nami
+|Come with us.|🎏itshiu bi la gu li ma
+|Bring your friends with you.|🎏itshiu bi la gu lir vi shar bi
+|Be careful.|🎏itshiu pauvai
+|Have some tea.|🎏itshiu bi lu kuga
+|Pip and his dog were great friends.|🎏ivigai luth _Pip_ lu kainvi
+|John and Elizabeth are brother and sister.|🎏faki luth _John_ luth _Elizabeth_
+|You and I will go together.|🎏ibi shu ma la gu
+|They opened all the doors and windows.|🎏ifaiti lu flursla
+|He is small, but strong.|🎏ipa la nu la hia gai
+|Is this tree an oak or a maple?|🎏ikidaudu la hau lath _oak_ lath _maple_
+|Does the sky look blue or gray?|🎏ita la hau la glibta la glibva
+|Come with your father or mother.|🎏itshiu bi la gubtau li fakisai sha bi
+|I am tired, but very happy.|🎏hadnihihi
+|He played a tune on his wonderful flute.|🎏ipa la favgla laivi vurpi shu flivgladai
 |Toward the end of August
-the days grow much shorter.|🎏
+the days grow much shorter.|🎏ilaitau zai shath _August_ li klaga la nufaizai
 |A company of soldiers marched
-over the hill and across the meadow.|🎏
-|The first part of the story is very interesting.|🎏
+over the hill and across the meadow.|🎏ipavnai shuth _company_ la gugai laiklu badta laiklu bakatai
+|The first part of the story is very interesting.|🎏ubliribsi shar maumi lua paugazai
 |The crow dropped some pebbles
-into the pitcher and raised the water to the brim.|🎏
-|The baby clapped her hands and laughed in glee.|🎏
-|Stop your game and be quiet.|🎏
-|The sound of the drums grew louder and louder.|🎏
-|Do you like summer or winter better?|
+into the pitcher and raised the water to the brim.|🎏ikaitapi la fia lu dadunu laigu bairku tshia gurta li ku lur bada
+|The baby clapped her hands and laughed in glee.|🎏ipanunu la glash kiblipi la mavau shu pauvu
+|Stop your game and be quiet.|🎏itshui ni lu fla sha bi tshui nagla
+|The sound of the drums grew louder and louder.|🎏ugla sha flivglati la gaifai la gaifai
+|Do you like summer or winter better?|🎏ibi la pisli lu hau lu klatatga lu klatatna
+
 |That boy will have a wonderful trip.|🎏
+
 |They popped corn,
 and then sat around the fire and ate it.|🎏
 |They won the first two games,
@@ -174,12 +174,12 @@ but lost the last one.|🎏
 and wait for an answer.|🎏
 |I awoke early, dressed hastily,
 and went down to breakfast.|🎏
-|Aha! I have caught you!|
-|This string is too short!|
-|Oh, dear! the wind has blown my hat away!|
-|Alas! that news is sad indeed!|
-|Whew! that cold wind freezes my nose!|
-|Are you warm enough now?|
+|Aha! I have caught you!|🎏
+|This string is too short!|🎏
+|Oh, dear! the wind has blown my hat away!|🎏
+|Alas! that news is sad indeed!|🎏
+|Whew! that cold wind freezes my nose!|🎏
+|Are you warm enough now?|🎏
 |They heard the warning too late.|🎏
 |We are a brave people, and love our country.|🎏
 |All the children came except Mary.|🎏
@@ -200,7 +200,7 @@ a sitting room, a bedroom, and a tiny kitchen.|🎏
 the largest village in the world.|🎏
 |We learn something new each day.|🎏
 |The market begins five minutes earlier this week.|🎏
-|Did you find the distance too great?|
+|Did you find the distance too great?|🎏
 |Hurry, children.|🎏
 |Madam, I will obey your command.|🎏
 |Here under this tree
@@ -209,7 +209,7 @@ they gave their guests a splendid feast.|🎏
 and dress by yellow candlelight.|🎏
 |Tell the last part of that story again.|🎏
 |Be quick or you will be too late.|🎏
-|Will you go with us or wait here?|
+|Will you go with us or wait here?|🎏
 |She was always, shabby, often ragged,
 and on cold days very uncomfortable.|🎏
 |Think first and then act.|🎏
