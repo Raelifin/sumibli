@@ -24,6 +24,7 @@ The most most basic organs are compounds that start with "kibli". The left meani
 |🎏kiblibpu|kiblibpu|nerves
 |🎏kiblipau|kiblipau|face
 |🎏kiblibi|kiblibi|mouth
+|🎏kiblibta|kiblibta|nose
 |🎏kiblibai|kiblibai|abdomen
 |🎏kiblikbai|kiblikbai|belly/stomach
 |🎏kibliba|kibliba|skin
@@ -45,7 +46,7 @@ The most most basic organs are compounds that start with "kibli". The left meani
 |🎏kibliglu|kibliglu|fingers
 |🎏kibligau|kibligau|fat
 |🎏kiblinau|kiblinau|hair/fur
-|🎏kiblima|kiblima|mouth
+|🎏kiblima|kiblima|throat
 |🎏kiblifi|kiblifi|arms
 |🎏kiblifa|kiblifa|womb
 |🎏kiblizai|kiblizai|butt/hip

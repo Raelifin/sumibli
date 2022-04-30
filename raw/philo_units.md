@@ -23,15 +23,17 @@ There are choices of physical constants based on particles like the electron, bu
 |🎏kadu|kadu|gravity|🔗https://en.wikipedia.org/wiki/Speed_of_light the gravitational constant💬 (🔗https://en.wikipedia.org/wiki/Planck_units#Gravitational_constant rationalized💬) (2τG)
 |🎏kakla|kakla|energy quanta|🔗https://en.wikipedia.org/wiki/Planck_constant Planck's constant💬 (ħ)
 |🎏kanau|kanau|temperature|🔗https://en.wikipedia.org/wiki/Boltzmann_constant Boltzmann’s constant💬 (k)
-|🎏katai|katai|electricity|https://en.wikipedia.org/wiki/Vacuum_permittivity Vacuum permittivity (ε0)
+|🎏katai|katai|electricity|🔗https://en.wikipedia.org/wiki/Vacuum_permittivity Vacuum permittivity💬 (ε0)
 
 From these five constants we can build a notion of all dimensions that we care about.
 
 Unfortunately, this choice of units limits one's precision to the degree that these universal values are known. If you're unlucky enough to live in a time/place where the gravitational constant can't be measured to more than five or six decimal places, you may want to fall back on foreign notions of distance, time, et cetera.
 
-To state a measurement, first state the number, then associate the number with a unit using "shu".
+To state a measurement, first state the number, then associate the number with a unit using "shu". While the left-meaning of a unit is technically the dimension being measured, and the right meaning is the precise length, in practice a unit-word in either orientation can serve as a unit when attached to a number. (E.g. "5 distance" is 5 obvious distance units.)
 
-|🎏ima la ba lu sibavana shuth _centimeters_|ima la ba lu sibavana shuth 🔈centimeters💬|I’m 196cm (tall)
+|🎏ima la ba
+lu sibavana shuth _centimeters_|ima la ba
+lu sibavana shuth 🔈centimeters💬|I’m 196cm (tall)
 
 🔝
 
@@ -137,8 +139,10 @@ Common powers for kasda are "gu" and "mu".
 
 📛Other Units
 
-|🎏kagai|kagai|energy|Planck-energy/kadu × kagi²
-|🎏kagnau|kagnau|temperature|Planck-Temperature/kagai ÷ kanau
+|🎏kagai|kagai|energy|Planck-energy
+(kadu × kagi²)
+|🎏kagnau|kagnau|temperature|Planck-Temperature
+(kagai ÷ kanau)
 
 One kagai is about half a billion Joules, so we traditionally shrink to a "kasgai" of 6^-6 times that much, which is about 2.8 kilocalories, or about the nutritional calories in one kasda of butter. Some physics settings will redefine "kasgai" to a different point that is more convenient to the sorts of problems they're addressing.
 
@@ -157,7 +161,8 @@ One kagnau is 7.618e31 Kelvin, which is an insanely high temperature. We thus al
 
 📛Other Units
 
-|🎏kabgai|kabgai|force|Planck-force/kagai × kaba
+|🎏kabgai|kabgai|force|Planck-force
+(kagai × kaba)
 |🎏kasbatsai|kasbatsai|area|kasba²
 |🎏kasbaksai|kasbaksai|volume|kasba³
 

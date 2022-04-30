@@ -34,5 +34,6 @@ Routines of work and rest are coordinated around weeks that are arranged into a 
 |🎏klagabsi|klagabsi|1 day|day 1
 |🎏klagatsi|klagatsi|2 days|day 2
 ||...
+|🎏klagansi|klagansi|1 week|day 6
 
 🔝

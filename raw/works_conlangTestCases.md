@@ -163,44 +163,47 @@ into the pitcher and raised the water to the brim.|🎏ikaitapi la fia lu dadunu
 |Stop your game and be quiet.|🎏itshui ni lu fla sha bi tshui nagla
 |The sound of the drums grew louder and louder.|🎏ugla sha flivglati la gaifai la gaifai
 |Do you like summer or winter better?|🎏ibi la pisli lu hau lu klatatga lu klatatna
-
-|That boy will have a wonderful trip.|🎏
-
+|That boy will have a wonderful trip.|🎏guklurtu shur vurpi
 |They popped corn,
-and then sat around the fire and ate it.|🎏
+and then sat around the fire and ate it.|🎏naiga luth _corn_ itshia bai lu ga tshia bikda lu thuk
 |They won the first two games,
-but lost the last one.|🎏
-|Take this note, carry it to your mother;
-and wait for an answer.|🎏
-|I awoke early, dressed hastily,
-and went down to breakfast.|🎏
-|Aha! I have caught you!|🎏
-|This string is too short!|🎏
-|Oh, dear! the wind has blown my hat away!|🎏
-|Alas! that news is sad indeed!|🎏
-|Whew! that cold wind freezes my nose!|🎏
-|Are you warm enough now?|🎏
-|They heard the warning too late.|🎏
-|We are a brave people, and love our country.|🎏
-|All the children came except Mary.|🎏
+but lost the last one.|🎏itutsi la flapaisli tshia zaibsi la flapaislina
+|Take this note,
+carry it to your mother,
+and wait for an answer.|🎏itshiu bi lu mi tshiu figu laigu faki sha bi tshiu gau lu mikau
+|I awoke early,
+dressed hastily,
+and went down to breakfast.|🎏ima la nikaini shu tuva tshia bish daklu shu gi tshia gu lur bikdaribsi
+|Aha! I have caught you!|🎏ihai ma la bidau hai lu bi
+|This string is too short!|🎏idaklusai la nudaizi hai
+|Oh, dear! The wind has blown my hat away!|🎏itargi la haihu naigu luri dadita
+|Alas! That news is sad indeed!|🎏uhu mitu lua hia paunvu
+|Whew! That cold wind freezes my nose!|🎏itargi shuri naugai la hai nainau lu kiblibta sha ma
+|Are you warm enough now?|🎏itshua bi la nauzinatau
+|They heard the warning too late.|🎏turva lush birgla luri mini
+|We are a brave people, and love our country.|🎏ima lua pavnai tshia paupivi lu ba sha ma
+|All the children came except Mary.|🎏ipanursla la gur lau slana lith _Mary_
 |Jack seized a handful of pebbles
-and threw them into the lake.|🎏
+and threw them into the lake.|🎏ukiblipi shur dadunu lua bi lith _Jack_ tshia figuta lu thaud laigu kuba
 |This cottage stood on a low hill,
-at some distance from the village.|🎏
+at some distance from the village.|🎏ubakinu laiburi badta shu nuru laitau bava
 |On a fine summer evening,
 the two old people were sitting
-outside the door of their cottage.|🎏
-|Our bird's name is Jacko.|🎏
-|The river knows the way to the sea.|🎏
-|The boat sails away, like a bird on the wing.|🎏
-|They looked cautiously about, but saw nothing.|🎏
-|The little house had three rooms,
-a sitting room, a bedroom, and a tiny kitchen.|🎏
-|We visited my uncle's village,
-the largest village in the world.|🎏
-|We learn something new each day.|🎏
-|The market begins five minutes earlier this week.|🎏
+outside the door of their cottage.|🎏ilaibau klanglitu shu klatatga shu vu li patutsi la bai laitau flu lu bakinu sha thaut
+|Our bird's name is Jacko.|🎏ikaita sha ma lua mai luth _Jacko_
+|The river knows the way to the sea.|🎏idaiku la pu lu dairgush kuba
+|The boat sails away, like a bird on the wing.|🎏ibaiku la baiku laigur tauri laisau kaitau la kaitau
+|They looked cautiously about, but saw nothing.|🎏birgli shu pauvai tshia birgli luru ti
+|The little house had three rooms:
+a sitting room, a bedroom,
+and a tiny kitchen.|🎏ibakinu la bai lu batidsi tshia bamu tshia bani tshia bakainunu
+|We visited my uncle's village:
+the largest village in the world.|🎏ima la guvi lu bava sha fakish saurfa tshia zaidu shu bava laiburi bazi
+|We learn something new each day.|🎏imarsai la bipu laiklari klaga
+|The market begins five minutes earlier this week.|🎏ilish babi la tai lash la tuva shu siku shu kasbau laibau klagansi
+
 |Did you find the distance too great?|🎏
+
 |Hurry, children.|🎏
 |Madam, I will obey your command.|🎏
 |Here under this tree
