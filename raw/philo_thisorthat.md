@@ -17,7 +17,6 @@ The words "this", "that", "here", and "there" are used frequently in English bec
 |🎏tau|tau|here/now/this/closer|there/then/that/further
 |🎏da|da|thing|substance
 |🎏bu|bu|place|thing at a place
-|🎏bau|bau|time|duration
 
 The word "tau" is the most common way of talking about nearby things, and can be translated as "this", "that", "here", or "there", depending on context.
 

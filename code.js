@@ -1,11 +1,9 @@
-// localStorage.setItem('dictVers', "?");
-
 function searchTrans(str) {
   str = str.toLowerCase();
   let hits = JSON.parse(localStorage.getItem('s_'+str) || '[]')
     .map(xs => xs.map(i => JSON.parse(localStorage.getItem('d'+i) || '[]')));
-  while (hits.length < 1 && str.length > 0) {
-    str = str.slice(0, -1);
+  while (hits.length < 1 && str.trim().length > 1) {
+    str = str.trim().slice(0, -1);
     hits = JSON.parse(localStorage.getItem('s_'+str) || '[]')
       .map(xs => xs.map(i => JSON.parse(localStorage.getItem('d'+i) || '[]')));
     if (hits.length > 0) {
@@ -13,23 +11,6 @@ function searchTrans(str) {
     }
   }
   return hits;
-}
-
-// function nextDef(snapId) {
-//   let snap = document.getElementById(snapId);
-//   let x0 = snap.getBoundingClientRect().left;
-//   for (let i = 0; i < snap.children.length; i++) {
-//     let x = snap.children[i].getBoundingClientRect().left - x0 - snap.scrollLeft;
-//     if (x > 0) {
-//       snap.scrollLeft += x;
-//       return;
-//     }
-//   }
-//   snap.scrollLeft = 0;
-// }
-
-function isVowel(c) {
-  return c == 'i' || c == 'a' || c == 'u';
 }
 
 function buildTransResult(x) {

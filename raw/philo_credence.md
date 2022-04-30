@@ -12,7 +12,7 @@ and the likelihood of things
 🔗\🗣️
 🔗\📚
 
-The word “tshia” can be seen as something like a full-stop that separates sentences, but it can also be seen as “I believe”. Inbuilt in this is an implication that 🔗philo_assertion the speaker could be wrong about what they’re saying💬, and is only trying to capture their local view of the world. But sometimes it is important to explicitly flag some claim as speculative. In natural language, such claims are made using words like “probably”, “perhaps”, “I think”, or “I believe”. Similarly, one can emphasize confidence by saying things like “obviously”, “certainly”, or “I’m sure that”.
+The word “chia” can be seen as something like a full-stop that separates sentences, but it can also be seen as “I believe”. Inbuilt in this is an implication that 🔗philo_assertion the speaker could be wrong about what they’re saying💬, and is only trying to capture their local view of the world. But sometimes it is important to explicitly flag some claim as speculative. In natural language, such claims are made using words like “probably”, “perhaps”, “I think”, or “I believe”. Similarly, one can emphasize confidence by saying things like “obviously”, “certainly”, or “I’m sure that”.
 
 Unfortunately, these natural-language expressions are extremely vague. One person’s "obviously" is another person’s "probably". Sumibli takes the stance that most of the time one shouldn’t bother communicating confidence, but when you do communicate confidence it should be in a clear and precise way.
 
@@ -48,10 +48,10 @@ We see these sorts of bets as the basis of probabilistic thinking, and the most 
 (as odds-ratio
 in favor)
 
-|🎏plirni lu sika|plirni lu sika|that outcome has 4:1
+|🎏iplirni lu sika|plirni lu sika|that outcome has 4:1
 chance of occurring
 (80% probability)
-|🎏plirni lu siti|plirni lu siti|that outcome has 1:3
+|🎏iplirni lu siti|plirni lu siti|that outcome has 1:3
 chance of occurring
 (25% probability)
 

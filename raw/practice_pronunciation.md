@@ -76,7 +76,7 @@ into Sumibli letters
 🎏pruv💬 (pruv)|prove
 🎏pis💬 (pis)|piece
 🎏paz💬 (paz)|pause
-🎏pitsh💬 (pitsh)|peach
+🎏pich💬 (pich)|peach
 🎏pil💬 (pil)|peel
 🎏par💬 (par)|par
 🎏paur💬 (paur)|power
@@ -123,7 +123,7 @@ into Sumibli letters
 🎏tub💬 (tub)|tube
 🎏taid💬 (taid)|tied
 🎏tad💬 (tad)|Todd
-🎏titsh💬 (titsh)|teach
+🎏tich💬 (tich)|teach
 🎏tast💬 (tast)|tossed
 🎏tak💬 (tak)|talk
 🎏taik💬 (taik)|tyke

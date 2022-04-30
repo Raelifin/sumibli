@@ -28,12 +28,12 @@ What about jellyfish, barnacles, venus fly traps, or any of the other many edge-
 
 The taxonomy is also compatible with alternative taxonomies. For example, if you’re a biologist you may be interested in making a distinction between organisms based on their ancestry. This way of carving up the world compliments the common way, and allows us to add a different connotation (physiology vs ancestry) when talking about the same organisms.
 
-|🎏kipsi|kipsi|one organism|bacteria
-("first organisms")
-|🎏kibsi|kibsi|two organisms|archaea
-("second organisms")
-|🎏kitsi|kitsi|three organisms|eukaryota
-("third organisms")
+|🎏kipsai|kipsai|bacteria
+("first organisms")|bacterial
+|🎏kibsai|kibsai|archaea
+("second organisms")|archaean
+|🎏kitsai|kitsai|eukaryota
+("third organisms")|eukaryotic
 
 There is no ancestry-based group of organisms that includes all trees but not some things that are obviously-not-trees. As such, we leave lineage-based taxonomy to the biologists and continue with the task of naming organisms based on how they’re shaped.
 

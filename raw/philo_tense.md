@@ -71,18 +71,31 @@ We can sometimes use augmentation for the same effect, but often this will intro
 
 🔝
 
-📛laibau
+📛Timeboxing
 
-To add time as an afterthought, or to more explicitly mark a time (compared to the above methods), one can use "laibau" when in left-mode. This treats the sentence as an event with a finite duration and the phrase that comes after "laibau" is the time at which that event takes place.
+The word "bau" relates a time 🔈period💬 to one or more temporal markers, which are often seen as moments or events. This is the same kind of relationship as "ba" or "bu", but where "ba" relates a place to its edge, and "bu" relates a place to something in it, "bau" relates a time period to either the boundary of that time period 🔈or💬 an event that is in that time period. This dual-use can make things confusing, but the key heuristic is that the right is specific and sharp, while the left is loose.
 
-|🎏bau|bau|time|event/duration
+|🎏bau|bau|period|event/window
+
+The most common use of "bau" is as a preposition: "laibau". This allows us to add time as an afterthought, and to do so in an unambiguous way (compared to some of the above methods). When in left-mode ("ilaibau") this construction means something like "at the same time as" or "for the duration of", depending on what's provided next.
 
 |🎏ima la gu
 laibau mi sha bi|ima la gu
 laibau mi sha bi|I go at
 your signal
+|🎏ima la gu
+laibauth _5 min_|ima la gu
+laibauth 🔈5 min💬|I'll go
+for 5 min
+|🎏ima la gu
+la faglagi
+laibau|ima la gu
+la faglagi
+laibau|I'll run
+and yell
+simultaneously
 
-One can also use the advanced structure "laibaush" to quickly attach an entire clause as the time when an action occurs.
+One can also use the advanced structure "laibaush" to quickly attach an entire clause as the specific time when an action occurs.
 
 |🎏ima la gu
 laibaush bi la fa
@@ -91,11 +104,10 @@ laibaush bi la fa
 lur fagla|I go when
 you make noise
 
-Of course, "laibau" can also be used in right-mode. This allows for specifying the duration of an action.
+Of course, "laibau" can also be used in right-mode. This allows for specifying the general time during which something happens, without pinning down the specific moment or implying the action takes the entire period.
 
 |🎏ima la gur
-laibauth _5 min_|ima la gur
-laibauth 🔈5 min💬|I go
-for 5 min
+laibau klaga|ima la gur
+laibau klaga|I'll go some time today
 
 🔝

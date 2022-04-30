@@ -108,9 +108,12 @@ Function application can be done using "sha", where we see the input to the func
 Miscelaneous Sumibli math words seen as nouns:
 
 |🎏tu|tu|predecessor|successor
-|🎏si|si|cardinal number|ordinal
-|🎏sai|sai|unit|sum/collection
-|🎏sa|sa|element|set/class/type
+|🎏klu|klu|mixture/sum|added thing
+|🎏ti|ti|empty|missing thing
+|🎏bli|bli|subdivided|factor
+|🎏si|si|cardinal number|countable/discrete
+|🎏sai|sai|ordinal number|ordered/ranked
+|🎏sa|sa|element|set/class/type/sum/collection
 |🎏sla|sla|subset|superset
 |🎏su|su|language/category|subject matter/defining structure
 |🎏slu|slu|function/morphism|type signature/hom-set
@@ -122,13 +125,13 @@ Miscelaneous Sumibli math words seen as nouns:
 Miscelaneous Sumibli math words seen as verbs:
 
 |🎏sli|sli|is less than
-|🎏sai|sai|plus
-|🎏saina|saina|minus
-|🎏saisai|saisai|times
-|🎏saisaina|saisaina|divided by
-|🎏saisaisai|saisaisai|raised to the power of
-|🎏saisaisaina|saisaisaina|root
-|🎏sainsainsai|sainsainsai|is the base of of the logarithm of
+|🎏klu|klu|plus
+|🎏ti|ti|minus
+|🎏bli|bli|times
+|🎏blina|blina|divided by
+|🎏blibli|blibli|raised to the power of
+|🎏blibliti|blibliti|root
+|🎏bliblina|bliblina|is the base of of the logarithm of
 |🎏sa|sa|is an element of
 |🎏sla|sla|is a subset of
 |🎏sau|sau|are equal according to

@@ -25,7 +25,7 @@ Sumibli takes HSV to be the correct model of the color space: 🔗https://en.wik
 |🎏glibva|glibva|gray
 |🎏glibga|glibga|red ~ #F00
 ("fire color")
-|🎏glibsi|glibsi|yellow ~ #FF0
+|🎏glibsai|glibsai|yellow ~ #FF0
 ("second color")
 |🎏glibki|glibki|green ~ #0F0
 ("growth color")

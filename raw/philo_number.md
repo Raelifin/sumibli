@@ -11,32 +11,34 @@ how to count
 🔗\🗣️
 🔗\📚
 
-The base word for numbers in Sumibli is "si".
+The base word for numbers in Sumibli is "si", which means "[cardinal] is the count of [countable]".
 
-|🎏si|si|cardinal|ordinal
+|🎏si|si|cardinal|countable
 
-Without augmentation it is almost exclusively used as a noun. The verb meaning is "[cardinal] corresponds to [ordinal]", as in "zero corresponds to first".
+There is also a word for ordinal numbers: "sai", which means "[ordinal] is the position of [ranked]".
 
-Speaking of which, Sumibli ordinals are 🔗https://en.wikipedia.org/wiki/Zero-based_numbering zero-indexed💬. Thus primary/first corresponds to 0, secondary = 1, tertiary/third = 2, et cetera.
+|🎏sai|sai|ordinal|ranked
 
-Unlike most words, "si" has special rules for being used as an augment and for augmenting other words. When being used as an augment to a noun in left-mode, it means "some quantity of"; in right mode it means "some ranking of". If there's a bridge consonant before it, the alphabetical index of that consonant specifies the number. As per the usual rules, "s" can't be used as a bridge consonant (because "si" starts with an "s" already) and we typically don't use "z" for a bridge either. Thus p = 0, b = 1, t = 2, ..., f = 8, v = 9.
+Sumibli ordinals are 🔗https://en.wikipedia.org/wiki/Zero-based_numbering zero-indexed💬. Thus primary/first corresponds to 0, secondary = 1, tertiary/third = 2, et cetera.
 
-When augmenting a verb, it naturally means the number of times that action/relationship occurs. When augmenting a verb after a flip from "r" it indicates that the action occurs at that position in a series of actions.
+Unlike most words, "si" and "sai" have special rules for being used as an augment and for augmenting other words. When being used as an augment to a noun they mean "some quantity of" or "some ranking of". If there's a bridge consonant before it, the alphabetical index of that consonant specifies the number. As per the usual rules, "s" can't be used as a bridge consonant (because "si" starts with an "s" already) and we typically don't use "z" for a bridge either. Thus p = 0, b = 1, t = 2, ..., f = 8, v = 9.
+
+When augmenting a verb, "si" naturally means the number of times that action/relationship occurs, while "sai" indicates the position of that action in a series of actions.
 
 |🎏idasi|idasi|a number of things
-|🎏idarsi|idarsi|a ranked thing
+|🎏idasai|idasai|a ranked thing
 |🎏idatsi|idatsi|two things
 |🎏idavsi|idavsi|nine things
-|🎏idarugsi|idarugsi|the fifth thing
+|🎏idagsai|idagsai|the fifth thing
 |🎏ima la gutsi|ima la gutsi|I travelled twice
-|🎏ima la gurupsi
-la firibsi|ima la gurupsi
-la firibsi|First I went,
+|🎏ima la gupsai
+la fibsai|ima la gupsai
+la fibsai|First I went,
 then I worked
 
 It's common to use suffixes like "-tsi" to quickly specify quantity. But in many cases we want to talk about bigger numbers than 9.
 
-When "si" is augmented, it represents a specific number based on the sounds of the augmenting syllables (not their usual meanings). To be more precise, we can think of words that start with "si" as representing strings of vowel-annotated digits, which we then interpret as a number in some 📣numeric framework💬.
+When "si" (or "sai") itself is augmented, it represents a specific number based on the sounds of the augmenting syllables (not their usual meanings). To be more precise, we can think of words that start with "si" (or "sai") as representing strings of vowel-annotated digits, which we then interpret as a number in some 📣numeric framework💬.
 
 📛The Standard Framework
 
@@ -48,7 +50,7 @@ Now let's consider "sitata". We interpret the two augmenting syllables as basic 
 
 Here's where things get really different: the standard Sumibli numerical framework doesn't use base-ten, it uses 🔗https://www.seximal.net/ base-six💬. Instead of having a one's-place, a ten's-place, a hundred's-place, and so on, we have a one's-place, a six's-place, a thirty-six's-place, and so on. The digits "🔈22💬" thus mean two-ones and two-sixes, ie fourteen.
 
-Even more divergent from English, the standard numerical framework is little-endian. This mean the least significant digits in the number come first, followed by more significant digits. This means "sibata" corresponding to 🔈32💬 means three-ones and two-sixes, ie fifteen.
+Even more divergent from English, the standard numerical framework is little-endian. This mean the least significant digits in the number come first, followed by more significant digits. This means "sidata" corresponding to 🔈32💬 means three-ones and two-sixes, ie fifteen.
 
 |Sumibli|Vowel-Annotated
 Digits|Little-Endian

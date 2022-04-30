@@ -26,8 +26,8 @@ u|ikainglanu luar_ fla laiklu takuni
 u|iflakau sha panunu la gur_kauntau
 u|ipanutsi la fir_vu
 i|ukaika la bai lur_ ga
-u|itshua saur_fa sha bi la gubtau laipai bi
-u|itshua bi la gubtau sha klagar_tu
+u|ichua saur_fa sha bi la gubtau laipai bi
+u|ichua bi la gubtau sha klagar_tu
 u|iga la bla lur_ naugai
 i|utu lir_ ga la du
 i|uvau shar_ tu la pli
@@ -56,8 +56,8 @@ u|ikainglanu luar fla laiklu takuni
 u|iflakau sha panunu la gurkauntau
 u|ipanutsi la firvu
 i|ukaika la bai lur ga
-u|itshua saurfa sha bi la gubtau laipai bi
-u|itshua bi la gubtau sha klagartu
+u|ichua saurfa sha bi la gubtau laipai bi
+u|ichua bi la gubtau sha klagartu
 u|iga la bla lur naugai
 i|utu lir ga la du
 i|uvau shar tu la pli

@@ -17,7 +17,7 @@ This page is fairly long, so here's a table of contents. You can click on the \�
 
 📛The Sumibli Alphabet
 
-Sumibli can be written using an alphabet of 20 letters. These letters are each associated with a particular sound, and have a "conceptual atmosphere". The letter "g", for instance, sounds like the leading consonant in "go", and is associated with the concepts of action, motion, fire, and the number 5 (among other things). When letters are combined into a word, the meaning and usage of that word can be guessed by the letters that compose it. In this way, the alphabet for Sumibli forms a kind of loose taxonomy of concepts, and it's very helpful to start with the basics of this taxonomy.
+Sumibli can be written using an alphabet of 21 letters. These letters are each associated with a particular sound, and have a "conceptual atmosphere". The letter "g", for instance, sounds like the leading consonant in "go", and is associated with the concepts of action, motion, fire, and the number 5 (among other things). When letters are combined into a word, the meaning and usage of that word can be guessed by the letters that compose it. In this way, the alphabet for Sumibli forms a kind of loose taxonomy of concepts, and it's very helpful to start with the basics of this taxonomy.
 
 By the way, the letter "g" in Sumibli isn't canonically written as such. Sumibli uses its own script, which represents that same letter as "🎏g💬". We'll usually provide Sumibli text with both the Latin version and the native Sumibli script, for ease of learning.
 
@@ -51,7 +51,7 @@ When a word has two consonants, its meaning will be some combination of the conc
 
 📛Alphabet Patterns
 
-Twenty letters is a lot to take in, especially when each comes attached to a meaning. It helps if we break up the alphabet into groups of letters based on some simple patterns.
+Twenty-one letters is a lot to take in, especially when each comes attached to a meaning. It helps if we break up the alphabet into groups of letters based on some simple patterns.
 
 The first six letters form a group of 🔈plosives💬 that all have a similar sound. Try sounding out "pa ba ta da ka ga" to yourself. Each plosive involves briefly stopping the air coming out of your lungs. They occur in order, starting from the lips and moving towards the back of the mouth, with every other sound (b, d, g) being "voiced" by action in the throat. (This pattern of voiced consonants occurring right after their unvoiced counterparts ("tada") is a general pattern across the alphabet.
 
@@ -59,7 +59,7 @@ The the plosives are the letters most commonly associated with numbers, and thei
 
 Now let's consider the next six consonants: n, m, f, v, s, and z. Together with the plosives, these form the 🔈standard consonants💬. The standard consonants roughly appear in order of increasing abstraction. The first six are about primal, elemental things, and the second six are about civilizational, abstract things.
 
-The final five consonants in the alphabet (h, th, sh, r and l) are called 🔈odd constants💬 because they are used differently than the others. We'll talk about words that use these letters later, but the basic story is that words that start with odd consonants are used to give structure to sentences and do things that would break the rules of how standard words work.
+The final six consonants in the alphabet (h, th, sh, ch, r and l) are called 🔈odd constants💬 because they are used differently than the others. We'll talk about words that use these letters later, but the basic story is that words that start with odd consonants are used to give structure to sentences and do things that would break the rules of how standard words work.
 
 The three 🔈vowels💬 (i, a, and u) don't have a lot of meaning in themselves. But the general story is that they're lined up from the tightest ("i") to the loosest ("u") and can similarly be seen as going from near to far, with "a" being in the middle.
 
@@ -67,13 +67,17 @@ The three 🔈vowels💬 (i, a, and u) don't have a lot of meaning in themselves
 
 📛Pronunciation Tips for Consonants
 
-Sumibli consonants mostly sound as you'd expect from seeing the latin equivalent. But we should briefly mention some things about three of the odd consonants: h, th, and sh.
+Sumibli consonants mostly sound as you'd expect from seeing the latin equivalent. But we should briefly mention some things about the odd consonants.
 
 The letter "h" is represented by an empty space in the native Sumibli script. It is conventional not to pronounce "h" unless it shows up between two vowels (that aren't supposed to be a diphthong). When we write Sumibli using the Latin alphabet it is also conventional to we only write the "h" when it would be pronounced. When in doubt, leave "h" out!
 
 The letter "th" (sometimes written "x") also can be either voiced or unvoiced, sounding either like "📣th💬is" or like "wi📣th💬", 🔈depending on where it shows up in a word💬. The voiced version is correct at the start (or middle) of words, while the unvoiced is correct at the end of words, exactly like in the example of "📣th💬is" vs "wi📣th💬".
 
-The letter "sh" (sometimes written "j") is usually pronounced like the first sound in "📣sh💬oe" but can also be pronounced like the first sound in "📣g💬enre" or the last sound in "mira📣ge💬". In other words, Sumibli doesn't distinguish the voiced and unvoiced versions of the sound. In certain circumstances the letter "sh" comes after "t". This combo is pronounced like the start of "📣ch💬air".
+The letter "sh" (sometimes written "j") is usually pronounced like the first sound in "📣sh💬oe" but can also be pronounced like the first sound in "📣g💬enre" or the last sound in "mira📣ge💬". In other words, Sumibli doesn't distinguish the voiced and unvoiced versions of the sound.
+
+The letter "ch" (sometimes written "c") is written in Sumibli script as a superimposed "t"+"sh", and can be seen as a combination of those two sounds. It is treated as its own letter in order to make things more regular, and because the "ch" sound is pronounced as a single movement of the mouth, as in the English word "📣ch💬air".
+
+The letter "r" may be trilled, tapped, or held. As long as it's distinct from "l", it's fine!
 
 🔝
 
@@ -323,9 +327,9 @@ shu datsi|two pairs of people
 
 Or, we can attach "ta" as an augment to "isi".
 
-|🎏sipa|sipa|zero|primary
-|🎏siba|siba|one|secondary
-|🎏sita|sita|two|tertiary
+|🎏sipa|sipa|zero|absent
+|🎏siba|siba|one|singular
+|🎏sita|sita|two|binary/paired
 
 The word "si" has 🔗philo_number special rules💬 for how it's augmented, and it's not the only word that has special rules. There are patterns to learn, but ultimately one should look a word up in the dictionary to see the rules for how it interacts with augmentation.
 
@@ -470,12 +474,12 @@ Sometimes we want to not just talk about the direct object of an action, but als
 Sumibli has no indirect objects, instead relying entirely on prepositions/subclauses. Just as we can say "he gave a toy 📣to💬 the animal" to communicate the same idea in English, we can use prepositions whenever additional context is needed in Sumibli.
 
 |🎏fai|fai|source|effect
-|🎏fla|fla|toy|player
+|🎏fla|fla|player|toy
 
-|🎏ikai la bai lu fla|ikai la bai lu fla|the animal
+|🎏ikai la bai lur fla|ikai la bai lur fla|the animal
 got a toy
-|🎏ikai la bai lu flar
-laifairi pa|ikai la bai lu flar
+|🎏ikai la bai lur flar
+laifairi pa|ikai la bai lur flar
 laifairi pa|the animal
 got a toy
 from a person
@@ -483,8 +487,8 @@ from a person
 Because "lai" only captures a single phrase, we can move things around to make the sentence slightly more elegant and to emphasize the giving.
 
 |🎏ubai laifair pa
-lu fla li kai|ubai laifair pa
-lu fla li kai|a person gave
+lur fla lir kai|ubai laifair pa
+lur fla lir kai|a person gave
 a toy to the animal
 
 🔝🎮indirectObjects
@@ -512,37 +516,37 @@ As elsewhere, we can use the "r" suffix to flip orientations when needed.
 
 Much like we use phrase particles to note the start of new phrases, we can use 📣sentence particles💬 to show where one sentence ends and the next begins.
 
-The most basic sentence particle is "tshia" ("chia"), which marks that the next sentence is a declaration/statement. When writing "tshia", the "t" is often tucked into the bottom of the preceding glyph, but speakers should vocalize "tshia" as a single word without any breaks, rather than associate the "t" with the preceding word.
+The most basic sentence particle is "chia", which marks that the next sentence is a declaration/statement.
 
 |🎏ikai la gi
-tshia pa la vu|ikai la gi
-tshia pa la vu|An animal is fast.
+chia pa la vu|ikai la gi
+chia pa la vu|An animal is fast.
 People are good.
-|🎏pavu tshia vu|pavu tshia vu|Heroes exist.
+|🎏pavu chia vu|pavu chia vu|Heroes exist.
 That’s good.
 
-To mark a sentence as a command, use "tshui" ("chwee"). To make a request, use "tshiu" ("chee-oo").
+To mark a sentence as a command, use "chui" ("chwee"). To make a request, use "chiu" ("chee-oo").
 
 |🎏ikai la gi
-tshui pa la vu|ikai la gi
-tshui pa la vu|An animal is fast.
+chui pa la vu|ikai la gi
+chui pa la vu|An animal is fast.
 Make the
 person good.
-|🎏itshiu kai la gi
-tshiu pa la vu|itshiu kai la gi
-tshiu pa la vu|Please make the
+|🎏ichiu kai la gi
+chiu pa la vu|ichiu kai la gi
+chiu pa la vu|Please make the
 animal fast.
 Please make the
 person good.
 
-To ask a question, use "tshua" ("chwah").
+To ask a question, use "chua" ("chwah").
 
-|🎏itshua kai la gi
-tshua pa la vu|itshua kai la gi
-tshua pa la vu|Is the animal fast?
+|🎏ichua kai la gi
+chua pa la vu|ichua kai la gi
+chua pa la vu|Is the animal fast?
 Are people good?
 
-If you want to indicate that you are done talking, you can end a message with "-tsh". Saying "tsh" by itself can also be done to express that you heard someone (without stating that you necessarily understand the implications or agree).
+If you want to indicate that you are done talking, you can end a message with "-ch". Saying "ch" by itself can also be done to express that you heard someone (without stating that you necessarily understand the implications or agree).
 
 🔝🎮sentences
 
@@ -550,18 +554,18 @@ If you want to indicate that you are done talking, you can end a message with "-
 
 Standard questions are yes/no by default. To answer such a question you can say "za", which means "true", or "zana", which means "false". You can also always just make a statement which directly answers the asker's confusion. The word "na" also works as a response by itself that means "the opposite is true".
 
-|🎏itshua gi li kai|itshua gi li kai|Is the animal fast?
+|🎏ichua gi li kai|ichua gi li kai|Is the animal fast?
 |🎏gi|gi|It's fast.
-|🎏itshua pa la vu
-tshua pavu|itshua pa la vu
-tshua pavu|Are the people good?
+|🎏ichua pa la vu
+chua pavu|ichua pa la vu
+chua pavu|Are the people good?
 Are there heroes?
-|🎏zana tshia na|zana tshia na|There are no heroes.
+|🎏zana chia na|zana chia na|There are no heroes.
 The people are evil.
 
 Question askers can also specify specific things they're curious about, using the word "hau". For more details on this, see the final section on "🔗#Attitudinals attitudinals💬". When answering such questions, it's conventional to offer responses in the form of positive statements.
 
-|🎏tshua hau la kai|tshua hau la kai|What kind of
+|🎏chua hau la kai|chua hau la kai|What kind of
 animal is that?
 |🎏ikaigi|ikaigi|A rabbit.
 
@@ -585,27 +589,47 @@ Remember that "th" when used in this way is always pronounced 🔈un💬voiced, 
 
 🔝
 
+📛Quotes
+
+Much like we can import foreign words into Sumibli sentences, we can quote others by using the "-th" suffix before Sumibli text. To note that you're ending the quote, simply say "ch" at the end of the quote. It is conventional to explicitly end quotes, even if that's the quote is the last thing you say.
+
+|🎏ikai la ma luth \"ichui ma laibai ma ch\"|ikai la ma luth
+"ichui ma
+laibai ma ch"|The animal said
+"Talk to me."
+
+Quotes use their own left/right orientation, so it's also super common to re-specify the orientation after closing a quote.
+
+|🎏luth \"ichui ma laibai ma ch\"
+ila ma li kai|luth
+"ichui ma
+laibai ma ch"
+ila ma li kai|"Talk to me,"
+said the animal.
+
+🔝
+
 📛Names
 
 Foreign names work exactly the same way that other foreign words do.
 
-|🎏tshuath _Max_
-la pavu|tshuath 🔈Max💬
+|🎏chuath _Max_
+la pavu|chuath 🔈Max💬
 la pavu|Is 🔈Max💬 a hero?
 
-Things can also be given Sumibli names. A Sumibli name is just a standard word (seed or compound) that's preceded by the word "tha". Remember to pronounce these words with a voiced "th" like the English word "📣th💬e".
+Things can also be given Sumibli names. A Sumibli name is just a single quoted word. As with any other quote, it is standard to explicitly close with "ch". Single-word quotes must be distinguished from names via context.
 
-Much like foreign words, Sumibli names don't have an orientation. One way to think about this is that all Sumibli names are like verbs. Thus "tha sumibli" is not literally "Taxonomy" or "Taxon", but more like "That-Which-Arranges-Classes-Into-A-Taxonomy".
+Also like any other quote, Sumibili names don't use the orientation of the surrounding sentence. Thus, most Sumibli names are essentially verbs. For example, "Sumibli" does not literally mean "Taxonomy" or "Taxon", but rather "That-Which-Arranges-Classes-Into-A-Taxonomy".
 
-|🎏tha sumibli la vu|tha sumibli la vu|Sumibli is good
+|🎏lith \"sumibli ch\" la vu|lith sumibli ch la vu|Sumibli is good
 
-Nicknames are common in Sumibli. This means it's fine to use "tha" liberally whenever things are clear. In many cases, this means it is right to use "tha" as the definite article, like the word "the" in English.
+Nicknames are common in Sumibli. This means it's fine to use/invent names even if they're not the "given name" of a person/thing.
 
 🔝
 
 📛Pronouns
 
-Pronouns in Sumibli are based on representing something by "th", followed by any vowel or diphthong besides "a", followed by a consonant (including a silent "h"). There are no hard-and-fast rules for which pronoun to use for a given thing, but there are patterns depending on what's being described. Much like proper nouns, pronouns don't have an orientation and mean the same thing in left and right mode.
+Pronouns in Sumibli are based on representing something by "th", followed by any vowel or diphthong, followed by a consonant (including a silent "h"). There are no hard-and-fast rules for which pronoun to use for a given thing, but there are patterns depending on what's being described. Pronouns don't have an orientation and mean the same thing in left and right mode.
 
 Pronouns for foreign names/words involve taking the first sounds from the name/word in question and trying to fit them into the pattern. For example, if we’re talking about “Mitch”, instead of saying “ith Mitch” we could use the pronoun “thim”. We choose "i" as the vowel because the vowel sound in "Mitch" is kinda close to "i", and "m" as the consonant because it's the first sound in "Mitch". Ultimately it's just a judgement call how a given set of sounds best map to the pronoun options. Sometimes it's useful to distinguish between two people with similar names by interpreting the sounds differently.
 
@@ -613,23 +637,22 @@ Pronouns for foreign names/words involve taking the first sounds from the name/w
 |Wendy|thuan
 |Hayley|thaih
 (or maybe "thail")
-|Max|thuam
-(or maybe "thum")
+|Max|tham
 
 When using a pronoun to refer to a normal Sumibli noun, it's typical to use "i" or "u" sounds depending on the orientation of the noun, and use the first consonant in the noun phrase. Thus if we want a pronoun for taxonomy, we could use "this" (short for "isumibli"). Sometimes the first vowel is pushed in to make a dipthong like "thius".
 
 |pronghorn|ikaigi|thik
 |prowling|ukaingla|thuk
 
-To use a pronoun as a stand-in for a Sumibli name, we usually take the first vowel(s), and follow it by the consonant immediately after that vowel. For example "Sumibli" would be shortened to "thum". If a Sumibli name is very short, such that no secondary consonant appears, we typically choose the first consonant.
+To use a pronoun as a stand-in for a Sumibli name, we usually take the first vowel(s), and follow it by the consonant immediately 🔈after💬 that vowel. For example "Sumibli" would be shortened to "thum". If a Sumibli name is very short, such that no secondary consonant appears, we typically choose the first consonant instead.
 
 |Pavu|thav
 |Pai|thaip
 
-To help associate pronouns with their subjects, sometimes a writer or speaker will add a pronoun after a name or compound using "halth [pronoun] tsh" to indicate that it's the shortened form. See 🔗\📖 the full spec💬 for details on "halth".
+To help associate pronouns with their subjects, sometimes a writer or speaker will add a pronoun after a name or compound using "halth [pronoun] ch" to indicate that it's the shortened form. See 🔗\📖 the full spec💬 for details on "halth".
 
-|🎏ith _Roberto_ halth \"thaub tsh\" la pa|ith 🔈Roberto💬 halth
-thaub tsh la pa|🔈Roberto💬 ("Aub")
+|🎏ith _Roberto_ halth \"thab ch\" la pa|ith 🔈Roberto💬 halth
+thab ch la pa|🔈Roberto💬 ("Ab")
 is a person
 
 🔝🎮pronouns
@@ -647,8 +670,9 @@ It might be a good moment to introduce the way we talk about letters in Sumibli.
 |🎏xih|thi|"h"
 |🎏xux|thuth|"th"
 |🎏xij|thish|"sh"
-|🎏xur|thur|"r"
-|🎏xil|thil|"l"
+|🎏xuc|thuch|"ch"
+|🎏xir|thir|"r"
+|🎏xul|thul|"l"
 
 The vowels are then represented by diphthongs (with a silent "h" after).
 
@@ -656,18 +680,7 @@ The vowels are then represented by diphthongs (with a silent "h" after).
 |🎏thua|thua|"a"
 |🎏thau|thau|"u"
 
-Acronyms in Sumibli are just chains of pronouns. One can do a simple letter-by-letter acronym ("FBI" -> "thif thub thui") or, more typically, an acronym that captures relevant sounds from each word ("Federal Bureau of Investigation" -> "thiaf thiub thin"). Because the space of pronouns is so large, it's rare to use acronyms in Sumibli.
-
-🔝
-
-📛Quotes
-
-Much like we can import foreign words into Sumibli sentences, we can quote others by using the "-th" suffix before Sumibli text. To note that you're ending the quote, simply say "tsh" at the end of the quote. It is conventional to explicitly end quotes, even if that's the quote is the last thing you say.
-
-|🎏tha kai la ma luth \"itshui ma laibai ma tsh\"|tha kai la ma luth
-"itshui ma
-laibai ma tsh"|Animal said
-"Talk to me."
+Acronyms in Sumibli are just chains of pronouns. One can do a simple letter-by-letter acronym ("FBI" ↣ "thif thub thui") or, more typically, an acronym that captures relevant sounds from each word ("Federal Bureau of Investigation" ↣ "thiaf thiub thin"). Because the space of pronouns is so large, it's rare to use acronyms in Sumibli.
 
 🔝
 
@@ -682,9 +695,8 @@ Sumibli lets us talk about the emotions of people (including the speaker) by usi
 |🎏hu|hu|boo!
 |🎏ikai ha la hi vu|ikai ha la hi vu|animals😐
 are good😀
-|🎏ma ha lu hi
-tha sumibli|ma ha lu hi
-tha sumibli|there's talk
+|🎏ma ha lu hith \"sumibli ch\"|ma ha lu hith
+sumibli ch|there's talk
 about Sumibli
 (😐 about talk
 😀 about Sumibli)
@@ -698,7 +710,7 @@ Attitudinals can't be augmented in the normal way, but they can have suffixes. A
 Use "hau" to express confusion/curiosity. If used in the opening sentence of an expression, this implies the sentence is a question, unless it's explicitly marked otherwise.
 
 |🎏ikai la hau|ikai la hau|what do animals do?
-|🎏itshia kai la hau|itshia kai la hau|Animals exist🤔.
+|🎏ichia kai la hau|ichia kai la hau|Animals exist🤔.
 
 🔝🎮attitudinals
 
@@ -710,8 +722,9 @@ There's more to learn, of course. The 🔗\📖 full specification💬 has all t
 
 Welcome!
 
-|🎏ibai la bai hi lu
-blu sha tha sumibli|ibai la bai hi lu
-blu sha tha sumibli|You've learned
+|🎏ibai la bai hi
+lu blu shath \"sumibli ch\"|ibai la bai hi
+lu blu shath
+sumibli ch|You've learned
 😀 the basics
 of Sumibli!

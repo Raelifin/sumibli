@@ -104,7 +104,7 @@ are you or I visible?|igli li hau li bi li ma
 is she speaking or listening?|ipa la hau la ma la bi
 am I fast, or is the animal fast?|ihau la gi li kai li ma
 is the pattern simple, or is the behavior simple?|ublu la blu li kai li hau
-am I a person who is speaking?|itshua ma la pa la ma
-are tge behavior and collaboration good?|utshua kai la vu li vu
-is she good?|itshua pa la vu
-are you good and fast?|itshua bi la vu la gi
+am I a person who is speaking?|ichua ma la pa la ma
+are tge behavior and collaboration good?|uchua kai la vu li vu
+is she good?|ichua pa la vu
+are you good and fast?|ichua bi la vu la gi

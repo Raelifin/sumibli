@@ -43,6 +43,6 @@ One should be careful around certain augments, however, as the meaning can chang
 
 A more elaborate way of saying farewell, is to implore the listener to take care of themselves.
 
-|🎏tshiu bi la gaiki|tshiu bi la gaiki|Please be healthy!
+|🎏ichiu bi la gaiki|ichiu bi la gaiki|Please be healthy!
 
 🔝

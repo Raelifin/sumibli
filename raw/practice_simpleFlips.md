@@ -19,7 +19,6 @@
 left|ukai la gi lir pa
 right|ipa shur gi
 right|ipa la ma shur gi
-left|itha ga shu gai la fagli
 right|iparsla la faglagi
 left|ipasla la faglagi
 right|iparsh slisga la faglagitsi
@@ -29,7 +28,7 @@ left|ikainglanu la kaigi laigu daudu
 right|ikainglanu luar fla laiklu takuni
 left|itakuni lua ni
 left|itakuni lua nirturtau
-left|itshui mu la gu
+left|ichui mu la gu
 left|ivu lish bi la gu
 right|iflakau sha panunu la gurkauntau
 right|ipanutsi la firvu
@@ -37,14 +36,14 @@ left|ipli lish tau shu takudu lua ni
 left|ikidaukui shur pi luar ki laibur sla
 left|ipai lush bi la maglir lau blursli
 left|ima lua flar laizau tursh vasfla
-left|imarsai la gubtau lur bava laipaish bi
-right|imarsai lua nirgu lir daiku
+left|imarsa la gubtau lur bava laipaish bi
+right|imarsa lua nirgu lir daiku
 left|ima la gautautu lu bi
 left|ukaika la bai lur ga
-left|itshua saurfa sha bi lua flargapi
-left|itshua pa la guntau
-right|itshua saurfa sha bi la gubtau laipai bi
-right|itshua bi la gubtau sha klagartu
+left|ichua saurfa sha bi lua flargapi
+left|ichua pa la guntau
+right|ichua saurfa sha bi la gubtau laipai bi
+right|ichua bi la gubtau sha klagartu
 right|usla la pu lu kainai
 left|idadi sha baidai la gudu lu badau
 left|ipanurupsi shar daipa lua ni laigu flu
@@ -52,14 +51,14 @@ right|ilaitau daikuzai la kaugi laiguru tukla
 left|igaukda lua gaukda
 right|iga la bla lur naugai
 left|ipanu la bla lu paupna
-left|itshua bi la gaupi laibau
-left|itshiu bi la figu lu mir laivir ma
-left|itshua bi la gau lu ma
-right|itshua kainglanurupsi sha sash panunu
-right|utshua kiblidaudi la zi shar bi lur du
+left|ichua bi la gaupi laibau
+left|ichiu bi la figu lu mir laivir ma
+left|ichua bi la gau lu ma
+right|ichua kainglanurupsi sha sash panunu
+right|uchua kiblidaudi la zi shar bi lur du
 left|idaiku la du lu hau
-left|itshiu bi la gu lir vi shar bi
-left|itshiu pauvai
+left|ichiu bi la gu lir vi shar bi
+left|ichiu pauvai
 left|ita la hau la glibta la glibva
 right|ipa la favgla laivi vurpi shu flivgladai
 |Medium
@@ -81,13 +80,13 @@ rsla|ipa_ la faglagi|all people shout
 sla|ipa_ la faglagi|some people shout
 sla|ipasla la faglagi|some people shout
 🔹"|0|" has an ending orientaion of:
-left|itshiu bi la figu lu mir laivir ma
-left|itshua bi la gau lu ma
-right|itshua kainglanurupsi sha sash panunu
-right|utshua kiblidaudi la zi shar bi lur du
+left|ichiu bi la figu lu mir laivir ma
+left|ichua bi la gau lu ma
+right|ichua kainglanurupsi sha sash panunu
+right|uchua kiblidaudi la zi shar bi lur du
 left|idaiku la du lu hau
-left|itshiu bi la gu lir vi shar bi
-left|itshiu pauvai
+left|ichiu bi la gu lir vi shar bi
+left|ichiu pauvai
 left|ita la hau la glibta la glibva
 right|ipa la favgla laivi vurpi shu flivgladai
 |Hard
@@ -95,7 +94,6 @@ right|ipa la favgla laivi vurpi shu flivgladai
 left|ukai la gi lir pa
 right|ipa shur gi
 right|ipa la ma shur gi
-left|itha ga shu gai la fagli
 right|iparsla la faglagi
 left|ipasla la faglagi
 right|iparsh slisga la faglagitsi
@@ -105,7 +103,7 @@ left|ikainglanu la kaigi laigu daudu
 right|ikainglanu luar fla laiklu takuni
 left|itakuni lua ni
 left|itakuni lua nirturtau
-left|itshui mu la gu
+left|ichui mu la gu
 left|ivu lish bi la gu
 right|iflakau sha panunu la gurkauntau
 right|ipanutsi la firvu
@@ -113,14 +111,14 @@ left|ipli lish tau shu takudu lua ni
 left|ikidaukui shur pi luar ki laibur sla
 left|ipai lush bi la maglir lau blursli
 left|ima lua flar laizau tursh vasfla
-left|imarsai la gubtau lur bava laipaish bi
-right|imarsai lua nirgu lir daiku
+left|imarsa la gubtau lur bava laipaish bi
+right|imarsa lua nirgu lir daiku
 left|ima la gautautu lu bi
 left|ukaika la bai lur ga
-left|itshua saurfa sha bi lua flargapi
-left|itshua pa la guntau
-right|itshua saurfa sha bi la gubtau laipai bi
-right|itshua bi la gubtau sha klagartu
+left|ichua saurfa sha bi lua flargapi
+left|ichua pa la guntau
+right|ichua saurfa sha bi la gubtau laipai bi
+right|ichua bi la gubtau sha klagartu
 right|usla la pu lu kainai
 left|idadi sha baidai la gudu lu badau
 left|ipanurupsi shar daipa lua ni laigu flu
@@ -128,13 +126,13 @@ right|ilaitau daikuzai la kaugi laiguru tukla
 left|igaukda lua gaukda
 right|iga la bla lur naugai
 left|ipanu la bla lu paupna
-left|itshua bi la gaupi laibau
-left|itshiu bi la figu lu mir laivir ma
-left|itshua bi la gau lu ma
-right|itshua kainglanurupsi sha sash panunu
-right|utshua kiblidaudi la zi shar bi lur du
+left|ichua bi la gaupi laibau
+left|ichiu bi la figu lu mir laivir ma
+left|ichua bi la gau lu ma
+right|ichua kainglanurupsi sha sash panunu
+right|uchua kiblidaudi la zi shar bi lur du
 left|idaiku la du lu hau
-left|itshiu bi la gu lir vi shar bi
-left|itshiu pauvai
+left|ichiu bi la gu lir vi shar bi
+left|ichiu pauvai
 left|ita la hau la glibta la glibva
 right|ipa la favgla laivi vurpi shu flivgladai

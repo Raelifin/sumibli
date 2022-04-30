@@ -42,7 +42,7 @@ Consonants can either be standard ("ufamglanaiva") or weird ("ufamglanaivla").
   ≔ thip \| thub \| thit \| thud \| thik \| thug
   \| thin \| thum \| thif \| thuv \| this \| thuz
 
-💻ufamglanaivla ≔ thih \| thux \| thij \| thur \| thil
+💻ufamglanaivla ≔ thih \| thux \| thij \| thuc \| thir \| thul
 
 💻ufamglakau ≔ thui \| thua \| thau
 
@@ -70,8 +70,9 @@ representation
 |thih|h|🎏h|h
 |thux|th, x|🎏x|ð or θ
 |thij|sh, j|🎏j|ʃ, ʒ
-|thur|r|🎏r|ɹ, ɾ, r
-|thil|l|🎏l|l
+|thuc|ch, c, tsh|🎏c|tʃ
+|thir|r|🎏r|ɹ, ɾ, r
+|thul|l|🎏l|l
 |thui|i|🎏i|i, ɪ
 |thua|a|🎏a|ä, ɘ, ə, ɤ, ɛ,
 œ, ɜ, ɞ, ʌ, ɔ,
@@ -96,24 +97,24 @@ Vowels can be combined to make diphthongs ("ufamglakautsi").
 |u + i|🎏ui|wiː
 |u + a|🎏ua|wɑː
 
-The middle-sound of a syllable ("ufamglabai") consists of either a vowel by itself, a diphthong, or the letter thil followed by a vowel.
+The middle-sound of a syllable ("ufamglabai") consists of either a vowel by itself, a diphthong, or the letter thul followed by a vowel.
 
-💻ufamglabai ≔ ufamglakau \| ufamglakautsi \| thil & ufamglakau
+💻ufamglabai ≔ ufamglakau \| ufamglakautsi \| thul & ufamglakau
 
 An orientation is either left or right, indicated by the letter "thui" or "thau", respectively.
 
 💻orientation ≔ thui \| thau
 
-A "💻thur*💬" is an optional "thur" that, when present, can optionally have an orientation.
+A "💻thir*💬" is an optional "thir" that, when present, can optionally have an orientation.
 
-💻thur* ≔ optional (thur & orientation?)
+💻thir* ≔ optional (thir & orientation?)
 
-An "ufamglanaisau" or "bridge-consonant" is either the letter thih, a standard consonant, or the letter thur followed by an optional pair of an orientation ("thui" or "thau") and an optional standard consonant. In other words, ufamglanaisau are either a standard consonant, a thur*, both, or neither. When it's both, the thur* must also have an orientation vowel.
+An "ufamglanaisau" or "bridge-consonant" is either the letter thih, a standard consonant, or the letter thir followed by an optional pair of an orientation ("thui" or "thau") and an optional standard consonant. In other words, ufamglanaisau are either a standard consonant, a thir*, both, or neither. When it's both, the thir* must also have an orientation vowel.
 
 💻ufamglanaisau
   ≔ thih
   \| ufamglanaiva
-  \| thur & (optional (orientation & ufamglanaiva?))
+  \| thir & (optional (orientation & ufamglanaiva?))
 
 🔝
 
@@ -123,16 +124,16 @@ A word ("imai") is either a heavy-defined-word ("imaizladu"), an emotion-word ("
 
 💻imai ≔ imaizladu \| imaipau \| imaivla
 
-A heavy-defined-word is a defined-word and a thur*. Defined-words ("imaizla") are parameterized on a bit, and in our heavy-defined-word that bit is lo.
+A heavy-defined-word is a defined-word and a thir*. Defined-words ("imaizla") are parameterized on a bit, and in our heavy-defined-word that bit is lo.
 
-💻imaizladu ≔ imaizla lo & thur*
+💻imaizladu ≔ imaizla lo & thir*
 
-Imaizla are built up in sections from left-to-right. The leftmost section consists of a standard consonant and a middle-sound. We can bolt on an additional section using a bridge-consonant, a standard consonant, and a middle-sound. Finally, we can bolt a section that consists of an entire imaizla by using a thur* and a "thij". In this last case we can explicitly end the section by "thij" & "thui", and this explicit end is required when the bit-parameter is hi.
+Imaizla are built up in sections from left-to-right. The leftmost section consists of a standard consonant and a middle-sound. We can bolt on an additional section using a bridge-consonant, a standard consonant, and a middle-sound. Finally, we can bolt a section that consists of an entire imaizla by using a thir* and a "thij". In this last case we can explicitly end the section by "thij" & "thui", and this explicit end is required when the bit-parameter is hi.
 
 💻imaizla B
   ≔ ufamglanaiva & ufamglabai
   \| imaizla hi & ufamglanaisau & ufamglanaiva & ufamglabai
-  \| imaizla hi & thur* & thij
+  \| imaizla hi & thir* & thij
       & imaizla lo & enforced (thij & thui) B
 
 Emotion words are also built in sections. The leftmost section consists of the letter "thih" followed by either a diphthong or a single vowel. Additional sections involve two 🔈different💬 standard consonants followed by a middle-sound.
@@ -145,14 +146,14 @@ Emotion words are also built in sections. The leftmost section consists of the l
 Strange words are simply one of several specific forms:
 
 💻imaivla
-  ≔ thih & thua & thil
-  \| thij & thua & thur* & thij?
-  \| thij & thau & thur*
-  \| thil & ufamglakau & thur* & thij?
-  \| thil & thau & thua & thur* & thij?
-  \| thil & thua & thui & ufamglanaiva & ufamglabai & thur* & thij?
-  \| thil & thua & thau
-  \| thit & thij & ufamglakautsi?
+  ≔ thih & thua & thul
+  \| thij & thua & thir* & thij?
+  \| thij & thau & thir*
+  \| thul & ufamglakau & thir* & thij?
+  \| thul & thau & thua & thir* & thij?
+  \| thul & thua & thui & ufamglanaiva & ufamglabai & thir* & thij?
+  \| thul & thua & thau
+  \| thuc & ufamglakautsi?
   \| thux & (ufamglakautsi \| ufamglakau) & ufamglanai
 
 (Note: The word "hal" can only show up before an ivla. See next two sections.)
@@ -163,7 +164,7 @@ Strange words are simply one of several specific forms:
 
 Foreign concepts can be imported into Sumibli by using a "stranger" ("ivla") structure. This consists of a "-th" suffix, that is (unlike all other instances of "thux") pronounced unvoiced, followed by some arbitrary sounds. Alas, because foreign text can have arbitrary sounds, there is no explicit marker for the end of foreign speech; it's up to the speaker to make it clear that they're speaking Sumibli again. When writing, it's customary to include spaces around foreign words to distinguish them.
 
-An ivla can also be used to quote a Sumibli speaker. Like with foreign text, this is marked using an unvoiced "thux". It is strongly recommended (but not required) for quoted expressions to explicitly end using "tsh". When writing quotes, quote marks are often used (sometimes in combination with whitespace).
+An ivla can also be used to quote a Sumibli speaker. Like with foreign text, this is marked using an unvoiced "thux". It is strongly recommended (but not required) for quoted expressions to explicitly end using "ch". When writing quotes, quote marks are often used (sometimes in combination with whitespace).
 
 🔝
 
@@ -187,16 +188,16 @@ A big-concept ("umaidu") is either a concept flanked by an arbitrary number of t
 
 A thih-word is either an emotion-word ("imaipau") or the word "hal" followed by a stranger ("ivla").
 
-💻imaithih ≔ imaipau \| thih & thua & thil & ivla
+💻imaithih ≔ imaipau \| thih & thua & thul & ivla
 
-An owned-concept ("umaifu") is a non-empty list of big-concepts ("umaidu") seperated by the word "sha" (with a thur*), followed by an optional "shash" and then another owned-concept.
+An owned-concept ("umaifu") is a non-empty list of big-concepts ("umaidu") seperated by the word "sha" (with a thir*), followed by an optional "shash" and then another owned-concept.
 
-💻umaifu ≔ umaidu & list (thij & thua & thur* & umaidu)
-  & optional (thij & thua & thur* & thij & umaifu)
+💻umaifu ≔ umaidu & list (thij & thua & thir* & umaidu)
+  & optional (thij & thua & thir* & thij & umaifu)
 
-The final piece needed to create phrases is the set-of-concepts ("usamai"), which is just a list of owned-concepts seperated by the word "shu" (with a thur*). It's a known limitation that one can use owned-concepts in a set-of-concepts, but not vice-versa.
+The final piece needed to create phrases is the set-of-concepts ("usamai"), which is just a list of owned-concepts seperated by the word "shu" (with a thir*). It's a known limitation that one can use owned-concepts in a set-of-concepts, but not vice-versa.
 
-💻usamai ≔ umaifu & list (thij & thau & thur* & umaifu)
+💻usamai ≔ umaifu & list (thij & thau & thir* & umaifu)
 
 🔝
 
@@ -205,15 +206,15 @@ The final piece needed to create phrases is the set-of-concepts ("usamai"), whic
 An expression-piece ("ublirmi") is how we talk about phrases and clauses in our sentences. There are too many constructors to describe in English. The following definition is parameterized on two bits because we want to use it in a fancy-list (see: 🔗#Prerequisites Prerequisites💬). We can think of these as the "tail-bit" ("T") and "init-bit" ("I") to riff off of functional programming jargon.
 
 💻ublirmi T I
-  ≔ thil & ufamglakau & thur* & usamai
-  \| thil & thau & thua & thur* & usamai
-  \| thil & thui & thur* & idami & enforced (thil & thua & thij) I
-  \| thil & thau & thur* & idami & enforced (thil & thua & thij) I
-  \| thil & thua & thui & ufamglanaiva & ufamglabai & thur* & usamai?
-  \| thil & thua & thui & ufamglanaiva & ufamglabai & thur* & thij
-      & idami & enforced (thil & thua & thij) I
-  \| thil & thua & thau & usamai
-      & list (ublirmi hi hi) & enforced (thil & thua & thij) I
+  ≔ thul & ufamglakau & thir* & usamai
+  \| thul & thau & thua & thir* & usamai
+  \| thul & thui & thir* & idami & enforced (thul & thua & thij) I
+  \| thul & thau & thir* & idami & enforced (thul & thua & thij) I
+  \| thul & thua & thui & ufamglanaiva & ufamglabai & thir* & usamai?
+  \| thul & thua & thui & ufamglanaiva & ufamglabai & thir* & thij
+      & idami & enforced (thul & thua & thij) I
+  \| thul & thua & thau & usamai
+      & list (ublirmi hi hi) & enforced (thul & thua & thij) I
   \| usamai & (T = lo)
 
 🔝
@@ -226,10 +227,10 @@ A sentence ("idami") is a fancy-list of expression-peices ("ublirmi") preceded b
 
 Sentence-starts ("idamitu") are the letters thit and thij followed by any diphthong.
 
-💻idamitu ≔ thit & thij & ufamglakautsi
+💻idamitu ≔ thuc & ufamglakautsi
 
-An expression ("imi") is an orientation followed by a fancy-list of sentences ("idami") and terminated by an optional "tsh". We are allowed to drop the orientation if there is at least one thur with an explicit orientation before the first imaizladu. (Thus if there are no imaizladu in an expression, the orientation can be dropped.) 📣Unlike everywhere else, the formal definition doesn't include this rule💬 (because it's annoying to formally specify).
+An expression ("imi") is an orientation followed by a fancy-list of sentences ("idami") and terminated by an optional "ch". We are allowed to drop the orientation if there is at least one thir with an explicit orientation before the first imaizladu. (Thus if there are no imaizladu in an expression, the orientation can be dropped.) 📣Unlike everywhere else, the formal definition doesn't include this rule💬 (because it's annoying to formally specify).
 
-💻imi ≔ orientation? & fancy-list idami & optional (thit & thij)
+💻imi ≔ orientation? & fancy-list idami & optional (thuc)
 
 🔝

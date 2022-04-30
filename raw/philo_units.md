@@ -164,6 +164,6 @@ One kagnau is 7.618e31 Kelvin, which is an insanely high temperature. We thus al
 |🎏kabgai|kabgai|force|Planck-force
 (kagai × kaba)
 |🎏kasbatsai|kasbatsai|area|kasba²
-|🎏kasbaksai|kasbaksai|volume|kasba³
+|🎏kasbadsai|kasbadsai|volume|kasba³
 
 🔝
