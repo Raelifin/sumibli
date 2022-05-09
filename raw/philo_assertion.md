@@ -1,5 +1,5 @@
 📛Assertion
-and Command
+&nbsp;& Command
 
 how to be forceful
 and impose your will
@@ -19,7 +19,9 @@ Let's start with "chui". A sentence that starts with this word is a command. Sim
 
 English has somewhat distinct ways of making requests vs commands, so hopefully the distinction between "chiu" and "chui" is clear. Unlike English, Sumibli also distinguishes between two different ways of making statements. One framing of this distinction is as "perspective" vs "assertion".
 
-A sentence that starts with "chai" is an assertion. There is an implication that the listener agrees with what is being said, and that what is being said should be adopted as a standard way of thinking about things. Much like with a command, there is a kind of blunt force to an assertion that can be violent in contexts where people might see things differently.
+A sentence that starts with "chai" is an assertion. There is an implication that the listener agrees with what is being said, and that what is being said should be adopted as a standard way of thinking about things. Much like with a command, there is a kind of blunt force to an assertion that can be violent in contexts where people might see things differently. Another way of thinking about "chai" sentences, is that they put forth a frame that others can engage with as a social construct, including by rejecting.
+
+Sentences like "In this house we wash our hands" is a "chai" sentence, as is "That's against the rules" or "I'm the manager of this restaurant".
 
 Thus, in contrast, sentences that start with "chia" should be heard as subjective, soft claims. These are statements not of hard fact, but of sharing the perspective of the speaker, and adding data to common knowledge. There is no implication that people should agree with a perspective, and often there's an implication that each person sees their own version of the truth. A common translation of "chia" is "I believe".
 

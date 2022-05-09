@@ -62,7 +62,8 @@ These six basic feelings are only the start of a whole world of emotional expres
 |hungau|paungau|tense
 |hugnu|paugnu|anxious
 |hudnu|paudnu|depressed
-|hanvu|paunvu|sad
+|hunvau|paunvau|sad
+|hanvu|paunvu|ennui
 |hantu|paunutu|despair
 |huvnu|pauvnu|ashamed
 |huvna|pauvna|guilty
@@ -75,6 +76,10 @@ These six basic feelings are only the start of a whole world of emotional expres
 |himvi|pauvi|gratitude
 |hibva|paubva|welcoming
 |hitvu|pautvu|hopeful
+|hivpai|pauvpai|satisfied
+|hahi|pauvau|serene
+|hikvau|paukvau|comfortable
+|hukvau|paukvauna|uncomfortable
 |hadni|paudni|tired
 
 🔝

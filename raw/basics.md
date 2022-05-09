@@ -436,62 +436,59 @@ is a good thing
 
 📛Prepositions
 
-When we want to give additional context to a sentence, we can use sub-clauses as introduced in the previous sections. For instance if we want to say "a person speaks inside the container" we can say "(a person speaks) is inside the container". But sometimes, especially when quickly composing a sentence during conversation, it's useful to be able to say "a person speaks... inside the container", where we see the first part of the sentence as the primary content, and the note about being inside the container as additional info that's tacked on as an afterthought.
+When we want to give additional context to a sentence, we can use sub-clauses as introduced in the previous sections. For instance if we want to say "they spoke before the hero" we can say "(they spoke) was before the hero". But sometimes, especially when quickly composing a sentence during conversation, it's useful to be able to say "they spoke... before the hero", where we see the first part of the sentence as the primary content, and the note about being before the hero as additional info that's tacked on as an afterthought.
 
-The word "lai" is the fastest and most common way of adding context. It can be seen as a preposition marker, or just a shorthand for the structures of the previous section that doesn't require forethought. A basic rule is that (while left-oriented) "X lai Y Z" = "lush X lash la Y li Z", where X is all the rest of the sentence, Y is 🔈a single seed word💬, and Z is a phrase. This reduces the number of words needed to express a preposition by 75%!
+The word "lai" is the fastest and most common way of adding context. It can be seen as a preposition marker, or just a shorthand (that doesn't require forethought) for the structures of the previous section. A basic rule is that (while left-oriented) "X lai Y Z" = "lish X lash la Y lu Z", where X is all the rest of the sentence, Y is 🔈a single seed word💬, and Z is a phrase. This reduces the number of words needed to express a preposition by 75%!
 
 Let's look at an example:
 
-|🎏bai|bai|container|inner
+|🎏tu|tu|before|after
 
-|🎏ibai lu pa|ibai lu pa|something contains a person
+|🎏ipa la tu|ipa la tu|they were before
 |🎏ipa la ma
-laibai|ipa la ma
-laibai|a person speaks inside
+laitu|ipa la ma
+laitu|they spoke before
 |🎏ipa la ma
-laibai bai|ipa la ma
-laibai bai|a person speaks
-inside the container
+laitu pavu|ipa la ma
+laitu pavu|they spoke
+before the hero
 
-The word "lai" works a little differently when in right-mode. When we're right-oriented "X lai Y Z" = "lish X lash la Y lu Z". In other words it flips the relationship of the preposition. An easy mnemonic for how "lai" interacts with orientation is that (as we saw with "laibai bai") it's redundant if Z is the same (seed word) as Y.
+The word "lai" getts flipped when we're in right-mode. When right-oriented, "X lai Y Z" = "lush X lash la Y li Z". In other words, if we think of the preposition as a verb, it flips which side is the subject and which is the object. An easy mnemonic for how "lai" interacts with orientation is that "lai" is most often used as an afterthought, and that in left-orientation (the most common) it's like a verb that treats the clause on the left as subject and the phrase on the right as object.
 
-|🎏ipa la mar laibai|ipa la mar laibai|a person speaks
-while carrying something
+|🎏ipa la mar laitu|ipa la mar laitu|they spoke after
 |🎏ipa la mar
-laibai bai|ipa la mar
-laibai bai|a person speaks
-while carrying
-their insides
+laitu gi|ipa la mar
+laitu gi|they spoke after the move
 
-It’s vital to remember that the preposition, as a word, stops after a single syllable following the “lai”. Multi-syllable compounds can’t be used as prepositions without using 🔗spec more complex grammatical structures💬.
+It’s vital to remember that the preposition, as a word, stops after a single syllable following the "lai". Multi-syllable compounds can’t be used as prepositions without using 🔗spec more complex grammatical structures💬.
 
 🔝🎮prepositions
 
-📛Indirect Objects
+📛Double Object Verbs
 
-Sometimes we want to not just talk about the direct object of an action, but also indirect objects that are related to some action. For instance, in English we can say "he gave the animal a toy" and we understand "a toy" as the thing that was given.
+Some English verbs have room for two objects that occur back-to-back. For instance: "he gave the animal a toy". This is an ad-hoc shorthand for "he gave a toy to the animal". Note that in the second version, the word "to" connects an indirect object to the primary part of the sentence.
 
-Sumibli has no indirect objects, instead relying entirely on prepositions/subclauses. Just as we can say "he gave a toy 📣to💬 the animal" to communicate the same idea in English, we can use prepositions whenever additional context is needed in Sumibli.
+Sumibli has no double-object verbs. Whenever we want to include an indirect object we simply use prepositions (or occasionally a sub-clause), as explained in the last section.
 
 |🎏fai|fai|source|effect
 |🎏fla|fla|player|toy
 
-|🎏ikai la bai lur fla|ikai la bai lur fla|the animal
+|🎏ikai la bi lur fla|ikai la bi lur fla|the animal
 got a toy
-|🎏ikai la bai lur flar
-laifairi pa|ikai la bai lur flar
+|🎏ikai la bi lur fla
+laifairi pa|ikai la bi lur fla
 laifairi pa|the animal
 got a toy
 from a person
 
 Because "lai" only captures a single phrase, we can move things around to make the sentence slightly more elegant and to emphasize the giving.
 
-|🎏ubai laifair pa
-lur fla lir kai|ubai laifair pa
-lur fla lir kai|a person gave
+|🎏ulaifair pa la bi
+li kai lur fla|ulaifair pa la bi
+li kai lur fla|a person gave
 a toy to the animal
 
-🔝🎮indirectObjects
+🔝
 
 📛Possession
 
@@ -593,17 +590,17 @@ Remember that "th" when used in this way is always pronounced 🔈un💬voiced, 
 
 Much like we can import foreign words into Sumibli sentences, we can quote others by using the "-th" suffix before Sumibli text. To note that you're ending the quote, simply say "ch" at the end of the quote. It is conventional to explicitly end quotes, even if that's the quote is the last thing you say.
 
-|🎏ikai la ma luth \"ichui ma laibai ma ch\"|ikai la ma luth
-"ichui ma
-laibai ma ch"|The animal said
+|🎏ikai la ma luth \"uchui ma laibir ma ch\"|ikai la ma luth
+"uchui ma
+laibir ma ch"|The animal said
 "Talk to me."
 
-Quotes use their own left/right orientation, so it's also super common to re-specify the orientation after closing a quote.
+Quotes use their own left/right orientation, so it's also super common to re-specify the orientation after closing a quote. It's fine to do this even if the orientation hasn't changed.
 
-|🎏luth \"ichui ma laibai ma ch\"
+|🎏luth \"uchui ma laibir ma ch\"
 ila ma li kai|luth
-"ichui ma
-laibai ma ch"
+"uchui ma
+laibir ma ch"
 ila ma li kai|"Talk to me,"
 said the animal.
 
@@ -629,25 +626,29 @@ Nicknames are common in Sumibli. This means it's fine to use/invent names even i
 
 📛Pronouns
 
-Pronouns in Sumibli are based on representing something by "th", followed by any vowel or diphthong, followed by a consonant (including a silent "h"). There are no hard-and-fast rules for which pronoun to use for a given thing, but there are patterns depending on what's being described. Pronouns don't have an orientation and mean the same thing in left and right mode.
+Pronouns in Sumibli are based on representing something by "th", followed by any vowel or diphthong, followed by any consonant (for "h", one should leave a pause or clearly vocalize it, for clarity). There are no hard-and-fast rules for which pronoun to use for a given thing, but there are patterns depending on what's being described. Pronouns don't have an orientation and mean the same thing in left and right mode.
 
-Pronouns for foreign names/words involve taking the first sounds from the name/word in question and trying to fit them into the pattern. For example, if we’re talking about “Mitch”, instead of saying “ith Mitch” we could use the pronoun “thim”. We choose "i" as the vowel because the vowel sound in "Mitch" is kinda close to "i", and "m" as the consonant because it's the first sound in "Mitch". Ultimately it's just a judgement call how a given set of sounds best map to the pronoun options. Sometimes it's useful to distinguish between two people with similar names by interpreting the sounds differently.
+Pronouns for foreign names/words involve taking the first vowel from the name/word in question, and attaching the next consonant, so as to fit the pattern. For example, if we’re talking about “Mitch”, instead of saying “ith Mitch” we could use the pronoun “thich”. We choose "i" as the vowel because the vowel sound in "Mitch" is kinda close to "i", and "ch" as the consonant because it's the consonant sound after the vowel in "Mitch". Ultimately it's just a judgement call how a given set of sounds best map to the pronoun options. Sometimes it's useful to distinguish between two people with similar names by interpreting the sounds differently.
 
 |Idaho|thaid
 |Wendy|thuan
-|Hayley|thaih
-(or maybe "thail")
-|Max|tham
+|Hayley|thail
+|Max|thak
 
-When using a pronoun to refer to a normal Sumibli noun, it's typical to use "i" or "u" sounds depending on the orientation of the noun, and use the first consonant in the noun phrase. Thus if we want a pronoun for taxonomy, we could use "this" (short for "isumibli"). Sometimes the first vowel is pushed in to make a dipthong like "thius".
+When using a pronoun to refer to a normal Sumibli noun, it's typical to use "i" or "u" sounds depending on the orientation of the noun, and use the first consonant in the noun phrase. Thus if we want a pronoun for taxonomy, we could use "this" (short for "isumibli").
 
 |pronghorn|ikaigi|thik
 |prowling|ukaingla|thuk
 
-To use a pronoun as a stand-in for a Sumibli name, we usually take the first vowel(s), and follow it by the consonant immediately 🔈after💬 that vowel. For example "Sumibli" would be shortened to "thum". If a Sumibli name is very short, such that no secondary consonant appears, we typically choose the first consonant instead.
+To use a pronoun as a stand-in for a Sumibli name, we usually follow the same strategy for foreign names: take the first vowel sound, and follow it by the consonant immediately after that vowel. For example "Sumibli" would be shortened to "thum".
 
 |Pavu|thav
+
+If a name (Sumibli or foreign) is short, such that no consonant appears after the vowel, we typically choose the first consonant instead.
+
 |Pai|thaip
+|Maia|thaim
+|Hawaii|thah
 
 To help associate pronouns with their subjects, sometimes a writer or speaker will add a pronoun after a name or compound using "halth [pronoun] ch" to indicate that it's the shortened form. See 🔗\📖 the full spec💬 for details on "halth".
 
@@ -680,13 +681,13 @@ The vowels are then represented by diphthongs (with a silent "h" after).
 |🎏thua|thua|"a"
 |🎏thau|thau|"u"
 
-Acronyms in Sumibli are just chains of pronouns. One can do a simple letter-by-letter acronym ("FBI" ↣ "thif thub thui") or, more typically, an acronym that captures relevant sounds from each word ("Federal Bureau of Investigation" ↣ "thiaf thiub thin"). Because the space of pronouns is so large, it's rare to use acronyms in Sumibli.
+Acronyms in Sumibli are just chains of pronouns. One can do a simple letter-by-letter acronym ("FBI" ↣ "thif thub thui") or, more typically, an acronym that captures relevant sounds from each word ("Federal Bureau of Investigation" ↣ "thad thiur thin"). Because the space of pronouns is so large, it's rare to use acronyms in Sumibli.
 
 🔝
 
 📛Attitudinals
 
-Sumibli lets us talk about the emotions of people (including the speaker) by using verbs/adjectives/etc. But there's also a shorthand that gives speakers the power to annotate their speech with emotional interjections. These interjections are a bit like emoji/emoticons, and are called "🔈attitudinals💬". Attitudinals all start with the letter "h" and are about the last word that was mentioned. Unlike standard words, attitudinals aren't making claims about the world, but are purely an expression of emotion, like "yay!"or "boo!". Attitudinals have the same meaning in left/right mode.
+Sumibli lets us talk about the emotions of people (including the speaker) by using verbs/adjectives/etc. But there's also a shorthand that gives speakers the power to annotate their speech with 🔗philo_emotion emotional💬 interjections. These interjections are a bit like emoji/emoticons, and are called "🔈attitudinals💬". Attitudinals all start with the letter "h" and are about the last word that was mentioned. Unlike standard words, attitudinals aren't making claims about the world, but are purely an expression of emotion, like "yay!"or "boo!". Attitudinals have the same meaning in left/right mode.
 
 |🎏hi|hi
 ("hee")|yay!
@@ -722,8 +723,8 @@ There's more to learn, of course. The 🔗\📖 full specification💬 has all t
 
 Welcome!
 
-|🎏ibai la bai hi
-lu blu shath \"sumibli ch\"|ibai la bai hi
+|🎏ibi la bi hi
+lu blu shath \"sumibli ch\"|ibi la bi hi
 lu blu shath
 sumibli ch|You've learned
 😀 the basics

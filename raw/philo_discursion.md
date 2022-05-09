@@ -22,6 +22,9 @@ It is technically allowed to close a parenthetical with a pause/space (like fore
 
 |🎏ipa la tai lu bapdau
 halth \"ma la puna lu bu ch\"
+ulaibau sibavavata|ipa la tai lu bapdau
+halth
+"ma la puna lu bu ch"
 ulaibau sibavavata|he got out of prison
 (I don't know where)
 in 1992
@@ -30,6 +33,8 @@ If one wants a parenthetical to be entirely foreign text, this is allowed. In th
 
 |🎏ikaigi
 halth _eg squirrels_
+la gi|ikaigi
+halth 🔈eg squirrels💬
 la gi|Sprinters (eg squirrels) are fast
 
 📛Meta Confusion
@@ -44,12 +49,14 @@ It's not clear from the above whether B understood what A said, and was asking a
 
 When a sentence starts with "chau" it expresses a break from the object-level, and implies a question (much like the more common "chua"). It is common to simply say "chau" as an interjection that means "huh?" or "I don't understand".
 
-|🎏ipanunu la fu|the baby had something
-|🎏chau hau la fu|what had something?
+|🎏ipanunu la fu|ipanunu la fu|the baby had something
+|🎏chau hau la fu|chau hau la fu|What had something?
 
 It's not at all required that one use "chau" instead of "chua" when expressing confusion, like in the example above. The word "chau" merely gives another tool to the advanced Sumibli speaker. This tool can also be used to make suggestions or comments on the meta level, with an implication that the words should not be taken as a bid to change the topic.
 
-|🎏ichau mu la gu lur tau|should we go over there?
+|🎏ichau mu
+la gu lur tau|ichau mu
+la gu lur tau|Should we go over there?
 
 Not all meta-communication should involve "chau"! Often in a conversation it is useful to 🔈change the topic💬 to the conversation itself. These kinds of going-meta are done using the standard ways of talking about things. The word "chau" should be reserved for helping a conversation on a topic be smooth and clear, without redirecting focus.
 

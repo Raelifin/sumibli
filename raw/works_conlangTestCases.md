@@ -31,7 +31,7 @@ Warning: These sentences were translated slowly over the course of Sumibli's dev
 |Happy people often shout.|🎏ipash pauvau la faglagi laiva
 |The kitten jumped up.|🎏ikainglanu la kaigi shu gurta
 |The kitten jumped onto the table.|🎏ikainglanu la kaigi laigu daudu
-|My little kitten walked away.|🎏kainglanu sha ma shu nu la gu lur tau
+|My little kitten walked away.|🎏ikainglanu sha ma shu nu la guntau
 |It's raining.|🎏takuni
 |The rain came down.|🎏utakuni la gudu
 |The kitten is playing in the rain.|🎏ikainglanu la flar laiklu takuni
@@ -127,7 +127,7 @@ had once been a sailor.|🎏ifaki sha panu la pabkutu
 |I have lost my blanket.|🎏iti lu daklunau sha ma
 |A robin has built his nest in the apple tree.|🎏uth _robin_ la fa lu flukai laibairi kidaudugau
 |At noon we ate our lunch by the roadside.|🎏ulaibaur klaglizai la bikda laitau bagu
-|Mr. Jones made a knife for his little boy.|🎏ith _Mr. Jones_ la fa lu dabnai laivi panu sha thud
+|Mr. Jones made a knife for his little boy.|🎏ith _Mr. Jones_ la fa lu dabnai laivi panu sha thun
 |Their voices sound very happy.|🎏iglapa la bla lu pauvugai
 |Is today Monday?|🎏uchua klagapsai
 |Have all the leaves fallen from the tree?|🎏ikidaubli shur sla la gudu laitaur kidaudu
@@ -203,48 +203,48 @@ and a tiny kitchen.|🎏ibakinu la bai lu batidsi chia bamu chia bani chia bakai
 the largest village in the world.|🎏ima la guvi lu bava sha fakish saurfa chia zaidu shu bava laiburi bazi
 |We learn something new each day.|🎏imarsa la bipu laiklari klaga
 |The market begins five minutes earlier this week.|🎏ilish babi la tai lash la tuva shu siku shu kasbau laibau klagansi
-
-|Did you find the distance too great?|🎏
-
-|Hurry, children.|🎏
-|Madam, I will obey your command.|🎏
+|Did you find the distance too great?|🎏ichua bi la guzi
+|Hurry, children.|🎏ichiu panu la gi
+|Madam, I will obey your command.|🎏ima la fi lu mipai shu bi
 |Here under this tree
-they gave their guests a splendid feast.|🎏
+they gave their guests a splendid feast.|🎏itau shu kidaudu la tudu lush fia lush bikdadu la vurpi lur guvi
 |In winter I get up at night,
-and dress by yellow candlelight.|🎏
-|Tell the last part of that story again.|🎏
-|Be quick or you will be too late.|🎏
-|Will you go with us or wait here?|🎏
-|She was always, shabby, often ragged,
-and on cold days very uncomfortable.|🎏
-|Think first and then act.|🎏
+and dress by yellow candlelight.|🎏ulaibaur klatatna li ma la nikaini laibau klangli chia bish daklur laiklu glibsai shu glirsh flidga
+|Tell the last part of that story again.|🎏ichui bi la marklar lu zai shur bli shu maumi
+|Be quick or you will be too late.|🎏ichui gi chai na lua zau lish bi lua turvazi
+|Will you go with us or wait here?|🎏ichua zau lish bi la gu li marsa lash lish nagu luri tau
+|She was always shabby, often ragged,
+and on cold days very uncomfortable.|🎏ublarnai laibau bauzi chia laiva la nurnaifi chia laibauri nau shu klaga la paukvaunagai
+|Think first and then act.|🎏chui lish pu lash la tu lush ga
 |I stood, a little mite of a girl,
 upon a chair by the window,
-and watched the falling snowflakes.|🎏
+and watched the falling snowflakes.|🎏ima shu nununu shu panu la ta lau tudu lu dadau laitau flu chia birgli luri tankunida
 |Show the guests these shells, my son,
-and tell them their strange history.|🎏
-|Be satisfied with nothing but your best.|🎏
-|We consider them our faithful friends.|🎏
-|We will make this place our home.|🎏
+and tell them their strange history.|🎏ipanu sha ma chai laivi guvi la fagpu lu di chai ma lu vla shu mitu sha di
+|Be satisfied with nothing but your best.|🎏ichai bi la pauvpai lu zaivu sha bi shu tisa
+|We consider them our faithful friends.|🎏imarsa la pu lush vigai
+|We will make this place our home.|🎏imu la fai lu baki sha mu
 |The squirrels make their nests warm
-and snug with soft moss and leaves.|🎏
-|The little girl made the doll's dress herself.|🎏
-|I hurt myself.|🎏
-|She was talking to herself.|🎏
-|He proved himself trustworthy.|🎏
-|We could see ourselves in the water.|🎏
-|Do it yourself.|🎏
-|I feel ashamed of myself.|🎏
-|Sit here by yourself.|🎏
+and snug with soft moss and leaves.|🎏ikaigita la fair laivi kidaunursh nadi shur kidaubli lush nau lur flukai la paukvau
+|The little girl made the doll's dress herself.|🎏ipanu laiti la fa lu daklufau shar flapa
+|I hurt myself.|🎏inai lu ma
+|She was talking to herself.|🎏ipa la matur laibi thap
+|He proved himself trustworthy.|🎏ipa la faza lush pa la vudau
+|We could see ourselves in the water.|🎏imarsa la birgli lur thim laiblar ku
+|Do it yourself.|🎏ichui bi la fai laiti
+|I feel ashamed of myself.|🎏ima la pauvnu lu ma
+|Sit here by yourself.|🎏ichui bi la nitki laitau laiti
 |The dress of the little princess
 was embroidered with roses,
-the national flower of the country.|🎏
-|They wore red caps, the symbol of liberty.|🎏
-|With him as our protector, we fear no danger.|🎏
+the national flower of the country.|🎏idaklufau sha patataunu la daklubla luth _roses_ shu kidaukui sha basu
+|They wore red caps, the symbol of liberty.|🎏ibish daklu lu dadita shu glibga lau maisau lu tai
+|With him as our protector, we fear no danger.|🎏ilish pa lua vai lash la fai lush mu la nash pauntu
 |All her finery, lace, ribbons, and feathers,
-was packed away in a trunk.|🎏
-|Light he thought her, like a feather.|🎏
+were packed away in a trunk.|🎏ili daklufau sha thip liru daklufau li daklufdai li dash kaita la vairbai lu dabdaibai
+|Light he thought her, like a feather.|🎏ilush nadu li thip lash la pu li thup laisau dash kaita
+
 |Every spring and fall our cousins pay us a long visit.|🎏
+
 |In our climate the grass remains green all winter.|🎏
 |The boy who brought the book has gone.|🎏
 |These are the flowers that you ordered.|🎏

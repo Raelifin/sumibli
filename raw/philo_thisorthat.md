@@ -39,7 +39,7 @@ If one wishes to talk about disjunction outside the context of a question, one c
 
 |🎏zau|zau|possibility/option|condition
 
-A sentence/clause that has "zau" as the verb will treat each of its subjects as options in either an exclusive or inclusive disjuction. Again, this is ambiguous. To specify, we can use the compounds "zaubsi" and "zaubsla". The word "zauna" means the truth is none of the options.
+A sentence/clause that has "zau" as the (only) verb will treat each of its subjects as options in either an exclusive or inclusive disjuction. Again, this is ambiguous. To specify, we can use the compounds "zaubsi" and "zaubsla". The word "zauna" means the truth is none of the options.
 
 |🎏zaubsi|zaubsi|exclusive possibility|condition
 |🎏zaubsla|zaubsla|inclusive possibility|condition

@@ -196,19 +196,19 @@ into Sumibli letters
 🎏gathr💬 (gathr)|gather
 |Hard
 🔹How would you write "|0|" in Sumibli?
-🎏tjas💬 (tjas)|chess
-🎏tjast💬 (tjast)|chest
-🎏tjais💬 (tjais)|chase
-🎏tjuis💬 (tjuis)|choice
-🎏tjuz💬 (tjuz)|choose
-🎏tjai💬 (tjai)|chai
+🎏chas💬 (chas)|chess
+🎏chast💬 (chast)|chest
+🎏chais💬 (chais)|chase
+🎏chuis💬 (chuis)|choice
+🎏chuz💬 (chuz)|choose
+🎏chai💬 (chai)|chai
 🔹How would you write "|0|" in Sumibli?
-🎏xis💬 (xis)|this
-🎏xas💬 (xas)|thus
-🎏xat💬 (xat)|that
-🎏xiz💬 (xiz)|these
-🎏xri💬 (xri)|three
-🎏xi💬 (xi)|the
+🎏this💬 (this)|this
+🎏thas💬 (thas)|thus
+🎏that💬 (that)|that
+🎏thiz💬 (thiz)|these
+🎏thri💬 (thri)|three
+🎏thi💬 (thi)|the
 🔹How would you write "|0|" in Sumibli?
 🎏aus💬 (aus)|house
 🎏ust💬 (ust)|host
